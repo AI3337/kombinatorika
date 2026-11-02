@@ -410,6 +410,20 @@ body.wide .crumb{margin-bottom:12px}
 .rdtree > .tr > .ml .bm, .rdtree > .tr > .ml > .tm .bm{font-weight:700}
 .rdtree .empty{color:var(--ink-3)}
 .rdtext p{margin:0 0 12px}
+/* содержание книги (Сакаев) */
+.toc .tochead{width:100%}
+.tocbody{margin:10px 0 4px; padding:14px 18px; background:var(--surface); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow)}
+.tocpart{font:700 12px "Manrope",sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:14px 0 6px}
+.tocpart:first-child{margin-top:0}
+.tocch{padding:6px 0; border-top:1px solid var(--line)}
+.tocct{font:700 15px "Literata",serif; color:var(--ink); text-align:left; padding:2px 0}
+.tocct:hover, .tocg button:hover{color:var(--accent)}
+.tocg{display:flex; flex-wrap:wrap; gap:2px 14px; margin:2px 0 2px 14px}
+.tocg button{font-size:13px; color:var(--ink-2); text-align:left; padding:1px 0}
+.tocg b{font-weight:600; color:var(--ink-3)}
+/* комментарий к ходу, на котором стоим (Сакаев): подложка и полоска слева без сдвига текста */
+.rdtext p{transition:background .25s, box-shadow .25s; border-radius:2px}
+.rdtext p.lit{background:var(--accent-soft); box-shadow:0 0 0 7px var(--accent-soft), -10px 0 0 0 var(--accent)}
 .rdtext .rdh{font-family:"Literata",serif; font-size:22px; margin:22px 0 10px; font-weight:700}
 .rdtext .rdh:first-child{margin-top:0}
 .rdtext .rdsec{font-family:"Literata",serif; font-size:18px; margin:28px 0 8px; font-weight:700; color:var(--ink)}

@@ -893,6 +893,28 @@ function renderSections(){
     el.onclick = () => rdOpenRead(book, rs, rl.sec);
     ih.appendChild(el);
   }
+  /* содержание книги с частями (Сакаев): часть → глава → партии, клик — сразу туда */
+  if (book.read && book.secs.some(s => s.part)){
+    const el = document.createElement("div");
+    el.className = "toc";
+    let h = `<button class="introbar tochead"><span class="ib">📑</span><span><h3>Содержание</h3><p>Главы и партии · нажми, чтобы перейти</p></span><span class="go">Открыть ↓</span></button><div class="tocbody gone">`, part = null;
+    book.secs.forEach((s, i) => {
+      if (s.part !== part){ part = s.part; h += `<h4 class="tocpart">${esc(part)}</h4>`; }
+      const gs = s.intro.filter(b => b.t === "s");
+      h += `<div class="tocch"><button class="tocct" data-i="${i}">${esc(s.t)}</button>` +
+        (gs.length ? `<div class="tocg">${gs.map(b => `<button data-i="${i}" data-g="${esc(b.key || String(b.n))}"><b>${esc(String(b.n))}.</b> ${esc(b.x)}</button>`).join("")}</div>` : "") + `</div>`;
+    });
+    el.innerHTML = h + "</div>";
+    el.querySelector(".tochead").onclick = () => {
+      const body = el.querySelector(".tocbody"), open = body.classList.toggle("gone");
+      el.querySelector(".tochead .go").textContent = open ? "Открыть ↓" : "Свернуть ↑";
+    };
+    el.querySelector(".tocbody").onclick = e => {
+      const x = e.target.closest("button[data-i]");
+      if (x) rdOpenRead(book, book.secs[+x.dataset.i], x.dataset.g || undefined);
+    };
+    ih.appendChild(el);
+  }
   (book.intros || []).forEach((it, k) => {
     const el = document.createElement("button");
     el.className = "introbar";
@@ -1361,6 +1383,7 @@ const GROUPS = [
   { id:"yusupov",  title:"Артур Юсупов", meta:"Книги · главы: введение и упражнения", pc:"Q" },
   { id:"middle",   title:"Миттельшпиль", meta:"Книги · план игры, главы для чтения", pc:"B" },
   { id:"endgame",  title:"Эндшпиль",     meta:"Книги · теория окончаний, главы для чтения", pc:"P" },
+  { id:"sakaev",   title:"Константин Сакаев", meta:"Книги · партии с разбором, главы для чтения", pc:"Q" },
 ];
 const groupOf = b => b.group || (/^pos\d/.test(b.id) ? "strategy" : "tactics");
 let grp = GROUPS[0];
@@ -1509,7 +1532,7 @@ function readBuild(list, group){
       const d = ch.intro.find(b => b.t === "d" && b.n != null && pt.fenOf(b.n));
       const title = ch.n ? "Глава " + ch.n + ". " + ch.title : ch.title;
       nsec += ch.secs;
-      secs.push({ id:yb.id + "c" + ch.n, t:title, read:true, pt, intro:ch.intro, items:[],
+      secs.push({ id:yb.id + "c" + ch.n, t:title, read:true, pt, intro:ch.intro, items:[], part:ch.part || "",
         face:d ? pt.fenOf(d.n) : "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
         s:(ch.secs ? ch.secs + " " + unit(ch.secs) + " · " : "") + ch.diags + " " + wordDiags(ch.diags) });
     }
@@ -1534,6 +1557,16 @@ const wordDiags = n => (n % 10 === 1 && n % 100 !== 11) ? "диаграмма"
     if (view === "books") renderBooks();
     if (view === "group") renderGroup();
   }, () => { yakState = "fail"; if (view === "books") renderBooks(); if (view === "group") renderGroup(); });
+})();
+/* блок «Константин Сакаев» (sak.js): партии с разбором, абзац комментария знает свой ход (b.a) */
+let sakState = "idle";
+(function sakLoad(){
+  sakState = "loading";
+  loadScript("sak.js", () => {
+    sakState = "ok"; if (window.SAK) readBuild(window.SAK, "sakaev");
+    if (view === "books") renderBooks();
+    if (view === "group") renderGroup();
+  }, () => { sakState = "fail"; if (view === "books") renderBooks(); if (view === "group") renderGroup(); });
 })();
 /* блок «Эндшпиль»: Дворецкий (end.js) и Шерешевский, книги 1 и 2 (shere.js, shere2.js) — три файла, один блок */
 (function endLoad(){
@@ -1665,7 +1698,8 @@ function rdDecorate(){
 }
 /* клетка позиции задания, ответ на которое ещё закрыт: движок молчит */
 const rdQuizHold = () => rd && rd.quiz && rd.quiz.some(q => !q.open && q.node != null && q.node === rd.cur);
-const loadState = id => id === "prophy" ? dvorState : id === "yusupov" ? yusState : id === "middle" ? yakState : id === "endgame" ? endState : "ok";
+const loadState = id => id === "prophy" ? dvorState : id === "yusupov" ? yusState : id === "middle" ? yakState : id === "endgame" ? endState
+  : id === "sakaev" ? sakState : "ok";
 function rdOpenChapter(b, s){
   const head = `<h3 class="rdh">${esc(s.t)}</h3>` + (s.contents ? `<p class="rdcap">${esc(s.contents)}</p>` : "");
   rdOpen({ b, pt:s.pt, here:"Введение · " + s.t }, head + rdHtml(s.intro, s.pt));
@@ -1693,7 +1727,7 @@ function rdHtml(blocks, pt){
     else if (b.t === "s") h += `<h4 class="rdsec" data-sec="${esc(b.key || String(b.n))}">${b.n ? "№" + esc(b.n) + ". " : ""}${esc(b.x)}</h4>`;
     else if (b.t === "g"){ const [a, c] = b.x.split(" | "); h += `<div class="rdgame">${esc(a)}${c ? "<span>" + esc(c) + "</span>" : ""}</div>`; }
     else if (b.t === "c") h += `<p class="rdcap">${rdSegs(b.s)}</p>`;
-    else if (b.t === "p") h += `<p${b.r ? ' class="rdrule"' : ""}>${b.s ? rdSegs(b.s) : esc(b.x || "")}</p>`;
+    else if (b.t === "p") h += `<p${b.r ? ' class="rdrule"' : ""}${b.a != null ? ` data-a="${b.a}"` : ""}>${b.s ? rdSegs(b.s) : esc(b.x || "")}</p>`;
     else if (b.t === "d" && b.n != null && pt){
       const f = pt.fenOf(b.n);
       if (f) h += `<button class="rddiag${b.small ? " small" : ""}" data-n="${b.n}" title="Поставить на доску">${mini(f, false)}</button>`;
@@ -1850,8 +1884,13 @@ function rdGo(n, el, keepScroll){
   if (!rd.pt || rd.pt.fenOf(n) == null) return;
   rd.cur = n; rd.free = []; rd.sel = null;
   rd.el = el || (rd.el && +rd.el.dataset.n === n ? rd.el : rdNear(n, 0));
-  $("rdText").querySelectorAll(".cur").forEach(x => x.classList.remove("cur"));
+  $("rdText").querySelectorAll(".cur, .lit").forEach(x => x.classList.remove("cur", "lit"));
   if (rd.el) rd.el.classList.add("cur");
+  /* комментарий к ходу: абзацы, привязанные к нему (data-a), или абзац варианта, где стоим */
+  const lit = [...$("rdText").querySelectorAll(`p[data-a="${n}"]`)];
+  const own = rd.el && rd.el.closest("p");
+  if (!lit.length && own && own.querySelector(".bm:not(.main)") && $("rdText").querySelector("p[data-a]")) lit.push(own);
+  lit.forEach(x => x.classList.add("lit"));
   if (rd.el && !keepScroll){
     const box = $("rdText"), r = rd.el.getBoundingClientRect(), br = box.getBoundingClientRect();
     if (box.scrollHeight > box.clientHeight + 4){

@@ -1,0 +1,221 @@
+{
+ "patches": [
+  {
+   "game": "139",
+   "from": "**22...Bc8 23.Qh2 f5 24.hxg6 hxg6 25.Qh7+ Kf7 26.Rh6 Rg8 27.Qxg6+ Kf8 28.Qe4 Qf7 29.Rg6 Qxg6 30.Qxf5+ Qxf5 31.Bxf5 Bxf5 32.Rdf1 Kg6 33.Rxf5 Rgf8 34.Rxf8 Rxf8 35.Rh3 Rf5 36.Kd2 e4 37.fxe4 Rf2+ 38.Kd3 Rxa2**",
+   "to": "**22...Bc8 23.h5 Bf5 24.hxg6 Bxg6 25.Qd3 Rxf3 26.Bxg6 hxg6 27.Qxg6 Kf8 28.Qe4 Qf7 29.g6 Qf5 30.Qxf5+ Rxf5 31.Rdf1 Rxf1+ 32.Rxf1+ Kg8 33.Rf7 Rc8 34.Kc2 e4 35.b3 Bc3 36.Kd1 Be5 37.Ke2 Bc3 38.Ba7**",
+   "pdf": "стр. 218"
+  },
+  {
+   "game": "141",
+   "from": "**19...Bb7 20.Na5 Rc7 21.Nd5! Nxd5 22.exd5**",
+   "to": "**19...Qb7 20.Na5 Qc7 21.Nd5! Nxd5 22.exd5**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "141",
+   "from": "**23...Rbc5 24.c4 Rb6 25.Qe2**",
+   "to": "**23...Qc5 24.c4 Rb6 25.Qe2**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "141",
+   "from": "**26.Bf3**",
+   "to": "**26.Rf3**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "141",
+   "from": "**26...f5 27.Nc6 e4!**",
+   "to": "**26...Bf6 27.Nc6 e4!**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "141",
+   "from": "**28.f4 exf3 29.Qb2 Rxc4 30.Qxb6 axb6**",
+   "to": "**28.Rf4 e3 29.b4 Rxb4 30.Nxb4 Qxb4**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "141",
+   "from": "**31.Rd3 Bd7 32.Rfd1 Rc2 33.Rxc2 Rxc2 34.Nd4 Rxb2 35.Ne6 Bf6 36.gxf3 Kf7 37.Nxf8 Kxf8 38.Ra1 b5 39.Ra7 Ke8 40.Rb7 b4 41.Be2 b3 42.Bc4 Rb1+ 43.Kf2 b2 44.Kg2 g5 45.h3**",
+   "to": "**31.Qd3 a5 32.Rf1 Qc3 33.Qxc3 Bxc3 34.Rb1 h5 35.Kg1 Rc8 36.Kf1 Rxc4 37.Ke2 Bb4 38.Kxe3 Kh7 39.Rf1 Kh6 40.Rf3 Kg5 41.Kd3 Rc3+ 42.Ke4 Rc1 43.f6 g6 44.Kd4 h4 45.h3**",
+   "pdf": "стр. 220"
+  },
+  {
+   "game": "142",
+   "from": "**22.Nxf4 Bd7 23.Nf5 Rcd8**",
+   "to": "**22.Qxf4 Qd7 23.Qf5 Rcd8**",
+   "pdf": "стр. 221"
+  },
+  {
+   "game": "142",
+   "from": "**24.Qa3!**",
+   "to": "**24.Ra3!**",
+   "pdf": "стр. 221"
+  },
+  {
+   "game": "142",
+   "from": "**24...Ra7 25.Rc3 g6 26.Rg3 Qd7 27.Rff3 Be6 28.Rc7 Rde8 29.Nh4 Bg7 30.Qd2 Qh4**",
+   "to": "**24...Qa7 25.Rc3 g6 26.Qg4 Qd7 27.Qf3 Qe6 28.Rc7 Rde8 29.Nf4 Qe5 30.Rd5 Qh8**",
+   "pdf": "стр. 221"
+  },
+  {
+   "game": "142",
+   "from": "**31...Qh6 32.g3 Be5 33.Rh3 Qg5 34.Nf3 Qd8**",
+   "to": "**31...h6 32.gxh6 Qxh6 33.h5 Bg5 34.hxg6 fxg6**",
+   "pdf": "стр. 221"
+  },
+  {
+   "game": "142",
+   "from": "**35.Nxe5! Bxh3 36.Qh6+ Kg8 37.Nf6+**",
+   "to": "**35.Qb3! Rxf4 36.Re5+ Kf8 37.Rxe8+**",
+   "pdf": "стр. 221"
+  },
+  {
+   "game": "143",
+   "from": "**25...Rc8 26.Nc4 Bc6 27.Ne3 a5 28.Nc4 Rca8 29.Qb3 Rb8**",
+   "to": "**25...Rc8 26.Nc4 Qc6 27.Ne3 a5 28.Rc4 Qa6 29.b3 Bb6**",
+   "pdf": "стр. 222"
+  },
+  {
+   "game": "143",
+   "from": "**30.Rxa7 Rxa7 31.Rxa7 Qxa7 32.Nxd6 Qc5 33.Qa3 Qf2 34.Qxf2 Bxf2 35.Ndc4 a4 36.Nxe5 Be8 37.Nd3 Bd4 38.Nf3 Bb6 39.Kg1 f6 40.Kf1 Kf7 41.Ke2 Ke7 42.Kd2 g5 43.Nde5**",
+   "to": "**30.Rxc8+ Qxc8 31.Ned5 Nxd5 32.Nxd5 Qc5 33.Ra1 Qf2 34.Qxf2 Bxf2 35.Rf1 Bd4 36.c3 Bc5 37.g4 hxg3+ 38.Kxg3 Rb7 39.Rb1 f6 40.Kf3 Kf7 41.Ke2 Rb8 42.b4 g6 43.Kd3**",
+   "pdf": "стр. 222"
+  },
+  {
+   "game": "143",
+   "from": "**43...fxe5 44.Nxe5 Kd6 45.Nc4+ Kc5 46.Kc3 Bf7 47.Nxb6 Kxb6 48.Kb4 Kc6 49.c4 e5 50.g3 b6 51.f4 gxf4 52.gxf4 exf4 53.Bf3 Kd6 54.e5+ Kxe5 55.d6 Kxd6 56.Kxa4 Bxc4 57.Kb4**",
+   "to": "**43...gxf5 44.exf5 axb4 45.cxb4 Bd4 46.Rc1 Kg7 47.Rc7+ Kh6 48.Ke4 Kg5 49.Rh7 Bf2 50.Rg7+ Kh4 51.Kf3 Be1 52.Kg2 Rf8 53.b5 Ba5 54.b6 Bxb6 55.Nxb6 Rb8 56.Rg4+ Kh5 57.Nd5**",
+   "pdf": "стр. 222"
+  },
+  {
+   "game": "143",
+   "from": "**24...Qd8 25.Na5!**",
+   "to": "**24...Bd8 25.Na5!**",
+   "pdf": "стр. 222"
+  },
+  {
+   "game": "144",
+   "from": "**13...Bg4 14.Bb2 Nc5!**",
+   "to": "**13...Bg4 14.Bb2 Bc5!**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**15.Rad1 bxc3 16.Bxc3 Nfd7**",
+   "to": "**15.Rad1 bxc3 16.Bxc3 Nd4**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**17.Bxd4 Nxd4 18.h3 Bxf3 19.Qxf3 Nc5**",
+   "to": "**17.Bxd4 Bxd4 18.h3 Bxf3 19.Qxf3 Nd7**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**20.Rb1 Bg5 21.Kh1**",
+   "to": "**20.Rb1 Qg5 21.Kh1**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**22.Ne3 Qe7 23.Nc4 Kg7**",
+   "to": "**22.Ne3 Nc5 23.Nc4 Kg7**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**24.Bd2 Bxd2 25.Nxd2 Rab8 26.Rxb8 Rxb8 27.Kh2 Qf6 28.Kg2 h5 29.h4**",
+   "to": "**24.Qe2 Ne6 25.g3 Bc5 26.Rxb8 Rxb8 27.Kh2 Qf6 28.Kg2 h5 29.h4**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**29...Ne6 30.Bd1 Nd4 31.Qd3 Rb2 32.Bf3 Qe7 33.f4?!**",
+   "to": "**29...Nd4 30.Qd1 Qe6 31.Qd2 Bb4 32.Qd1 Be7 33.f4?!**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**33...exf4 34.Qxf4+ f6**",
+   "to": "**33...exf4 34.Rxf4 f6**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**35.a5 Rd2 36.Qc3 Qd6 37.Qe1 Qc5 38.Bd1 Bd4 39.Nf3 Qc3 40.Kh2 Rd3 41.Kg2**",
+   "to": "**35.a5 Bd6 36.Rf2 Rb4 37.Qe1 c5 38.Bd1 Be5 39.Qd2 Nc6 40.Kh2 Bd4 41.Rg2**",
+   "pdf": "стр. 223"
+  },
+  {
+   "game": "144",
+   "from": "**42.Nxe5 Bxe5 43.Be3 Rb1 44.Rd2**",
+   "to": "**42.Nxe5 Bxe5 43.Qe3 Rb1 44.Rd2**",
+   "pdf": "стр. 224"
+  },
+  {
+   "game": "144",
+   "from": "**44...Qc3 45.Bc2 Rxd1 46.Qxc5 Re5 47.Qa7+ Qf7 48.Qxa6 Qd7**",
+   "to": "**44...Bc3 45.Rc2 Rxd1 46.Qxc5 Be5 47.Qa7+ Qf7 48.Qxa6 Qd7**",
+   "pdf": "стр. 224"
+  },
+  {
+   "game": "145",
+   "from": "**17.bxc3 Nc5 18.Qh3**",
+   "to": "**17.bxc3 Qc5 18.Qh3**",
+   "pdf": "стр. 224"
+  },
+  {
+   "game": "145",
+   "from": "**18...Qe5 19.Qxh7+ Kf8 20.Bd4 a5 21.a4**",
+   "to": "**18...Qe5 19.Qxh7 Rf8 20.Rd4 a5 21.a4**",
+   "pdf": "стр. 224"
+  },
+  {
+   "game": "145",
+   "from": "**21...b5 22.axb5 Rxb5 23.Rhd1 Bd7 24.Qh3 Rg8 25.Rd3 Rb5**",
+   "to": "**21...b5 22.axb5 Bxb5 23.Rhd1 Bd7 24.Qh3 Rg8 25.Qd3 Bb5**",
+   "pdf": "стр. 224"
+  },
+  {
+   "game": "145",
+   "from": "**26.Ba4 Nxa4 27.Rxa4 Rxg2 28.Ra6 Kf8 29.Rxa5 Rxh2 30.Qc7 Rh5 31.Kc1 Qe2 32.Ra8+ Kg7 33.Qxe7+ Kh7 34.Rh1+**",
+   "to": "**26.Ba4 Bxa4 27.Rxa4 Rxg2 28.Qa6 Kf8 29.Qxa5 Qxh2 30.Qc7 Qh5 31.Rc1 Qe2 32.Ra8+ Kg7 33.Qxe7 Kh7 34.Rh1+**",
+   "pdf": "стр. 225"
+  },
+  {
+   "game": "146",
+   "from": "**16.exd5 e5 17.fxe5 fxe5 18.Bh6**",
+   "to": "**16.exd5 Ne5 17.fxe5 fxe5 18.Qh6**",
+   "pdf": "стр. 225"
+  },
+  {
+   "game": "146",
+   "from": "**18...Nc5 19.Qh5 Rdf8 20.Bf5 Bxf5 21.Rxf5 Qd8 22.Rf1 Rhg8 23.Rg3 g6 24.Qa3 Qc8 25.Rd3 Rf5 26.Nd2 Rxf1+ 27.Rxf1 Qg4 28.Ndf3 Rf8 29.Rxf8 Bxf8 30.Ne4 Be7**",
+   "to": "**18...Qc5 19.Qh5 Rdf8 20.Bf5 Bxf5 21.Qxf5 Bd8 22.Rf1 Rhg8 23.g3 Rg6 24.a3 Qc4 25.Rd3 Qc8 26.Nd2 Qxf5 27.Rxf5 Rg5 28.Rdf3 Rxf5 29.Rxf5 Kc7 30.Ne4 Be7**",
+   "pdf": "стр. 225"
+  },
+  {
+   "game": "146",
+   "from": "**31...Qh4 32.Qc3 Kd7 33.b3 Bg5+ 34.Nxg5 Bxg5+ 35.Rxg5 Rc8 36.Qc2 Ke7 37.h4 Kf6 38.Qf5+ Kg7 39.g5 Bd2 40.b4 Nxd5 41.h5 a5**",
+   "to": "**31...h6 32.c3 Kd7 33.b3 Bg5 34.Nxg5 hxg5 35.Rxg5 Rc8 36.Kc2 Ke7 37.h4 Kf6 38.Rf5+ Kg7 39.g5 Rc5 40.b4 Rxd5 41.h5 a5**",
+   "pdf": "стр. 225"
+  },
+  {
+   "game": "146",
+   "from": "**42.h6+ Kg8 43.Qc8+ Kf7 44.Qf5+ Kg8 45.Qe6+ Kf8 46.g6 hxg6 47.Qxg6+ Ke7 48.Qe6+**",
+   "to": "**42.h6+ Kg8 43.bxa5 Rc5 44.Rf6 Rc6 45.Kb3 e4 46.g6 fxg6 47.Rxg6+ Kh7 48.Re6**",
+   "pdf": "стр. 226"
+  },
+  {
+   "game": "147",
+   "from": "**20...Ne5 21.f6 Bd8 22.Rg3+ Ng6 23.Qh6 Bxf6 24.Bxf6 Qc7 25.Rff3 Rfe8 26.Ne4 d5 27.Rh3 dxe4 28.Qxh7+ Kf8 29.Bg7+ Ke7 30.Qh4+ Kd7 31.dxe4**",
+   "to": "**20...Ne5 21.f6 Re8 22.Qg3+ Ng6 23.fxe7 Rxe7 24.h4 b4 25.Nd1 Re2 26.Ne3 Qd8 27.Rf6 Qa5 28.Raf1 Rf8 29.R6f5 Qd8 30.h5 Qh4 31.Qxh4**",
+   "pdf": "стр. 226"
+  }
+ ],
+ "fens": {}
+}

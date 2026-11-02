@@ -1,0 +1,1518 @@
+Доска 1 / Доска 1-1
+r1bqkbnr/pp3ppp/2n1p3/1Bpp4/3PP3/5N2/PPPN1PPP/R1BQK2R w - - 0 1
+
+Доска 2 / Доска 1-2
+r3kbnr/pp1b1ppp/2n1p3/qBp3B1/3P4/2N2N2/PPP2PPP/R2QK2R w - - 0 1
+
+Доска 3 / Доска 1-3
+r3kbnr/pp1b1ppp/2n1p3/qB4B1/3N4/2N5/PPP2PPP/R2QK2R w - - 0 1
+
+Доска 4 / Доска 1-4
+r3k1nr/pp1b1ppp/2n1p3/1B4B1/3N4/2q5/P1P2PPP/R2Q1RK1 w - - 0 1
+
+Доска 5 / Доска 1-5
+r3kb1r/1bq2ppp/pp1pp3/2n3P1/P2NNP2/4BQ1B/1PP4P/R4RK1 w - - 0 1
+
+Доска 6 / Доска 1-6
+rnbq1rk1/ppp2pbp/3p1np1/3Pp3/4P3/2N2N2/PPP1BPPP/R1BQR1K1 w - - 0 1
+
+Доска 7 / Доска 1-7
+rn1q1r2/pppb1pbk/3p1npp/8/3NPB2/2N5/PPPQBPPP/R3R1K1 w - - 0 1
+
+Доска 8 / Доска 1-8
+rnq1br2/ppp2pbk/6pp/8/2B1N3/5N2/PPPQ1PPP/3RR1K1 w - - 0 1
+
+Доска 9 / Доска 1-9
+rn1qkb1r/p2bpppp/5n2/1p2P3/2pP3N/2N5/1P3PPP/R1BQKB1R w - - 0 1
+
+Доска 10 / Доска 1-10
+rn1qkb1r/p4ppp/2b5/1p1pP3/2p5/2N3P1/1P3PBP/R1BQK2R w - - 0 1
+
+Доска 11 / Доска 1-11
+r1b1r1k1/p1p1qpp1/np5p/3p4/Q2P4/2R2NP1/PP2PP1P/4KB1R w - - 0 1
+
+Доска 12 / Доска 1-12
+r1b1r1k1/p1p1qpp1/n6p/Qp1p4/3P4/2R2NP1/PP2PP1P/4KB1R w - - 0 1
+
+Доска 13 / Доска 1-13
+r5k1/p1p2pp1/Q6p/3p1b2/1p1P4/1Pq3P1/P3PP1P/3KNB1R w - - 0 1
+
+Доска 14 / Доска 1-14
+r1bq1rk1/pp1pppbp/2n2np1/8/3NP3/1BN1B3/PPP2PPP/R2QK2R w - - 0 1
+
+Доска 15 / Доска 1-15
+r1bqnr2/pp1ppkbp/4N1p1/n3P3/8/2N1B3/PPP2PPP/R2QK2R w - - 0 1
+
+Доска 16 / Доска 1-16
+2b5/p7/8/4p3/1P6/2N5/R7/8 w - - 0 1
+
+Доска 17 / Доска 1-17
+rnbqk2r/2p2ppp/p4n2/1pbp4/2P4N/1P1Q2P1/P1N1PP1P/R1B1KB1R w - - 0 1
+
+Доска 18 / Доска 1-18
+r1bqkb1r/pppp1ppp/2n2n2/4p3/2P5/1P6/PB1PPPPP/RN1QKBNR w - - 0 1
+
+Доска 19 / Доска 1-19
+r2qk2r/ppp2ppp/2p2n2/2b2b2/2P1p3/1P2P3/PBQP1PPP/RN2KB1R w - - 0 1
+
+Доска 20 / Доска 1-20
+2kr3r/ppp1qppp/2p5/2b2b2/2P1pPn1/1P2P1P1/PBQPB2P/RN2K2R w - - 0 1
+
+Доска 21 / Доска 1-21
+2kr3r/ppp1qpp1/2p5/2b2b2/2P1pPP1/1P2P1p1/PBQPB3/RN2K1R1 w - - 0 1
+
+Доска 22 / Доска 1-22
+r4rk1/pp2pp1p/1qnpb1p1/8/2P1P3/2N5/PP1Q1PPP/3RKB1R b - - 0 1
+
+Доска 23 / Доска 1-23
+2r2r2/pR2p3/3p1kpp/3Qn3/2P1Pp1P/q7/P3BPP1/5RK1 b - - 0 1
+
+Доска 24 / Доска 1-24
+r1b1kbnr/pp2pppp/2p5/8/2Pq4/2NP4/PP3PPP/R1BQKB1R w - - 0 1
+
+Доска 25 / Доска 1-25
+r1bqkb1r/pp2pppp/2p5/8/2PnNPP1/3P3P/PP1B2B1/R2QK2R w - - 0 1
+
+Доска 26 / Доска 1-26
+r2qkb1r/1b1n1pp1/p3pn1p/3p4/1p1NP1PP/4BP1B/PPPQ4/1NKR3R b - - 0 1
+
+Доска 27 / Доска 1-27
+2r1kb2/1b1n1p2/pq2p3/3n2B1/1p1N2P1/5P2/PPPQ4/1NK1R2B b - - 0 1
+
+Доска 28 / Доска 1-28
+2r1kb2/1b3p2/p3P3/2nn2B1/1p1N2P1/8/qPPQ4/1NK1R2B w - - 0 1
+
+Доска 29 / Доска 1-29
+r1bqk2r/pppp1pp1/2n2n1p/4p3/1bP1P3/2N3P1/PP1PNPBP/R1BQK2R w - - 0 1
+
+Доска 30 / Доска 1-30
+r2qk2r/bppb1pp1/p1np3p/3Np3/1PPnPP2/P2P2PP/4N1BK/R1BQ1R2 w - - 0 1
+
+Доска 31 / Доска 1-31
+r1bqk2r/bp1n1pp1/pNp4p/2P1pP1Q/N2nP3/P2P2PP/6BK/1RB2R2 w - - 0 1
+
+Доска 32 / Доска 1-32
+Nbbqk2r/5p2/p1p2P1p/1p2p2Q/n2nP3/P2PB1PP/6BK/1R3R2 w - - 0 1
+
+Доска 33 / Доска 1-33
+rnbqkb1r/1p2pppp/p2p1n2/6B1/3NP3/2N5/PPP2PPP/R2QKB1R w - - 0 1
+
+Доска 34 / Доска 1-34
+rn2kb1r/1b2pp1p/p2p1p2/qp5B/3NP3/2N5/PPP2PPP/R2QK2R b - - 0 1
+
+Доска 35 / Доска 1-35
+rnbq1rk1/pp3ppp/5n2/2bp4/1P6/P1N1P1N1/5PPP/R1BQKB1R b - - 0 1
+
+Доска 36 / Доска 1-36
+1r3rk1/p4ppp/p4n2/2q2N2/4P3/P4Q2/5PPP/2B2RK1 w - - 0 1
+
+Доска 37 / Доска 1-37
+3rk2r/p1pn1pp1/1pq1pn1p/8/3PP2B/P1PQ1P2/4N1PP/R4RK1 w - - 0 1
+
+Доска 38 / Доска 1-38
+2r1k2r/2pn1pp1/1p3n1p/p3PP2/4q2B/P1P5/2Q1N1PP/R4RK1 b - - 0 1
+
+Доска 39 / Доска 1-39
+r1b1kb1r/pp2pppp/1qn2n2/3p2B1/2PP4/2N5/PP3PPP/R2QKBNR w - - 0 1
+
+Доска 40 / Доска 1-40
+rnbqk1nr/pp2ppbp/2pp2p1/6B1/3PP3/2N2N2/PPP2PPP/R2QKB1R w - - 0 1
+
+Доска 41 / Доска 1-41
+rnb1k1nr/1p3pbp/p1p3p1/q3p3/2B1PB2/2N2N2/P1PQ1PPP/1R2R1K1 w - - 0 1
+
+Доска 42 / Доска 1-42
+rnbqkb1r/pp3ppp/2p1pn2/6B1/2QP4/5N2/PP2PPPP/RN2KB1R w - - 0 1
+
+Доска 43 / Доска 1-43
+rn2kb1r/p4ppp/qpp1pn2/6B1/2NPP3/5N2/P1Q2PPP/1R3RK1 w - - 0 1
+
+Доска 44 / Доска 1-44
+r3r2k/p1bQB1pp/n1p1P3/1p3p2/q1N5/2R5/P4PPP/5RK1 w - - 0 1
+
+Доска 45 / Доска 1-45
+rnbqk2r/pp2ppbp/6p1/2pn4/8/2N2NP1/PP1PPPBP/R1BQK2R w - - 0 1
+
+Доска 46 / Доска 1-46
+r1bq1rk1/1p3pbp/1pn1p1p1/8/2Q1N3/6P1/PP1PPPBP/R1B1K2R w - - 0 1
+
+Доска 47 / Доска 1-47
+r1bq1rk1/1p4bp/6p1/5p2/1p1np3/3PB1P1/PP2PPBP/RQ1NK2R w - - 0 1
+
+Доска 48 / Доска 1-48
+r3r1k1/1p4bp/6p1/8/1p1qp1b1/P5P1/1PQ1PPBP/R2NK2R w - - 0 1
+
+Доска 49 / Доска 1-49
+r1b1kb1r/pp1ppppp/1qn2n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R w - - 0 1
+
+Доска 50 / Доска 1-50
+rn2k2r/4bppp/p1p2n2/qp1P4/2B5/5N2/P4PPP/RQB2RK1 w - - 0 1
+
+Доска 51 / Доска 1-51
+rnbqkb1r/pppp1ppp/4p3/8/2PPn3/5N2/PP2PPPP/RNBQKB1R w - - 0 1
+
+Доска 52 / Доска 1-52
+r1bq1rk1/pp1n2pp/2p1p3/3p2b1/2PPpB2/P1N1P3/1PQ1BPPP/R4RK1 b - - 0 1
+
+Доска 53 / Доска 1-53
+rnb1k2r/pp3ppp/4pn2/3q4/8/P7/1PNBPPPP/R2QKB1R w - - 0 1
+
+Доска 54 / Доска 1-54
+rnbr4/pq3kpp/1p1Bpn2/1P3p2/1N6/P2Q1P2/4P1PP/2R1KB1R w - - 0 1
+
+Доска 55 / Доска 1-55
+rn1qrbk1/1pp2ppp/8/p2bp3/Q7/P2PBNP1/1PR1PPBP/2R3K1 b - - 0 1
+
+Доска 56 / Доска 1-56
+r3k2r/3nqppp/4pn2/p2p4/Rb1P4/1PNBPQ1P/3B1PP1/5RK1 w - - 0 1
+
+Доска 57 / Доска 1-57
+r2qk2r/pppb1ppp/2n1p3/4N3/QnpP4/2N3P1/PP2PPBP/R3K2R w - - 0 1
+
+Доска 58 / Доска 1-58
+r3k2r/ppq3pb/2pbpp1p/4N3/2BP2PP/6P1/PPP1Q3/2KR3R w - - 0 1
+
+Доска 59 / Доска 1-59
+2r1k2r/1p2bppp/pBbq1n2/P3p3/1n2P3/1NN2B2/1PP1Q1PP/R4R1K w - - 0 1
+
+Доска 60 / Доска 1-60
+2r1k2r/1p3ppp/p3qn2/Pbb1p3/1n2P3/2N2B2/1PP1Q1PP/r4R1K w - - 0 1
+
+Доска 61 / Доска 1-61
+rn1q1rk1/pbp2pp1/1p3b1p/3p4/3P4/1QN1PN2/PP3PPP/3RKB1R w - - 0 1
+
+Доска 62 / Доска 1-62
+r2q1rk1/p4pp1/1pb1n2p/3p4/8/2N1P3/PP1R1PPP/3QKB1R w - - 0 1
+
+Доска 63 / Доска 1-63
+r2qr1k1/p4pp1/1pb1n2p/8/3P4/2N2P2/PP1R2PP/3QKB1R w - - 0 1
+
+Доска 64 / Доска 1-64
+3rr1k1/p4pp1/1p5p/8/7n/2N4q/PP2B1RP/4QKR1 b - - 0 1
+
+Доска 65 / Доска 1-65
+rnbq1rk1/ppppppbp/5np1/8/2PPP3/2N5/PP3PPP/R1BQKBNR w - - 0 1
+
+Доска 66 / Доска 1-66
+rnbqnrk1/ppp1ppbp/3p2p1/4P3/2PP1P2/2N1B3/PP4PP/R2QKBNR w - - 0 1
+
+Доска 67 / Доска 1-67
+r3nrk1/ppq2nbp/2n1b1p1/4nB2/2B5/4BNN1/BP4BB/RQ2Kb1R w - - 0 1
+
+Доска 68 / Доска 1-68
+4r1k1/ppq3bp/2n1rnp1/5p2/2P2P2/4BBN1/PP3K1P/RQ2R3 w - - 0 1
+
+Доска 69 / Доска 1-69
+r2qkb1r/1b1n1ppp/pp3n2/2pPp3/P1B1P3/5N2/1P2QPPP/RNB2RK1 w - - 0 1
+
+Доска 70 / Доска 1-70
+r2qkb1r/1b1n1p1p/pp4p1/2pPp2n/P1B1PP1N/8/1P2Q1PP/RNB2RK1 w - - 0 1
+
+Доска 71 / Доска 1-71
+r1bq1rk1/ppp1ppbp/2n3p1/8/2BPP3/2P5/P3NPPP/R1BQK2R b - - 0 1
+
+Доска 72 / Доска 1-72
+rn1qk2r/ppp2ppp/8/2bpPb2/4n3/5N2/PPPPQ1PP/R1BNKB1R w - - 0 1
+
+Доска 73 / Доска 1-73
+2kr3r/ppp4p/1bn1bq2/3p4/3Pn1pN/2P1N1P1/PPQ3BP/R1B1K2R w - - 0 1
+
+Доска 74 / Доска 1-74
+r1b2rk1/2qpbppp/p1p1p3/2Pn4/N2B1P2/3B4/PP4PP/R2Q1RK1 w - - 0 1
+
+Доска 75 / Доска 1-75
+3rk2r/pR3ppp/2p1p3/3n3P/3q2P1/3BRP2/P1P2Kb1/2BQ4 w - - 0 1
+
+Доска 76 / Доска 1-76
+r2qrbk1/1b3pp1/p6p/np1pP3/3Nn3/1P4N1/P1B2PPP/R1BQR1K1 w - - 0 1
+
+Доска 77 / Доска 1-77
+r3rbk1/1b3pp1/p3P2p/np1p4/3Nnq2/1P4N1/PBB2PPP/R2QR1K1 w - - 0 1
+
+Доска 78 / Доска 1-78
+r2qk2r/pppn1ppp/3bpn2/7b/2bP4/2N1PN1P/PP3PP1/R1BQ1RK1 w - - 0 1
+
+Доска 79 / Доска 1-79
+2rrq1k1/ppp1bpp1/1nb1p2p/4P3/2PP4/P3BN1P/Q2RBPP1/4R1K1 w - - 0 1
+
+Доска 80 / Доска 1-80
+2rrq1k1/1pp1bpp1/1p5p/3PP3/b7/P4N1P/Q2RBPP1/4R1K1 w - - 0 1
+
+Доска 81 / Доска 1-81
+4b1k1/1pp3q1/1p1rPppp/r2P4/4Q3/P5RP/2b1RPP1/6K1 b - - 0 1
+
+Доска 82 / Доска 1-82
+r2qr1k1/pp1b1pp1/5n1p/3p4/2pP2P1/PnP1PPN1/R5BP/2B1QRK1 w - - 0 1
+
+Доска 83 / Доска 1-83
+3rr1k1/pp1b1pp1/7p/4P2n/2pP1B1q/PnP3NP/R4QB1/5RK1 w - - 0 1
+
+Доска 84 / Доска 1-84
+1qr1r1k1/1bbn1ppp/pp1ppn2/8/1PP1P3/PNN1BP2/5QPP/2RR1B1K b - - 0 1
+
+Доска 85 / Доска 1-85
+2b1r1k1/5ppp/pp3n2/8/1P2P1P1/PN1R1P2/7Q/4qBK1 w - - 0 1
+
+Доска 86 / Доска 1-86
+b4rk1/p1qn1pp1/B3pn1p/2pp4/3P4/P1Q2P2/1P2N1PP/R3K2R w - - 0 1
+
+Доска 87 / Доска 1-87
+6k1/pb3pp1/1q2rn1p/2p1nN2/3p4/P4P2/1P1Q1KPP/1B2R2R w - - 0 1
+
+Доска 88 / Доска 1-88
+r2q1rk1/pp2bppp/2p3b1/3nP3/4N3/1B3Q1P/PP3PP1/R1B1R1K1 w - - 0 1
+
+Доска 89 / Доска 1-89
+r4rk1/1pqb1pbp/p5p1/n1P1p3/3NPP2/2PBB3/P5PP/1R1Q1RK1 w - - 0 1
+
+Доска 90 / Доска 1-90
+r3rbk1/1pqb1p1p/p4Pp1/n1P5/3PP3/3BB3/P5PP/1R1Q1RK1 w - - 0 1
+
+Доска 91 / Доска 1-91
+r3rbk1/1pqb1p1p/p1n2Pp1/2P5/3PP3/3BB3/P5PP/1RQ2RK1 w - - 0 1
+
+Доска 92 / Доска 1-92
+r1b1r3/1p3p1k/p1nq1Pp1/4P2p/3P4/3BQ3/P5PP/1R3R1K w - - 0 1
+
+Доска 93 / Доска 1-93
+rn3rk1/ppq2ppp/4b3/nBP1p3/1Q2P3/P1P1BP2/4N1PP/R4RK1 w - - 0 1
+
+Доска 94 / Доска 1-94
+3rknr1/1p2bp2/p1b1p2R/q3p1p1/2B1P1P1/2N1BQ2/PPP2P2/1K1R4 w - - 0 1
+
+Доска 95 / Доска 1-95
+r1b2rk1/p3q1np/2p1ppp1/3p2P1/3P1Q1P/2P2N2/PP1N1P2/R3K2R w - - 0 1
+
+Доска 96 / Доска 1-96
+4rrk1/p4qnp/2p3p1/3pN1P1/6bP/2P5/PP1N1P1Q/R4RK1 w - - 0 1
+
+Доска 97 / Доска 1-97
+r2q1rk1/pp3ppp/5n2/2PPn3/8/P2BPP2/5P1P/R1BQ1RK1 w - - 0 1
+
+Доска 98 / Доска 1-98
+5rk1/pp3pp1/6n1/5q2/3B2R1/P4PQ1/2r4P/5R1K w - - 0 1
+
+Доска 99 / Доска 1-99
+r1b2rk1/pp2q1pp/3bp3/3nNp2/3R4/3B4/PPP1QPPP/R1B3K1 w - - 0 1
+
+Доска 100 / Доска 1-100
+r1b2r1k/ppq4p/3bpp2/5p2/2BR4/5N2/PPP1QPPP/R5K1 w - - 0 1
+
+Доска 101 / Доска 1-101
+2b2rk1/pp2bppp/2p5/q3n3/P2N1B2/6P1/1PQ1PPBP/3R2K1 w - - 0 1
+
+Доска 102 / Доска 1-102
+5rk1/ppq1b1pp/4bp2/1Pp1n3/P4B2/4N1P1/2Q1PPBP/3R2K1 w - - 0 1
+
+Доска 103 / Доска 1-103
+r1b2rk1/pp3ppp/1npbpn2/q7/P2P4/5NP1/NPQ1PPBP/R1B2RK1 b - - 0 1
+
+Доска 104 / Доска 1-104
+rqb2rk1/3n1ppp/1p6/p1pR4/8/1P2P1P1/1BQ2PBP/R5K1 b - - 0 1
+
+Доска 105 / Доска 1-105
+rqb2rk1/3n1p1p/1p4p1/p1p4R/8/1P2P1P1/1BQ2PBP/R5K1 b - - 0 1
+
+Доска 106 / Доска 1-106
+r1b1r1k1/pp3ppp/2q5/8/3R4/1PP1P3/2Q2PPP/4KB1R w - - 0 1
+
+Доска 107 / Доска 1-107
+r3rk2/1p3pp1/4b3/p7/2PRB3/1P2P2q/3Q1P1P/4K2R w - - 0 1
+
+Доска 108 / Доска 1-108
+r3rk2/1pq2pp1/4b3/p7/2PRB3/1P2P3/3Q1P2/4K2R w - - 0 1
+
+Доска 109 / Доска 1-109
+r1b2r1k/1pp1q1pp/p1nb1p2/3Bp3/1P6/P1Q1PN2/1B1P1PPP/R4RK1 w - - 0 1
+
+Доска 110 / Доска 1-110
+r4r1k/nppbq1pp/3b1p2/pP2p3/2B5/PQ2PN2/1B1P1PPP/R4RK1 w - - 0 1
+
+Доска 111 / Доска 1-111
+5r1k/1ppbq1pp/2nb4/r2B1p2/4pP2/PQB1P3/3P2PP/R3NRK1 w - - 0 1
+
+Доска 112 / Доска 1-112
+5r1k/2p3pp/b2b1q2/r2B1p2/P3pP2/1Q2P3/R2P1RPP/4N1K1 w - - 0 1
+
+Доска 113 / Доска 1-113
+rn3rk1/pb3ppp/1p2p3/2bn4/3N4/PP4P1/1B2PPBP/RN3RK1 w - - 0 1
+
+Доска 114 / Доска 1-114
+3b1k2/1R3ppp/rp2p3/1p2P3/1P1B4/P5P1/5P1P/6K1 w - - 0 1
+
+Доска 115 / Доска 1-115
+3bk3/1R3pp1/rp2p3/1p2P2p/1P5P/P3B1P1/5P2/5K2 w - - 0 1
+
+Доска 116 / Доска 1-116
+r1bqr1k1/p2n1pbp/3p2p1/2pPn3/Pp2P3/5PP1/1P3NBP/RNBQR1K1 w - - 0 1
+
+Доска 117 / Доска 1-117
+r1b1r1k1/1p3pbp/1qpp1np1/p1n5/2PNP3/1PN3P1/PB1Q1PBP/1R2R1K1 w - - 0 1
+
+Доска 118 / Доска 1-118
+r1b1r1k1/1p3pbp/1qpp2p1/2n5/2PNP1n1/1PN3PP/3Q1PB1/BR2R1K1 b - - 0 1
+
+Доска 119 / Доска 1-119
+5rbk/R6p/R5nq/1P1pbp1N/4p2P/4P1P1/4BQ2/1r3N1K w - - 0 1
+
+Доска 120 / Доска 1-120
+5r1k/R6p/R5nq/1P1bbp1N/3Pp2P/6P1/4B1Q1/1r3N1K w - - 0 1
+
+Доска 121 / Доска 1-121
+2rr2k1/1pqbppbp/p5p1/n1P5/3NP3/2PBB3/P3QPPP/1R3RK1 w - - 0 1
+
+Доска 122 / Доска 1-122
+2rrb1k1/1pq2p1p/p5p1/n1P5/3NP3/2PBBR2/P3Q1Pb/5R1K w - - 0 1
+
+Доска 123 / Доска 1-123
+r1bq2k1/p2p1p2/1rn2n1p/b1B5/2p1PNpP/P1N2P2/1P1Q2P1/R3KB1R w - - 0 1
+
+Доска 124 / Доска 1-124
+1r4k1/p2p1p2/b1q2n1p/8/N1BQPNpP/b4P2/2K3P1/3R3R w - - 0 1
+
+Доска 125 / Доска 1-125
+1qr1brk1/1p1nbppp/p1n1p3/1N1pP3/1P3P2/P2BBN2/2P3PP/3RQRK1 w - - 0 1
+
+Доска 126 / Доска 1-126
+2r2r2/pp1bqpk1/1n3npp/4p3/4P3/P4NNP/BP2QPP1/2R2RK1 w - - 0 1
+
+Доска 127 / Доска 1-127
+2r5/1Q3pk1/4qnpp/4p3/4P3/P4NNP/1n3PP1/5RK1 w - - 0 1
+
+Доска 128 / Доска 1-128
+8/5p1k/q5pp/r7/P7/2Q4P/R4PP1/6K1 w - - 0 1
+
+Доска 129 / Доска 1-129
+7k/1Q4p1/3r4/P7/8/6K1/8/8 w - - 0 1
+
+Доска 130 / Доска 1-130
+r2q1rk1/ppp1bppp/B1n2n2/3p1b2/Q2P1B2/P1N1PN2/1P3PPP/R3K2R w - - 0 1
+
+Доска 131 / Доска 1-131
+3q1rk1/p1p1bppp/pr3n2/3p1b2/QP1P1B2/P1N1PN2/5PPP/R3K2R w - - 0 1
+
+Доска 132 / Доска 1-132
+5rk1/p1p3pp/3b3q/5p1r/1PNP4/P3PQP1/6P1/R3R1K1 w - - 0 1
+
+Доска 133 / Доска 1-133
+1rbqrbk1/R2n1ppp/3pp3/1p4P1/3BPP2/2N5/1PP3BP/3Q1R1K w - - 0 1
+
+Доска 134 / Доска 1-134
+1r1qrbk1/R4ppp/2np4/1p1N2P1/1P2PBb1/8/2PQ2BP/5R1K w - - 0 1
+
+Доска 135 / Доска 1-135
+r2q1rk1/pb3ppp/1pn1p3/1Np3n1/P1PP4/B3PB2/5PPP/R2QK2R w - - 0 1
+
+Доска 136 / Доска 1-136
+r2r2k1/3b2pp/pp3q2/2pPn3/P3Pp2/2N2P2/1B2Q1PP/R4RK1 b - - 0 1
+
+Доска 137 / Доска 1-137
+4r1k1/2rb2pp/5q2/1p1Pn3/2p1Pp2/2B2P2/3Q1NPP/R1R3K1 w - - 0 1
+
+Доска 138 / Доска 1-138
+r3k2r/1bqnbpp1/p3p2p/1p1pP3/3B1PP1/P2BQ2P/1PP1N3/R3K2R w - - 0 1
+
+Доска 139 / Доска 1-139
+r3k2r/1b1nbpp1/2q1p2p/pp1pP3/1P1B1PP1/P1PBQ2P/4N3/R3K2R w - - 0 1
+
+Доска 140 / Доска 1-140
+2rqr1k1/pb3ppp/1p1p1n2/nPp1p3/2P5/P1QPPNP1/1B3PBP/R4RK1 w - - 0 1
+
+Доска 141 / Доска 1-141
+3qr1k1/pbrn1ppp/1p1p4/nPp1p3/2P1P3/P1QP1NPB/1B3P1P/R4RK1 w - - 0 1
+
+Доска 142 / Доска 1-142
+5q1r/kb3np1/1p1p1p2/pPp1pPP1/2P1P3/PKNPBQR1/7r/6R1 w - - 0 1
+
+Доска 143 / Доска 1-143
+r2q1rk1/pb3ppp/4pn2/3n4/1P6/Q3PN2/1B2BPPP/R3K2R w - - 0 1
+
+Доска 144 / Доска 1-144
+r1r3k1/1b2qppp/p3p3/3n4/1P1Bn3/QR2PN2/4BPPP/R5K1 w - - 0 1
+
+Доска 145 / Доска 1-145
+6k1/4qppp/4pn2/p2b4/3B4/4PP2/6PP/1Q2N1K1 w - - 0 1
+
+Доска 146 / Доска 1-146
+3q1rk1/pp1bppbp/3p1np1/8/2rNP1P1/2N1BP2/PPPQ4/2KR3R w - - 0 1
+
+Доска 147 / Доска 1-147
+2r3k1/pp1bpp1p/3p1npQ/q7/2r1P1P1/2N2P2/PPP1N3/2KR3R w - - 0 1
+
+Доска 148 / Доска 1-148
+2r3k1/pp1bpp1p/3p1npQ/q5r1/4P3/2NR1P2/PPP1N3/2K4R w - - 0 1
+
+Доска 149 / Доска 1-149
+4r1k1/pp2pp1p/2bp1npQ/q2N4/4PN2/5P2/PPP5/2K4R w - - 0 1
+
+Доска 150 / Доска 1-150
+r1b2rk1/1p2bppp/p2ppn2/q7/3QPP2/2N1B3/PPP1B1PP/2KR3R w - - 0 1
+
+Доска 151 / Доска 1-151
+r1b1nrk1/1p2bppp/pB1pp3/8/4PP2/2N5/PPP1B1PP/2KR3R w - - 0 1
+
+Доска 152 / Доска 1-152
+2kr2r1/ppqnbp2/1np1p2p/4P1p1/1PPN4/P4N1P/4QPP1/R1B1R1K1 w - - 0 1
+
+Доска 153 / Доска 1-153
+r3rbk1/1q1b1pp1/3p1nnp/p1pPpN2/1pP1P3/1P2BN1P/P1BQ1PP1/1R2R1K1 w - - 0 1
+
+Доска 154 / Доска 1-154
+4qbk1/3b1pp1/3p1nnp/2pPpN2/1pP1P1P1/rP1QB2P/3NRP1K/rB4R1 b - - 0 1
+
+Доска 155 / Доска 1-155
+3q1bk1/3b1ppn/3p2n1/2pPpNN1/1pP1P3/rP2B2P/2Q1RP1K/rB4R1 w - - 0 1
+
+Доска 156 / Доска 1-156
+3q1bk1/3b1pp1/3p1nn1/2pPpNN1/1pP1P3/rP5P/2Q1RP1K/rBB3R1 w - - 0 1
+
+Доска 157 / Доска 1-157
+6k1/3b1p2/3p1qpb/2pPp1Nn/1pP1Pn1P/rP2NR2/5P1K/1B1Q2R1 w - - 0 1
+
+Доска 158 / Доска 1-158
+r2r1nk1/1p1bbpp1/2p1p2p/q3N3/p1PP4/P2B2N1/1P3PPP/2QRR1K1 w - - 0 1
+
+Доска 159 / Доска 1-159
+3rbbk1/2q2pp1/r1p1p2p/1pP1N3/p2PB3/P1Q5/1P3PPP/3RR1K1 w - - 0 1
+
+Доска 160 / Доска 1-160
+r3r1k1/pbqnbp2/1pp1n1pp/8/2PPN3/5N2/PPQ2PPP/1B1RR1K1 w - - 0 1
+
+Доска 161 / Доска 1-161
+2br2k1/2q1rp2/2pNpnp1/p1P3Rp/3P3P/8/P1Q2PP1/1B1R2K1 w - - 0 1
+
+Доска 162 / Доска 1-162
+r1bq1r1k/1pp1n1pp/8/3n1p2/P1BPpP2/1N2P3/1Q1B2PP/R4RK1 w - - 0 1
+
+Доска 163 / Доска 1-163
+3q1r1k/4n1pp/1p6/3n1p2/3PpP2/QN2P3/3B2PP/R5K1 w - - 0 1
+
+Доска 164 / Доска 1-164
+r1br2k1/4nppp/p1p1p3/8/2P1N3/6P1/PP2BPP1/R3K2R w - - 0 1
+
+Доска 165 / Доска 1-165
+r1bq1r2/p3n1kp/1p3pp1/2p1n3/3pP3/3P2P1/PPPQNNBP/R4RK1 w - - 0 1
+
+Доска 166 / Доска 1-166
+8/p4rkp/1p2bp2/4n1p1/3rP3/3P2P1/P1R2NBP/3R1K2 w - - 0 1
+
+Доска 167 / Доска 1-167
+2kr4/pp2np2/2b4r/1N1p1p2/8/6B1/PP4PP/2RR3K w - - 0 1
+
+Доска 168 / Доска 1-168
+3rk3/1p2np2/p1b4r/3p1p2/PP1N4/6B1/6PP/2RR3K w - - 0 1
+
+Доска 169 / Доска 1-169
+4nk2/5p1p/p1r3p1/P1pRP3/2N5/P6P/6P1/6K1 w - - 0 1
+
+Доска 170 / Доска 1-170
+3Rn3/2r1kp1p/p5p1/P1p1P3/2N5/P6P/6P1/6K1 w - - 0 1
+
+Доска 171 / Доска 1-171
+rn1q1rk1/pbp2ppp/1p2pn2/8/1bBP4/2N1P3/PP2NPPP/R1BQ1RK1 w - - 0 1
+
+Доска 172 / Доска 1-172
+r2r2k1/pb2qppp/1p2pn2/1P2n3/4P3/2N2P2/1P2BQPP/R1B2RK1 w - - 0 1
+
+Доска 173 / Доска 1-173
+r1nr2k1/pb2qppp/1p2p1n1/1P6/4P3/R1N1BP2/1P2BQPP/R5K1 w - - 0 1
+
+Доска 174 / Доска 80-1
+5rk1/1qn1br1p/3p1pp1/p2P4/Pp2P1P1/1P3Q2/2BB2P1/2R2RK1 w - - 0 1
+
+Доска 175 / Доска 80-2
+r3q1k1/4br1p/2Rp1pp1/p2P4/Pp1BP1P1/1P3Q2/6P1/2R3K1 b - - 0 1
+
+Доска 176 / Доска 80-3
+r1b1nrk1/2q1bppp/p2p4/np1Pp3/4P3/5N1P/PPB2PP1/R1BQRNK1 w - - 0 1
+
+Доска 177 / Доска 80-4
+2rq1r1k/1n1bb1np/p2p3N/1p1Ppp2/1P6/5N1P/P1BBQPP1/2R1R1K1 b - - 0 1
+
+Доска 178 / Доска 80-5
+2r1qr1k/1n1bb2p/p2p3N/1p1Ppn2/1P6/5N1P/P1BBQP2/2R1R1K1 w - - 0 1
+
+Доска 179 / Доска 80-6
+r1b2rk1/p4pp1/1n2p2p/2p5/8/2P1PN2/P3BPPP/1R3RK1 w - - 0 1
+
+Доска 180 / Доска 80-7
+r5k1/p2n1pp1/2b1p2p/R1p5/1rP5/4P3/P3BPPP/2R1NK2 w - - 0 1
+
+Доска 181 / Доска 80-8
+r2qk2r/2pbbp2/1p1p1np1/p1nPp2p/2P1P2P/2N1BPP1/PPQNB3/2KR3R w - - 0 1
+
+Доска 182 / Доска 80-9
+r4k1r/1qpb1pb1/1p1p1np1/pNnPp2p/2P1P2P/2N1BPP1/PP1QB3/1K1R3R w - - 0 1
+
+Доска 183 / Доска 80-10
+r2q1rk1/pb1n1pp1/1pp2b1p/3p4/3P4/1QNBPN2/PP3PPP/R4RK1 b - - 0 1
+
+Доска 184 / Доска 80-11
+r5k1/pbqnrpp1/1ppb3p/8/3PN3/PQ3N2/BP3PPP/3RR1K1 w - - 0 1
+
+Доска 185 / Доска 80-12
+1qr1r1k1/3nbpp1/ppbppn1p/8/1PP1P3/PNN1BP1P/5QP1/2RR1BK1 w - - 0 1
+
+Доска 186 / Доска 80-13
+1qr1r1k1/3n1pp1/pPb2n1p/3p4/1bP5/1NN1BP1P/5QP1/1RR2BK1 w - - 0 1
+
+Доска 187 / Доска 80-14
+3r2k1/pp3pqp/2b1p3/3rN3/8/2P1Q1P1/P4P1P/R3R1K1 w - - 0 1
+
+Доска 188 / Доска 80-15
+3r2k1/pp3pqp/2b1p3/3rN3/5Q2/2P3P1/P4P1P/R3R1K1 w - - 0 1
+
+Доска 189 / Доска 80-16
+3r2k1/1p3pq1/2b1p3/p2rN2p/5Q1P/P1P3P1/5P2/1R2R1K1 w - - 0 1
+
+Доска 190 / Доска 80-17
+6k1/5pq1/2R1p3/p2r3p/5Q1P/P1P3P1/2r2P1K/4R3 w - - 0 1
+
+Доска 191 / Доска 80-18
+3qrrk1/1p3p1p/p1p5/2Pp1Qb1/3Pn1Pp/2BB4/PP5P/1K1R1R2 b - - 0 1
+
+Доска 192 / Доска 80-19
+r2q1rk1/p1n2pb1/1p1p1npp/1PpPp1B1/PP2P3/8/3NBPPP/R2QK2R w - - 0 1
+
+Доска 193 / Доска 80-20
+r2r1bk1/p1n2p2/1p1p1qpp/1PpPp3/PPN1P3/8/4BPPP/R2Q1RK1 w - - 0 1
+
+Доска 194 / Доска 80-21
+r1rq1b2/p4pk1/1pRp1np1/1P1Pp2p/PQ2P3/4N1P1/4BP1P/2R3K1 w - - 0 1
+
+Доска 195 / Доска 80-22
+rr1q1b2/5pk1/ppRp1np1/1P1Pp2p/PQ2P3/4N1PB/5P1P/2R3K1 w - - 0 1
+
+Доска 196 / Доска 80-23
+1r1q1b2/5pkn/1pRp2p1/1P1Pp2p/1QN1P3/6PB/r4P1P/4R1K1 w - - 0 1
+
+Доска 197 / Доска 80-24
+r1rq2k1/pp1bbpp1/2n2n1p/3p4/5B2/P1N1PN2/1PQ1BPPP/3R1RK1 w - - 0 1
+
+Доска 198 / Доска 80-25
+3r2k1/pp1rbpp1/1q2b2p/3p4/8/P1BRPB2/1P2QPPP/3R2K1 w - - 0 1
+
+Доска 199 / Доска 80-26
+3r2k1/p2rbpp1/1p2b2p/1q1p4/8/P1BRPB2/1P1R1PPP/3Q2K1 w - - 0 1
+
+Доска 200 / Доска 80-27
+r2q1rk1/4bp2/2p1nnp1/p6p/1p1PP3/2N1BQ1P/PP2N1P1/R4RK1 w - - 0 1
+
+Доска 201 / Доска 80-28
+2rq1rk1/5pbn/2p1n1p1/p6p/1pNPP3/4BQPP/PP2N3/3R1RK1 w - - 0 1
+
+Доска 202 / Доска 80-29
+3r1bk1/q4p1n/6p1/3NP2p/1p1P4/1P4PP/P1rB2Q1/3R1R1K w - - 0 1
+
+Доска 203 / Доска 80-30
+4rrk1/p2bqp1p/1p4p1/n1pPp3/2P1PP2/2Q3P1/PR2N1BP/5RK1 w - - 0 1
+
+Доска 204 / Доска 80-31
+2r2rk1/1p1qbpp1/p2pbn1p/n3p3/P3P3/1P6/1BPN1PPP/RN1QRBK1 w - - 0 1
+
+Доска 205 / Доска 80-32
+5rk1/1pq1bpp1/p1rpbn1p/P3p3/N3P3/3B1N2/1PPQ1PPP/R3R1K1 w - - 0 1
+
+Доска 206 / Доска 80-33
+r4rk1/1p2bppp/p2pp3/2q1n3/2PNP3/1P2Q1P1/P4PBP/2R2RK1 w - - 0 1
+
+Доска 207 / Доска 80-34
+r4rk1/1p3ppp/1bnpp3/p7/2P1P3/qP1N2P1/P2Q1PBP/2R2RK1 w - - 0 1
+
+Доска 208 / Доска 80-35
+r3k2r/3bbp1p/p1nppp2/5P2/1p1NP3/5NP1/PPPK3P/3R1B1R b - - 0 1
+
+Доска 209 / Доска 80-36
+8/p7/8/8/8/5N2/8/5B2 w - - 0 1
+
+Доска 210 / Доска 80-37
+q1r3k1/1br1bpp1/p2pnn1p/1p2p3/4P3/PP1B3P/1BPN1PPN/2RQR1K1 w - - 0 1
+
+Доска 211 / Доска 80-38
+3r4/1pr2pk1/1p3n1p/1b1pRB2/1N1P2P1/P4PK1/1P6/7R w - - 0 1
+
+Доска 212 / Доска 80-39
+1r4k1/2pnq1bp/2p1b1p1/2PpP3/1P4P1/2Q4P/1B1N4/1K2RB2 w - - 0 1
+
+Доска 213 / Доска 80-40
+r5k1/2p3bp/4N1p1/2P1P3/1P4q1/8/3Q4/1KB1R3 w - - 0 1
+
+Доска 214 / Доска 80-41
+r2r2k1/4qp2/2p3p1/p3p2p/PnQ1P2b/2N1B2P/1PPR2P1/5RK1 w - - 0 1
+
+Доска 215 / Доска 80-42
+4r2k/3n3p/2q3p1/1pp1p1Q1/4P3/1PP5/2B2PP1/R5K1 w - - 0 1
+
+Доска 216 / Доска 80-43
+8/6kp/5np1/2p1p3/4P3/qPP1Q1P1/4BP2/6K1 b - - 0 1
+
+Доска 217 / Доска 80-44
+rnbq1rk1/ppp2pbp/3p1np1/8/2PQ4/1PN1PN2/PB3PPP/R3KB1R w - - 0 1
+
+Доска 218 / Доска 80-45
+r1bq1rk1/ppp2pbp/3p1np1/2n5/2PQ4/1PN1PN2/PB2BPPP/3RK2R b - - 0 1
+
+Доска 219 / Доска 80-46
+r1bq1rk1/ppp2pbp/3p2p1/2n5/2P3n1/1PN1PN2/PB1QBPPP/3RK2R w - - 0 1
+
+Доска 220 / Доска 80-47
+1q2rrk1/1p3pp1/1nb4p/3p4/p2P4/P1NBR2P/1P1Q1PP1/4R1K1 w - - 0 1
+
+Доска 221 / Доска 80-48
+r2q1rk1/pbp1b1pp/1p1p4/3P1p2/1n6/6P1/PPQ1PPBP/R1B1NRK1 w - - 0 1
+
+Доска 222 / Доска 80-49
+r5k1/2pb1qp1/np1p1r1p/3P1p2/pP3N2/P1R3P1/3QPPBP/2R3K1 b - - 0 1
+
+Доска 223 / Доска 80-50
+r4rk1/p4qb1/1np2npp/2N1p3/4Pp2/b4B2/P4PPP/r2QR1K1 w - - 0 1
+
+Доска 224 / Доска 80-51
+r1r5/p5bk/1np1Nnpp/4p3/4Pp2/BB6/P4PPP/2R1R1K1 w - - 0 1
+
+Доска 225 / Доска 80-52
+8/4kn2/R7/p4P2/r7/2BK2P1/8/8 w - - 0 1
+
+Доска 226 / Доска 80-53
+r1b2rk1/1p1n1pqn/p2p2p1/2pP3p/P3P3/2N2PN1/1P1QB1PP/R3K2R b - - 0 1
+
+Доска 227 / Доска 80-54
+1rb2r1k/1p5n/p2p4/2pPqp1p/P7/2N2P2/1P1QB1PP/R3R1K1 w - - 0 1
+
+Доска 228 / Доска 80-55
+1rb2r1k/1p5n/p2p1q2/3P3p/Pp3p2/5P2/3QN1PP/R3RBK1 w - - 0 1
+
+Доска 229 / Доска 80-56
+r1b2r1k/1pq3pp/p1nb4/5p2/2Bp1P2/3P1QN1/PP1BR1PP/5RK1 w - - 0 1
+
+Доска 230 / Доска 80-57
+3n1r2/1pq3kp/p1b3p1/2b2p2/2Bp1P2/3P3N/PP1BRQPP/6K1 w - - 0 1
+
+Доска 231 / Доска 80-58
+r3kb1r/1p2pppp/1pn5/3p1b2/3P4/4PN2/PP1B1PPP/R3KB1R w - - 0 1
+
+Доска 232 / Доска 80-59
+r1r5/1p1bkppp/1p1bp3/n2p4/3P4/P1B1P3/1P1NBPPP/R1R3K1 b - - 0 1
+
+Доска 233 / Доска 80-60
+r1r5/1p1bk1pp/3bp3/np1p1p2/3P4/P1B1P1P1/1P1NBP1P/R1R3K1 b - - 0 1
+
+Доска 234 / Доска 80-61
+r1r5/1p1bk1pp/3bp3/1p1p1p2/2nP4/P1B1PPP1/1P1NB2P/R1R3K1 w - - 0 1
+
+Доска 235 / Доска 80-62
+r1r5/1p1bk1pp/3bp3/3p1p2/2pPP3/P1B2PP1/1P1N3P/R1R3K1 w - - 0 1
+
+Доска 236 / Доска 80-63
+6r1/3bbk2/4p2p/1p1pPp2/2pP1Pr1/P4K2/1P4NP/1R2B1R1 w - - 0 1
+
+Доска 237 / Доска 80-64
+8/R3R3/4p3/3pPk2/2pP1Pp1/3b2P1/4r3/3K4 w - - 0 1
+
+Доска 238 / Доска 80-65
+4k3/2n5/8/8/8/8/8/8 w - - 0 1
+
+Доска 239 / Доска 80-66
+r1r3k1/p2b2b1/3Pp1pp/2p1Pp2/2P2B1P/8/3K1PP1/2R3NR b - - 0 1
+
+Доска 240 / Доска 80-67
+r1r3k1/3b2b1/3Pp1pp/2p1Pp2/p1P2B1P/5P1N/3K2P1/2R4R w - - 0 1
+
+Доска 241 / Доска 80-68
+2kr3r/pppbqpb1/2n1p2p/4P3/4NQ1P/5N2/PPP3P1/2KR1B1R w - - 0 1
+
+Доска 242 / Доска 80-69
+2r2rk1/pp2bppp/4p3/q2pB3/3P2P1/1Q5P/PP2PPK1/2R2R2 w - - 0 1
+
+Доска 243 / Доска 80-70
+r1b1rbk1/1p3p1p/2pp1np1/2n5/1qPNP3/1PN1B1PP/2Q2PB1/1R1R2K1 w - - 0 1
+
+Доска 244 / Доска 80-71
+2rrbk2/p3n2p/Npp1ppp1/3nN3/3PPPP1/1B3K2/PP5P/2RR4 w - - 0 1
+
+Доска 245 / Доска 80-72
+2rrbk2/p3n2p/Npp1p1p1/3Pp3/3P1PP1/1B3K2/PP5P/2RR4 w - - 0 1
+
+Доска 246 / Доска 80-73
+3r2k1/1b3ppp/p3pn2/1pb5/4Pq2/P1N2N1P/1PB1QPP1/4R1K1 w - - 0 1
+
+Доска 247 / Доска 80-74
+r2r2k1/1p1P1p1p/5np1/pB2p3/4P3/b4P2/P3NKPP/3R3R b - - 0 1
+
+Доска 248 / Доска 80-75
+3r2k1/1p1P3n/5pp1/rB1Rp1P1/p3PP2/8/Pb2NK2/7R w - - 0 1
+
+Доска 249 / Доска 80-76
+1r4k1/3n1ppp/p1n1p3/2p5/2P5/P1B1P3/3NKPPP/R7 w - - 0 1
+
+Доска 250 / Доска 80-77
+r3r1k1/1bpnbpp1/pp1p1q1p/4p3/2NPP3/2P2N2/PPB1QPPP/1K1R3R w - - 0 1
+
+Доска 251 / Доска 80-78
+r2qrbk1/1b1n1pp1/pp1p4/2pPp1Pp/4P3/2P1NN2/PPB1QP1P/1K1R3R w - - 0 1
+
+Доска 252 / Доска 80-79
+r3k2r/1bq1bpp1/1nn1p2p/2ppP2P/pp3B2/2PPNNP1/PP2QPB1/R3R1K1 b - - 0 1
+
+Доска 253 / Доска 80-80
+r3k2r/2q1bpp1/bnn1p2p/2ppP2P/p4B2/P1PPNNP1/4QPB1/R3R1K1 w - - 0 1
+
+Доска 254 / Доска 80-81
+2b4r/r3qpp1/1n2p2p/1k1pPP1P/p1pP2PN/PnP3BB/R3Q2K/5R2 b - - 0 1
+
+Доска 255 / Доска 80-82
+2b1q2r/2r2ppn/4p2p/1k1pPP1P/pNpP2PB/PnP1Q3/5RBK/5R2 w - - 0 1
+
+Доска 256 / Доска 80-83
+4rrk1/1ppb2pp/p1p2p2/2q2P2/3NPR2/2PQ4/PP4PP/4R1K1 w - - 0 1
+
+Доска 257 / Доска 80-84
+5rk1/1ppbr1pp/p2q4/2p1pP2/4R1P1/2P2NQ1/PP5P/4R1K1 w - - 0 1
+
+Доска 258 / Доска 80-85
+8/1ppb2pk/p4qNp/2p2P2/6PP/2P5/PP2Q3/6K1 w - - 0 1
+
+Доска 259 / Доска 80-86
+r1b5/pp1k1ppp/4p3/8/3P4/6P1/P2KPPBP/2R5 w - - 0 1
+
+Доска 260 / Доска 80-87
+1rb5/pp1k1pp1/4p2p/6P1/3P1P2/8/P2KP1BP/2R5 w - - 0 1
+
+Доска 261 / Доска 80-88
+2r2rk1/1p1qbppp/p3b3/3pP3/3N4/3PB3/PP1Q2PP/2R2R1K w - - 0 1
+
+Доска 262 / Доска 80-89
+8/1pr1qppk/p3b2p/3pP3/3N1Q2/3P3P/PP4PK/5R2 w - - 0 1
+
+Доска 263 / Доска 80-90
+4b2R/1p2kp2/p5p1/P2pP1P1/1P1N4/2rPK3/8/8 w - - 0 1
+
+Доска 264 / Доска 80-91
+2r1r1k1/1p1nppbp/p2p2p1/q7/2P1P3/PPN3P1/1B2QP1P/2RR2K1 w - - 0 1
+
+Доска 265 / Доска 80-92
+1r1r2k1/p4pp1/2bppq1p/2p5/2P5/1P1BP3/P1QR1PPP/3R2K1 b - - 0 1
+
+Доска 266 / Доска 80-93
+3r4/4k1p1/3pp2p/2p2p2/brP5/1B1KPP2/P2R2PP/3R4 b - - 0 1
+
+Доска 267 / Доска 80-94
+3r4/4k1p1/3pp2p/2p2p2/P1P5/2r1PP2/3RK1PP/1R6 b - - 0 1
+
+Доска 268 / Доска 80-95
+5rk1/pp4pp/4b3/4qp2/1PP1p3/P7/5PPP/3QRBK1 w - - 0 1
+
+Доска 269 / Доска 80-96
+3r4/pp4pp/4bk2/2P2p2/1PB1p3/P5P1/5P1P/2R3K1 w - - 0 1
+
+Доска 270 / Доска 80-97
+r1b1k2r/pp2pp1p/3p2p1/q1pPb3/2P1P3/2N4P/PP1BQPP1/R3K2R w - - 0 1
+
+Доска 271 / Доска 80-98
+r3k2r/3bp2p/p2p1pp1/qppP4/2P1P3/PPN4P/3Q1PP1/RR4K1 w - - 0 1
+
+Доска 272 / Доска 80-99
+r3k2r/3bp2p/p2p1pp1/qppP4/P1P1P3/1PN4P/3Q1PP1/RR4K1 w - - 0 1
+
+Доска 273 / Доска 80-100
+5rk1/7p/p2Q2p1/q1p5/P1b5/2N1RP1P/6P1/6K1 b - - 0 1
+
+Доска 274 / Доска 80-101
+6k1/p3p1bp/2n3p1/3b1q2/3P4/4QN2/Pr1BBPPP/2R3K1 w - - 0 1
+
+Доска 275 / Доска 80-102
+r2q1rk1/1b3pbp/pp3np1/3pn3/2PN4/1PN1BP2/P1BQ2PP/3R1RK1 w - - 0 1
+
+Доска 276 / Доска 80-103
+2rq1r2/1b3pkp/pp3np1/3pn3/2PN4/1PN2P2/P1BQ2PP/3R1RK1 w - - 0 1
+
+Доска 277 / Доска 80-104
+1r3rk1/pn2nppp/1q2p3/3pP3/1P6/PN1B4/5PPP/2RQ1RK1 w - - 0 1
+
+Доска 278 / Доска 80-105
+r2q1rk1/pp2nppp/1bn1p3/1B1pP3/1P1N1P2/P1P1B3/3Q2PP/R3K2R w - - 0 1
+
+Доска 279 / Доска 80-106
+r2q1rk1/1p2nppp/2n1p3/1B1pP3/Pp1P1P2/4B3/3Q2PP/R4RK1 w - - 0 1
+
+Доска 280 / Доска 80-107
+r2q1rk1/1p2nppp/2n1p3/1B1pP3/P2P1PP1/1p2B3/3Q3P/R4RK1 b - - 0 1
+
+Доска 281 / Доска 80-108
+r1bqr1k1/p1n2pbp/1p1p2p1/2pPn3/P1N1P3/2N2P2/1P2B1PP/R1BQ1R1K w - - 0 1
+
+Доска 282 / Доска 80-109
+1rbqr1k1/2n2pb1/pp1p1np1/2pP3p/P1N1PP2/2N2B2/1P1B2PP/R2Q1R1K b - - 0 1
+
+Доска 283 / Доска 80-110
+1rbqr1k1/5p2/pp1Pnbp1/2p4p/P4P2/2N2B2/1P1B2PP/R2Q1R1K w - - 0 1
+
+Доска 284 / Доска 80-111
+2kr1b1r/1pq3p1/2p3p1/p2nPp2/P1BP4/1Q6/1P1B2PP/R4RK1 w - - 0 1
+
+Доска 285 / Доска 80-112
+2rr2k1/ppq1ppbp/n1p1b1p1/Q7/2NP4/1P4P1/PB2PPBP/2RR2K1 w - - 0 1
+
+Доска 286 / Доска 80-113
+q1r1r1k1/ppn3bp/2p1p1p1/5pB1/2RPP3/1P4PB/P2Q1P1P/3R2K1 w - - 0 1
+
+Доска 287 / Доска 80-114
+6k1/ppnr3p/2pqprp1/8/3PR3/1P4P1/P2Q1P1P/4RBK1 w - - 0 1
+
+Доска 288 / Доска 80-115
+5qk1/pp3rrp/2p1pn1R/8/3P1R2/1P1BQ1P1/P4P2/6K1 w - - 0 1
+
+Доска 289 / Доска 80-116
+6k1/ppn3rp/2p1p2R/2Q5/3P4/1P1B1qP1/P4P2/6K1 w - - 0 1
+
+Доска 290 / Доска 80-117
+r5k1/1p1b2pp/3q2n1/p1bp4/3N4/PP5P/1B1Q1PP1/4RBK1 w - - 0 1
+
+Доска 291 / Доска 80-118
+5rk1/1p4pp/8/3p4/3N1n2/qP2R2P/3Q1PP1/6K1 b - - 0 1
+
+Доска 292 / Доска 80-119
+1r1r2k1/p4ppb/1pp1p2p/4R3/3P3P/1BP4R/PP3PP1/2K5 w - - 0 1
+
+Доска 293 / Доска 80-120
+3r1k2/p1r2ppb/1pp1p2p/4R3/1PBP2PP/2P1R3/P4P2/2K5 w - - 0 1
+
+Доска 294 / Доска 80-121
+2r2k2/p1r2ppb/1pp1p2p/4R2P/1P1P1PP1/2P1R3/PKB5/8 w - - 0 1
+
+Доска 295 / Доска 80-122
+3rr1k1/1b2q1pp/p1p2p2/1p2n3/Pb6/1P2P1NP/1BQ1BPP1/R2R2K1 w - - 0 1
+
+Доска 296 / Доска 80-123
+3r1rk1/Rbq3p1/5pBp/1pp2N2/1b6/1P2P2P/2Q2PP1/3R2K1 w - - 0 1
+
+Доска 297 / Доска 80-124
+2rr2k1/pp1nqppp/1b1n4/1Pp1p3/P1N1P3/2P3PP/2Q1BP2/R1B2RK1 w - - 0 1
+
+Доска 298 / Доска 80-125
+8/8/8/8/8/8/8/8 w - - 0 1
+
+Доска 299 / Доска 80-126
+2r2r2/pb1q2bk/1pnp2np/2p1p1p1/1PP1Bp2/P1BPP1P1/2QNNP1P/1R1R2K1 w - - 0 1
+
+Доска 300 / Доска 80-127
+r1bq1rk1/ppp3bp/3p1np1/3PpP2/2P5/2N1BP2/PP1QB1PP/R3K2R w - - 0 1
+
+Доска 301 / Доска 80-128
+r4rk1/ppq1bppp/3pbn2/4p3/4PP2/2N1B3/PPP1B1PP/R3QRK1 b - - 0 1
+
+Доска 302 / Доска 80-129
+r4rk1/pp2bppp/3p1n2/4pP2/2q1P3/2N1B3/PPP3PP/R3QRK1 w - - 0 1
+
+Доска 303 / Доска 80-130
+r1r3k1/2q1bppp/pn1p1n2/4pP2/2b1P3/1NN1B3/1PP1B1PP/R2Q1R1K w - - 0 1
+
+Доска 304 / Доска 80-131
+r5k1/2q1bppp/p2p4/Nr1PpP2/8/8/RPP1Q1PP/5R1K w - - 0 1
+
+Доска 305 / Доска 80-132
+r5k1/5ppp/pr1p4/N1qPpPb1/2P5/8/RP2Q1PP/5R1K b - - 0 1
+
+Доска 306 / Доска 80-133
+2rq1rk1/4bppp/pn1p4/1p2p1P1/4P2P/2N1BP1R/PPPQ4/1K1R4 w - - 0 1
+
+Доска 307 / Доска 80-134
+3r1rk1/3qbppp/p2p4/1p1N1QP1/4P2P/7R/PPP5/1K1R4 w - - 0 1
+
+Доска 308 / Доска 80-135
+2r1k2r/2q1bpp1/pn1p1n2/4pP2/R3P2p/1NN1B2P/1PP2RP1/3Q2K1 w - - 0 1
+
+Доска 309 / Доска 80-136
+r5k1/r3bpp1/pq1p1n2/4pP2/R3P2p/1NN4P/1PP1Q1PK/R7 w - - 0 1
+
+Доска 310 / Доска 80-137
+1rbq1rk1/2p1bppp/p1n2n2/1p2p3/P2pP3/2PP1N2/1PBNQPPP/R1B2RK1 w - - 0 1
+
+Доска 311 / Доска 80-138
+1r3rk1/2pn1ppp/p7/4p1q1/P1NbP3/3P1Q1P/2B2PP1/1R3R1K w - - 0 1
+
+Доска 312 / Доска 80-139
+8/6k1/p1n1qpp1/P1p4p/1rNbP2P/3P2P1/3Q2RK/3B4 w - - 0 1
+
+Доска 313 / Доска 80-140
+2r1k1r1/pp1bbp1p/3ppp2/q4P2/3QP3/1BN5/PPP3PP/1K1R3R w - - 0 1
+
+Доска 314 / Доска 80-141
+1k1r3r/3bbp1p/pqnppp2/1p6/4PP2/2NB1N2/PPPQ2PP/1K1RR3 w - - 0 1
+
+Доска 315 / Доска 80-142
+5r2/2k1bp1p/p2p4/1p1PpR2/4N3/P5P1/1PP4P/1K6 w - - 0 1
+
+Доска 316 / Доска 80-143
+rq3rk1/1b2bppp/p2p1n2/1p3p2/4P3/2NPBN1Q/PP4PP/R4RK1 w - - 0 1
+
+Доска 317 / Доска 80-144
+rq3rk1/1b2bp1p/p2p1n2/1p3p2/4P3/2NPB2Q/PP4PP/R4RK1 w - - 0 1
+
+Доска 318 / Доска 80-145
+r2qk2r/pp3ppp/2p5/2b1n2n/4PP2/2N5/PP1BQP1P/R3KB1R w - - 0 1
+
+Доска 319 / Доска 80-146
+8/1p1nk3/1rp2p1p/p5pP/4PP2/2N2KP1/PP1R4/8 w - - 0 1
+
+Доска 320 / Доска 80-147
+r4rk1/1bqnbpp1/pp1p1n1p/4p1B1/P1B1P3/1NN5/1PP1QPPP/R2R2K1 w - - 0 1
+
+Доска 321 / Доска 80-148
+r2q1rk1/1ppn2bp/3p2p1/3Ppp2/nPP1P3/2N3PP/4QPB1/1RB1K2R b - - 0 1
+
+Доска 322 / Доска 80-149
+r2q1rk1/1ppn2bp/3p2p1/3Pp3/nPP1Pp2/6PP/4QPB1/1RBNK2R w - - 0 1
+
+Доска 323 / Доска 80-150
+7k/1q2b2p/Rnpp1r1P/1P2pPp1/2P1Pp2/2NQ4/5P2/2B1K3 b - - 0 1
+
+Доска 324 / Доска 80-151
+5rk1/1q1n2bp/4bpp1/1p1p4/3P4/3BBN2/1P3PPP/3Q1RK1 w - - 0 1
+
+Доска 325 / Доска 80-152
+4r1k1/1q1b2bp/1n3pp1/1p1p4/1B1P4/3B1N2/1P3PPP/3QR1K1 b - - 0 1
+
+Доска 326 / Доска 80-153
+rnbqk2r/4bpp1/pp1ppB1p/1N6/2P1P3/2N5/PP3PPP/R2QKB1R w - - 0 1
+
+Доска 327 / Доска 80-154
+r4rk1/2q1bppp/pn3n2/1pp1pP2/8/1BP4P/PP1N1PP1/R1BQR1K1 b - - 0 1
+
+Доска 328 / Доска 80-155
+2r2rk1/1pq3bp/p2p1np1/3Ppb2/1P6/1NN1BP2/P2Q2PP/2R2RK1 w - - 0 1
+
+Доска 329 / Доска 80-156
+2r2rk1/1p4bp/p2p2p1/3Ppb2/1Pq1N1n1/1N2BP2/P2Q3P/2R2RK1 w - - 0 1
+
+Доска 330 / Доска 80-157
+r1b1r1k1/pp3pbp/3p1q2/2pP4/4PBp1/2N5/PPQ2PPP/R4RK1 w - - 0 1
+
+Доска 331 / Доска 80-158
+r3r1k1/pp1b1pbp/3p1q2/2pP4/P3PBp1/2N3P1/1PQ2P1P/R4RK1 w - - 0 1
+
+Доска 332 / Доска 80-159
+r5k1/3brpbp/p2p2q1/1ppP4/P3PBp1/1PNQ2P1/4RP1P/4R1K1 w - - 0 1
+
+Доска 333 / Доска 80-160
+5r1k/1p4p1/2q1pb1p/p2p4/6B1/1Pr1P2P/P2RQPP1/3R2K1 w - - 0 1
+
+Доска 334 / Доска 80-161
+3r2k1/6p1/6Qp/p2p1Bb1/1p6/1Pq4P/P4PP1/5RK1 w - - 0 1
+
+Доска 335 / Доска 80-162
+r1b2rk1/p2nqppp/1pp1p3/3n4/2BP4/2N1PN2/PPQ2PPP/2R2RK1 w - - 0 1
+
+Доска 336 / Доска 80-163
+r1b2rk1/p1Qn1pp1/1p2p2p/3p4/q2P4/P2BPN2/1P3PPP/2R2RK1 w - - 0 1
+
+Доска 337 / Доска 80-164
+3rr3/p4p1p/3k1P2/q2b1P2/2Q5/6PK/P6P/3RR3 w - - 0 1
+
+Доска 338 / Доска 80-165
+r3k1r1/p4p2/3Qp2p/8/1pp1b2P/8/PP2BqP1/2KR3R b - - 0 1
+
+Доска 339 / Доска 80-166
+2b5/2qrrpk1/5Rp1/2p4p/1pB1PR1P/1P1P2P1/5Q1K/8 w - - 0 1
+
+Доска 340 / Доска 80-167
+2r1qr1k/p2nn1p1/2p1pp1p/8/3PP3/P2NB3/4QPPP/R1R3K1 w - - 0 1
+
+Доска 341 / Доска 80-168
+2r2r1k/p3nqp1/1np1pp1p/8/3PPB2/P2N4/4QPPP/1RR3K1 w - - 0 1
+
+Доска 342 / Доска 80-169
+3r1bk1/p4ppp/Qp2p3/8/1P1B4/Pq2P1P1/2r2P1P/R3R1K1 b - - 0 1
+
+Доска 343 / Доска 80-170
+r1rq1bk1/1n1b1p1p/3p1np1/1p1Pp3/1Pp1P3/2P1BNNP/R2Q1PP1/1B2R1K1 w - - 0 1
+
+Доска 344 / Доска 80-171
+r1rnb1k1/B1n1q1bp/3p1pp1/1p1Pp3/1Pp1PP2/2P4P/R2QN1PN/RB4K1 w - - 0 1
+
+Доска 345 / Доска 80-172
+r4rk1/pp3p2/1qn1p1p1/3pP1Pp/3N1P2/2P1Q3/PP3R1P/3R2K1 w - - 0 1
+
+Доска 346 / Доска 80-173
+4r1k1/ppr2p2/1qn1p1p1/3pP1Pp/3N1P2/P1PRQ3/1P2R1KP/8 w - - 0 1
+
+Доска 347 / Доска 80-174
+2r5/1p2npk1/1q2p1p1/p2pP1Pp/2rN1P2/P1PR3Q/1P3RKP/8 w - - 0 1
+
+Доска 348 / Доска 80-175
+r2qr1k1/5pp1/p2bb2p/1pp4Q/4P3/P1N1B2P/1P3PP1/R3R1K1 w - - 0 1
+
+Доска 349 / Доска 80-176
+3rr1k1/5pp1/p3q2p/1pp5/4PQ2/PbN4P/1P3PP1/R3R1K1 w - - 0 1
+
+Доска 350 / Доска 80-177
+6k1/5pp1/p6p/1p2q3/2prP3/PbNr1P1P/1P2RQP1/4R1K1 w - - 0 1
+
+Доска 351 / Доска 80-178
+r1r3k1/1p3ppp/1pn1pn2/1N1p4/3P2b1/P3PN2/1P2BPPP/R1R3K1 w - - 0 1
+
+Доска 352 / Доска 80-179
+r1r5/1p1k1pp1/1pn1pn2/1N1p3p/3P4/P1R1PB1P/1P3PP1/2R1K3 w - - 0 1
+
+Доска 353 / Доска 80-180
+r1bq1rk1/1pp2ppp/pb3n2/4p3/P1B1P3/2P2Q1P/1P3PP1/RNB2RK1 w - - 0 1
+
+Доска 354 / Доска 80-181
+r1b2r1k/1pp3pp/pb1n1q2/4pp2/P3P3/BPPB3P/3NQPP1/R4RK1 w - - 0 1
+
+Доска 355 / Доска 80-182
+r4r1k/1pp4p/pb1n1q2/2P1p3/P3Ppb1/BP1B1N2/4QPP1/R4RK1 w - - 0 1
+
+Доска 356 / Доска 80-183
+r2qk2r/1p3p2/p2p2nB/3Pb3/8/2P5/PP1QB2P/R2K2R1 w - - 0 1
+
+Доска 357 / Доска 80-184
+r3k2r/1p2np2/p2p1b1B/3P1q1P/1R6/2P5/PP1QB3/R2K4 w - - 0 1
+
+Доска 358 / Доска 80-185
+r3k3/1p3p2/p2p1b1r/3R3P/4q3/2P5/PP1QB3/R2K4 w - - 0 1
+
+Доска 359 / Доска 80-186
+r2r4/ppq1pBkp/4Q1p1/n1P5/4Pb2/2P1BP2/P4P1P/1R3RK1 w - - 0 1
+
+Доска 360 / Доска 80-187
+r1b3kr/pp4pp/3Nppn1/8/2P1R3/B7/PP3P1P/2KR4 w - - 0 1
+
+Доска 361 / Доска 80-188
+3r1rk1/pp2qpnp/4bnp1/2p1p3/2P1P3/4N1P1/P1P2PBP/R1BQR1K1 w - - 0 1
+
+Доска 362 / Доска 80-189
+r1b2rk1/pp3ppp/2p5/P7/4nB2/P3P3/5PPP/2R1KB1R w - - 0 1
+
+Доска 363 / Доска 80-190
+2b1r1k1/1p1n1ppp/p1p5/P7/4PB2/P4P2/4BKPP/3R4 w - - 0 1
+
+Доска 364 / Доска 80-191
+6k1/pp3ppp/2n1r3/2b5/5B2/2P5/P3BPPP/3R1K2 w - - 0 1
+
+Доска 365 / Доска 80-192
+8/p3n1p1/1p1bkp1p/7P/4BPP1/2PK4/P7/2B5 w - - 0 1
+
+Доска 366 / Доска 80-193
+r1bqk2r/1p1p2pp/pBn1pp2/2Q2n2/2P5/2N5/PP3PPP/R3KB1R w - - 0 1
+
+Доска 367 / Доска 80-194
+2r1k2r/3b2pp/1p2pp2/pPB1nn2/2P1N3/8/P4PPP/R3KB1R w - - 0 1
+
+Доска 368 / Доска 80-195
+2r4r/3bk1pp/4pp2/pPp2n2/2B1NP2/8/P4KPP/R6R b - - 0 1
+
+Доска 369 / Доска 80-196
+8/8/pP6/P2p1P2/8/3N4/8/8 w - - 0 1
+
+Доска 370 / Доска 80-197
+6k1/1p5p/np2ppp1/n2p4/P2P2P1/bP2PPB1/7P/2NK1B2 w - - 0 1
+
+Доска 371 / Доска 80-198
+q1r3k1/r1p2ppp/p4n2/Bp1bn3/1P6/P3P1P1/3N1PBP/R1R2QK1 w - - 0 1
+
+Доска 372 / Доска 80-199
+6k1/3n2pp/p1p2p2/Bp6/1Pb1PP2/P5P1/6BP/6K1 b - - 0 1
+
+Доска 373 / Доска 80-200
+r2r2k1/pp3ppp/2q2n2/2p5/2P5/P1Q1PP1b/1B2BP1P/R2R2K1 w - - 0 1
+
+Доска 374 / Доска 80-201
+4r3/3q1pk1/rp3bpp/2pn4/p2p3P/P2P1BP1/1P1BPPK1/1RRQ4 w - - 0 1
+
+Доска 375 / Доска 80-202
+5k2/5p2/rp2rbp1/2p4p/P1Rp1B1P/1RnP1BP1/4PP2/5K2 b - - 0 1
+
+Доска 376 / Доска 80-203
+4Rb2/5pk1/6p1/2p1P2p/2Bp1P1P/3P2P1/5K2/1r6 w - - 0 1
+
+Доска 377 / Доска 80-204
+1r2r1k1/p5bp/b1np2p1/q2n1p2/2pP1P2/2P1NNP1/P2Q1BBP/2R2RK1 w - - 0 1
+
+Доска 378 / Доска 80-205
+rnb1k1nr/pp3ppp/2pq4/3p4/3P4/2N1P3/PPQ2PPP/R3KBNR w - - 0 1
+
+Доска 379 / Доска 80-206
+r1bq1rk1/5pb1/3p1n1p/p1nPp1pP/Pp2P1P1/4BP2/1P1NB3/R2QK1NR w - - 0 1
+
+Доска 380 / Доска 80-207
+r2qnrk1/1b3pb1/7p/pBpPp1pP/Pp2P1P1/5P2/1P1NN3/R2QK2R w - - 0 1
+
+Доска 381 / Доска 80-208
+r2q1rk1/pp3ppp/2n1bn2/3p2B1/8/1NP3P1/P3PPBP/R2Q1RK1 w - - 0 1
+
+Доска 382 / Доска 80-209
+r4rk1/pp2q1pp/2n1pn2/6B1/2p5/6P1/P3PPBP/R2Q1RK1 w - - 0 1
+
+Доска 383 / Доска 80-210
+b1q3k1/4Qp1p/p1p1p1p1/4P3/1P5P/5B2/5PPK/8 b - - 0 1
+
+Доска 384 / Доска 80-211
+1k6/p1q1npp1/1p2p2p/2p1P2P/2P2P2/3QB1P1/PP6/2K5 w - - 0 1
+
+Доска 385 / Доска 80-212
+1k6/p1q1n3/1p2p1pp/2p1P3/2P2P2/P2QB1P1/1P6/2K5 w - - 0 1
+
+Доска 386 / Доска 80-213
+3q4/2k5/1p2p1p1/p1p1Pn1p/P1P1QP2/1P4P1/5B2/2K5 w - - 0 1
+
+Доска 387 / Доска 80-214
+r1b1nrk1/pp1nq1bp/3p4/2pP1p2/2P1pP2/2N5/PP2BNPP/R1BQ1R1K b - - 0 1
+
+Доска 388 / Доска 80-215
+3qr1k1/1p3p1p/p3b1p1/3p4/2rP2P1/2N1RP1P/PP1R1QK1/8 w - - 0 1
+
+Доска 389 / Доска 80-216
+8/1pr1b1p1/p7/3P2N1/1P1N1P2/P4BK1/8/8 w - - 0 1
+
+Доска 390 / Доска 80-217
+6k1/7p/1pr1bqp1/p2p4/3P3P/1P1NQP2/P2R2K1/8 w - - 0 1
+
+Доска 391 / Доска 80-218
+6k1/7p/1p2b1p1/3p2P1/P1rP4/3N1P2/P2R2K1/8 w - - 0 1
+
+Доска 392 / Доска 80-219
+8/3K1k2/3P2p1/7p/8/R4P2/P1r5/8 w - - 0 1
+
+Доска 393 / Доска 80-220
+3K4/3P4/5k2/R5p1/8/5P1p/P1r5/8 w - - 0 1
+
+Доска 394 / Доска 80-221
+8/1R4pk/1p1Bn2p/8/r7/5P2/5KPP/8 w - - 0 1
+
+Доска 395 / Доска 80-222
+8/1R4p1/rp2n2k/4B3/5PK1/8/7P/8 w - - 0 1
+
+Доска 396 / Доска 80-223
+1k1qr3/pp3rp1/2p1p1p1/3n1p2/P2P2P1/1P2P2P/3QBP2/3R2KR w - - 0 1
+
+Доска 397 / Доска 80-224
+1k1qr3/pp3rp1/2p1p1p1/3n4/P2PPpP1/1P5P/3QBP2/3R2KR w - - 0 1
+
+Доска 398 / Доска 80-225
+5k2/5ppp/4b3/prNp4/3P4/P1K5/5PPP/7R w - - 0 1
+
+Доска 399 / Доска 80-226
+8/4kppp/8/N2p4/bK1P4/8/5PPP/8 b - - 0 1
+
+Доска 400 / Доска 80-227
+r4r2/p2Rp1kp/bpp3p1/2P1p1P1/4N3/4P2P/PP6/2K4R w - - 0 1
+
+Доска 401 / Доска 80-228
+3k4/p3pr1p/bpp5/2P1p1Pp/4N3/1P2P3/P2K4/7R w - - 0 1
+
+Доска 402 / Доска 80-229
+r1br2k1/pp3p2/2pp1qp1/4n3/2P1P2p/1PN1R3/P2Q1PPP/3R1BK1 w - - 0 1
+
+Доска 403 / Доска 80-230
+r2r2k1/pp3p2/2ppbqp1/8/2P1P2p/1PN1RPP1/P2Q3P/3R2K1 w - - 0 1
+
+Доска 404 / Доска 80-231
+7q/pp1b1pk1/2p3p1/4p1Q1/2P1N1Pp/1P3P2/P6P/6K1 w - - 0 1
+
+Доска 405 / Доска 80-232
+2r1k1r1/3bbp2/1p1ppp2/pP4q1/P1P1P2p/2NQ3P/3N1PP1/4R1RK w - - 0 1
+
+Доска 406 / Доска 80-233
+2r1k1r1/3bbp2/1p1ppp1q/pP6/P1P1P2p/3Q3P/3NNPP1/5RRK w - - 0 1
+
+Доска 407 / Доска 80-234
+5k2/4bp2/1pr4p/1rp5/5PN1/1P5P/P2R2K1/3R4 w - - 0 1
+
+Доска 408 / Доска 80-235
+2r3k1/2q2ppp/p2p1b2/1pr1p3/4P3/P1P5/BP1Q1PPP/1R3RK1 w - - 0 1
+
+Доска 409 / Доска 80-236
+3r4/2r2pk1/1q1p1bp1/pp2p2p/4P2P/PBPR2P1/1P2QPK1/3R4 w - - 0 1
+
+Доска 410 / Доска 80-237
+4r1k1/ppr1qpp1/3bp1p1/8/3PR1Q1/1B3RP1/PP3PKP/8 w - - 0 1
+
+Доска 411 / Доска 80-238
+3r4/8/8/p3k1p1/1b3pP1/1P2pP2/P1R1B1K1/8 w - - 0 1
+
+Доска 412 / Доска 80-239
+3r4/5pkp/3bp1p1/2q5/2Bp4/1P3QP1/5P1P/3R2K1 w - - 0 1
+
+Доска 413 / Доска 80-240
+2r5/pb3pk1/4p2p/4P1p1/1p6/4PN2/PP1BnKPP/5R2 w - - 0 1
+
+Доска 414 / Доска 80-241
+2r5/pb3pk1/4p2p/4P3/1p4p1/4P3/PP1B1KPP/5Rn1 w - - 0 1
+
+Доска 415 / Доска 80-242
+r3rbk1/1p1n1ppp/2p1qn2/p2p4/1P1P4/P1N1PNB1/2Q2PPP/1R3RK1 w - - 0 1
+
+Доска 416 / Доска 80-243
+r1q1rbk1/5ppp/2p5/pp1p4/1PnPn3/P2NPNB1/2Q2PPP/R1R3K1 b - - 0 1
+
+Доска 417 / Доска 80-244
+r2qr1k1/1p1nbppp/2p2n2/3p2B1/1P1P4/2NQPN2/5PPP/1R3RK1 w - - 0 1
+
+Доска 418 / Доска 80-245
+r3r1k1/3nqppp/2p5/1p1pP3/1P3P2/2NQP3/6PP/1R3RK1 w - - 0 1
+
+Доска 419 / Доска 80-246
+r1b1kb1r/1p1n1pp1/p2ppq1p/8/3NP3/1BN5/PPP2PPP/R2Q1RK1 w - - 0 1
+
+Доска 420 / Доска 80-247
+r1bqr1k1/pppp1p1p/5Pp1/5nN1/2P1PP2/2Q5/PP5P/R3KB1R w - - 0 1
+
+Доска 421 / Доска 80-248
+4r2r/pp1nkp1p/2p1b1p1/5q2/2BP4/4QN2/PP3PPP/4RK1R w - - 0 1
+
+Доска 422 / Доска 80-249
+4r2r/pp1nkp1p/4b1p1/1B1p1q2/8/4QN2/PP3PPP/4RK1R b - - 0 1
+
+Доска 423 / Доска 80-250
+4r2r/1p1nkp1p/p3b1p1/3p3q/3Q4/3B1N2/PP3PPP/4RK1R w - - 0 1
+
+Доска 424 / Доска 80-251
+r4rk1/qb1nbppp/p3pn2/3p4/N2P1B2/1P1B1N2/P4PPP/2RQ1RK1 w - - 0 1
+
+Доска 425 / Доска 80-252
+r4rk1/qb1n1ppp/p3p3/3p4/NQ1P1n2/3B1N2/P4PPP/2R2RK1 b - - 0 1
+
+Доска 426 / Доска 80-253
+r4r2/qbR2ppk/p3pn2/3p4/NQ1P4/5N2/P3nPPP/5R1K w - - 0 1
+
+Доска 427 / Доска 80-254
+r1r4k/1q1N1Qp1/p3p3/3p4/3P4/8/P5PP/5R1K w - - 0 1
+
+Доска 428 / Доска 80-255
+r5k1/p2p2pp/n1q1p3/2P1br2/N7/PP2B3/4QPP1/2RR2K1 w - - 0 1
+
+Доска 429 / Доска 80-256
+5rk1/p2p2pp/QNqRp3/2P5/5r2/PP6/6P1/2R3K1 w - - 0 1
+
+Доска 430 / Доска 80-257
+r2q1rk1/pp2pp1p/2np2p1/2pP4/2P5/1P3BP1/PQ2PP1P/R4RK1 w - - 0 1
+
+Доска 431 / Доска 80-258
+r4rk1/4pp1p/1q1p2P1/nppP4/P7/1P3BP1/1Q2PP2/R4RK1 w - - 0 1
+
+Доска 432 / Доска 80-259
+r1b1k2r/1p2ppbp/pq1p1np1/8/4PPn1/1NNB4/PPP1Q1PP/R1B1K2R w - - 0 1
+
+Доска 433 / Доска 80-260
+r1b4r/1pN1kpbp/p2pp1p1/B7/4PP2/1N1B2q1/PPPKQ3/R6n w - - 0 1
+
+Доска 434 / Доска 80-261
+3q1rk1/rp2nppp/p1npb3/3Np3/2P1P3/1N1BQ3/PP3PPP/R4RK1 w - - 0 1
+
+Доска 435 / Доска 80-262
+5rk1/rp2qppp/2npb3/4p3/p1P1P3/3BQ3/PP3PPP/N1R2RK1 w - - 0 1
+
+Доска 436 / Доска 80-263
+6k1/1p3pp1/2npb2p/4p3/qPP1P3/2Q5/r1NR1PPP/5BK1 b - - 0 1
+
+Доска 437 / Доска 80-264
+r3rnk1/1bq2pbp/ppnpp1p1/6P1/P3PP1Q/1NN1B2R/1PP3BP/R6K w - - 0 1
+
+Доска 438 / Доска 80-265
+1bq5/ppnp2p1/8/P7/8/1P4B1/K7/8 w - - 0 1
+
+Доска 439 / Доска 80-266
+r1bqr1k1/5ppp/pp1b1nn1/2ppN3/3P1P2/2NBP2P/PPQ3PB/3R1RK1 w - - 0 1
+
+Доска 440 / Доска 80-267
+3qrnk1/rb1n1ppp/pp1b4/2pp2P1/3P1PN1/2NBP2P/PP4QB/3R1RK1 w - - 0 1
+
+Доска 441 / Доска 80-268
+5rk1/3q1ppp/p2p1b2/1nr1pP2/4Q3/1BP4R/P2B2PP/R6K w - - 0 1
+
+Доска 442 / Доска 80-269
+1r4k1/3q1p2/p4P1p/2r1p1bQ/4p3/2P3R1/P5PP/5R1K w - - 0 1
+
+Доска 443 / Доска 80-270
+4rrk1/1ppqbpp1/p1npbn1p/P3p3/2B1P3/2NP1N1P/1PPB1PP1/R2QR1K1 b - - 0 1
+
+Доска 444 / Доска 80-271
+2qbrrk1/1pp2ppn/p1npb2p/P2Np3/B3P3/3P1N1P/1PPB1PP1/R2QR1K1 w - - 0 1
+
+Доска 445 / Доска 80-272
+2rr1bk1/pb2npp1/1p2p2p/q6P/3PP3/P2B1N1R/1B2QPP1/3R2K1 w - - 0 1
+
+Доска 446 / Доска 80-273
+2rr1bk1/pb2npp1/1p5p/q2pP2P/8/P2B1N1R/1B2QPP1/3R2K1 w - - 0 1
+
+Доска 447 / Доска 80-274
+2rr1b1k/pb3pp1/1pn4p/3qPN1P/8/P2B2R1/1B2QPP1/3R2K1 w - - 0 1
+
+Доска 448 / Доска 80-275
+rnbq1r2/1p2ppbk/p2p1npp/2pP4/2P1PB2/2N2N2/PP1QBPPP/R3K2R w - - 0 1
+
+Доска 449 / Доска 80-276
+8/5p1k/3p1bpp/2pP4/2P5/5NP1/r4PP1/2R2K2 w - - 0 1
+
+Доска 450 / Доска 80-277
+2r1rnk1/1p2qppp/pn2b3/2pp4/3P4/P1NBPPN1/1P3QPP/4RR1K w - - 0 1
+
+Доска 451 / Доска 80-278
+r3r1k1/pp2bpp1/1n2bn1p/q2p1B2/2pP3B/P1N1P3/1PQN1PPP/4RRK1 w - - 0 1
+
+Доска 452 / Доска 80-279
+r3r1k1/ppqn2p1/4pb1p/3p4/2pP1P2/P1N1PN2/1PQ3PP/4RRK1 w - - 0 1
+
+Доска 453 / Доска 80-280
+r1b1k2r/6pp/p3pn2/1p2q3/2p1P3/2N1Q3/PPB2PPP/R4RK1 w - - 0 1
+
+Доска 454 / Доска 80-281
+r1b1k2r/6p1/p3p3/1p2q2p/2p1P1n1/2N4Q/PP3PPP/R2B1RK1 b - - 0 1
+
+Доска 455 / Доска 80-282
+4k2r/8/p3p3/2q3pp/1pP1P1n1/3r1P1Q/P4NPP/2R2RK1 w - - 0 1
+
+Доска 456 / Доска 80-283
+4k2r/1b3r2/p3pn2/1p2q1pp/1P2P3/2N4Q/4BPPP/2R2RK1 w - - 0 1
+
+Доска 457 / Доска 80-284
+r5k1/p1r2qp1/1pn1p1p1/3pPp2/3P1Q1P/P2PB1P1/5PK1/R6R w - - 0 1
+
+Доска 458 / Доска 80-285
+5k2/1rqp1rp1/1p1Rp2p/p4p1P/P1P5/1P1RQPP1/5PK1/8 w - - 0 1
+
+Доска 459 / Доска 80-286
+6k1/r2p1rp1/1p1Rp2p/p1q1Qp1P/P1P2P2/1P1R2P1/5P2/5K2 w - - 0 1
+
+Доска 460 / Доска 80-287
+8/1rqprkp1/1p1Rp2p/pQ3p1P/P1P2P2/1P1R2P1/K4P2/8 w - - 0 1
+
+Доска 461 / Доска 80-288
+4rrk1/1bpR1p2/1pq1pQp1/p3P2p/P1PR3P/5N2/2P2PP1/6K1 w - - 0 1
+
+Доска 462 / Доска 80-289
+5rk1/1p1q1ppp/p1pP4/4p3/2Q1P3/8/PP3PPP/3R2K1 w - - 0 1
+
+Доска 463 / Доска 80-290
+6k1/1p1r2pp/p1pPqp2/2Q1p3/4P3/1P1R1P2/P5PP/6K1 w - - 0 1
+
+Доска 464 / Доска 80-291
+3q3k/1p1r2p1/p1pP1p1p/P3pP2/1KQ1P3/1P1R2P1/7P/8 w - - 0 1
+
+Доска 465 / Доска 80-292
+8/1p4kp/p1p1qbp1/P1Pr4/1P1p1P2/3Q1R1P/4P1N1/6K1 w - - 0 1
+
+Доска 466 / Доска 80-293
+1k1r4/1p4Qp/pNp5/P1P5/1P1p1b2/5R1P/4P1K1/2q5 w - - 0 1
+
+Доска 467 / Доска 80-294
+2q1k3/p7/8/8/7P/P3N3/8/8 w - - 0 1
+
+Доска 468 / Доска 80-295
+r1b1k3/1p2b1pr/p1qppn1p/8/4P1P1/2N4Q/P1PBB2P/1R2KR2 w - - 0 1
+
+Доска 469 / Доска 80-296
+r1b1k3/1p2b1pr/p1q1p2p/8/4n1P1/3B3Q/P1PB3P/1R2KR2 w - - 0 1
+
+Доска 470 / Доска 80-297
+r1b4r/1p3Rp1/p3p2p/Q7/1P4P1/1kq5/3B3P/4K3 w - - 0 1
+
+Доска 471 / Доска 80-298
+r1bq1rk1/pppnb1pp/4p3/2Pp1p2/1P1Pn3/P1NBPN2/1B3PPP/R2QK2R w - - 0 1
+
+Доска 472 / Доска 80-299
+r1b2rk1/ppp1q1pp/4p2b/2PpPpn1/1P1B4/P2BPP2/4N1PP/R2Q1RK1 w - - 0 1
+
+Доска 473 / Доска 80-300
+r4rk1/pb2qppp/1p1ppn2/3p4/2PPn3/1P2P3/PB1NBPPP/R2Q1RK1 w - - 0 1
+
+Доска 474 / Доска 80-301
+r1bq2k1/1p3ppp/2npn1r1/p2Np3/2P1P3/1P2Q3/PB3PPP/R3RBK1 w - - 0 1
+
+Доска 475 / Доска 80-302
+R1n5/5rkp/3p2p1/2rNpq2/1NP4b/7P/4QPP1/5RK1 w - - 0 1
+
+Доска 476 / Доска 80-303
+R1n5/5rkp/3p2p1/2rN1q2/1NP1p2b/7P/4QPP1/5RK1 w - - 0 1
+
+Доска 477 / Доска 80-304
+5b2/3q1rkp/3p2p1/2rNp3/2P5/R6P/4QPP1/R5K1 b - - 0 1
+
+Доска 478 / Доска 80-305
+2r2b2/5qk1/3p2p1/3Np2p/2P1Q3/7P/5PP1/R5K1 w - - 0 1
+
+Доска 479 / Доска 80-306
+3r2k1/2R2ppp/p2PqB2/8/2pQ4/7P/P1B2PPK/4r3 w - - 0 1
+
+Доска 480 / Доска 80-307
+3r2k1/pR4p1/1bn1p2p/8/P4B1P/5N2/5PP1/6K1 w - - 0 1
+
+Доска 481 / Доска 80-308
+8/8/8/8/p2K4/3Q4/kp3P2/8 w - - 0 1
+
+Доска 482 / Доска 80-309
+r1q5/1r3p1k/3p2pp/pp1Np3/1P2P1Pb/P1PQ1P2/6P1/RR4K1 w - - 0 1
+
+Доска 483 / Доска 80-310
+rq6/1r3p1k/3p2pp/1p1Np1b1/PR2P1P1/2PQ1PP1/7K/R7 w - - 0 1
+
+Доска 484 / Доска 80-311
+5k2/r2qp2p/p3Rbp1/3p4/5P1r/1B2Q2P/PP4PK/5R2 b - - 0 1
+
+Доска 485 / Доска 80-312
+5k1b/r2qp2p/p3R1p1/2r2PP1/3pQ3/1B5P/PP5K/5R2 w - - 0 1
+
+Доска 486 / Доска 80-313
+5q2/p4r1k/2R3p1/2bPp3/2PpP2p/3Q3P/3B2P1/5rRK w - - 0 1
+
+Доска 487 / Доска 80-314
+4r1k1/p4ppp/2N5/3n4/Q2R4/6P1/Pq2rP1P/5RK1 w - - 0 1
+
+Доска 488 / Доска 80-315
+3r1rk1/ppqb1p1p/5Qp1/3B4/3P4/8/P4PPP/2R2RK1 w - - 0 1
+
+Доска 489 / Доска 80-316
+3r2k1/8/6p1/R4p2/2P1rq1p/2Q1nP1P/1P2B1P1/6K1 w - - 0 1
+
+Доска 490 / Доска 80-317
+8/ppk3Q1/3q4/2p4r/8/8/PP6/1K3R2 w - - 0 1
+
+Доска 491 / Доска 80-318
+5k1r/5p2/R2p4/2pPq2p/Q3P1p1/4P1P1/1r4P1/5RK1 w - - 0 1
+
+Доска 492 / Доска 80-319
+2rr2k1/pp3pp1/5q1p/3p4/3R4/3QP3/PP3PPP/5RK1 w - - 0 1
+
+Доска 493 / Доска 80-320
+2r3k1/1p2Bpp1/p3p1p1/bq1pP3/1n1P2PQ/1R3N2/1P3PKP/8 w - - 0 1
+
+Доска 494 / Доска 80-321
+2r3k1/1p2Bpp1/p3p1p1/bq1pP3/3P2PQ/3R1N2/1P3PKP/8 w - - 0 1
+
+Доска 495 / Доска 80-322
+2r2k2/pR5Q/3P1bpp/8/8/q5P1/5P1P/6K1 w - - 0 1
+
+Доска 496 / Доска 80-323
+r2r2k1/1pq1bpp1/p1b1p1n1/P1p3P1/4PP2/2N1B2Q/1PP1B3/R4RK1 w - - 0 1
+
+Доска 497 / Доска 80-324
+8/7k/R7/7P/P1p5/3bKBr1/8/8 w - - 0 1
+
+Доска 498 / Доска 80-325
+8/7k/8/7P/P4R2/4KBr1/8/3b4 w - - 0 1
+
+Доска 499 / Доска 80-326
+2k2N2/p2br1p1/1p6/r2p1P2/P2P2Pp/1KP4R/R7/8 w - - 0 1
+
+Доска 500 / Доска 80-327
+5rk1/6r1/1Rp1n3/Q1b3p1/2P1P2p/2PN1PP1/P5K1/8 w - - 0 1
+
+Доска 501 / Доска 80-328
+r1b2rk1/1p4b1/p2p3p/2pP1p2/2Pq1Pn1/2NB4/PPQNR1P1/2K4R w - - 0 1
+
+Доска 502 / Доска 80-329
+1rb1r1k1/1p4b1/pN1p3p/2pP1p2/2P2P2/3Bq3/PPQN2P1/2K2R2 w - - 0 1
+
+Доска 503 / Доска 80-330
+1r4k1/1p2r1b1/p2p1q1p/2pP1B2/P1P2PP1/8/1PQ5/1KN2R2 w - - 0 1
+
+Доска 504 / Доска 80-331
+r5k1/2P3p1/4p3/B3p3/1P2P1qp/3Q2P1/5PK1/8 w - - 0 1
+
+Доска 505 / Доска 80-332
+r7/2P3pk/1B2p3/4p3/1P2P3/3Q4/4KP2/7q w - - 0 1
+
+Доска 506 / Доска 80-333
+5r2/2P3pk/4p3/2B1p3/1P2P1qp/3Q2P1/5PK1/8 w - - 0 1
+
