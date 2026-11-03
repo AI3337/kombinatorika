@@ -37,6 +37,8 @@ def parse(bd, s, nxt=()):
             if best is None or k > best[0]: best = (k, mv)
         return best and best[1]
     except ValueError: return None
+MANUAL = {p["game"] for fn in ("fix.json", "fix_late.json") if os.path.exists(fn)
+          for p in json.load(open(fn))["patches"] if str(p.get("pdf", "")).startswith("стр.")}   # сверено по скану вручную
 SKIP = {"241", "148"}   # 241: вариант выдан за ход партии (правка в fix.json); 148: их ходы хуже наших
 
 def their_line(sec, bd):
@@ -60,10 +62,12 @@ def comments(report):
     """абзацы прозы: та же речь (буквы совпадают > 75%) и столько же ходов — берём ходы внешнего файла, текст оставляем наш"""
     import difflib
     out = []
+    # партии, сверенные вручную по скану (fix.json, «стр. N»), не трогаем
+    manual = MANUAL
     for fn in sorted(glob.glob("work/ext/*.md")):
         for sec in re.split(r"\n## ", open(fn, encoding="utf-8").read())[1:]:
             n = sec.split(".")[0]; g = G.get(n)
-            if not n.isdigit() or not g: continue
+            if not n.isdigit() or not g or n in manual: continue
             t = read(g["file"]); m = re.search(r"^### %s\..*$" % n, t, re.M)
             e = t.find("\n### ", m.end()); s = t[m.start():e if e > 0 else len(t)]
             cut = s.find("**Дополнительные"); s = s if cut < 0 else s[:cut]
@@ -91,7 +95,7 @@ def main():
             n = sec.split(".")[0]
             g = G.get(n)
             if not n.isdigit() or not g or not g["line"]: report.append(f"{n}: нет нашей стартовой позиции"); continue
-            if not g["bad"] or n in SKIP: continue                      # наша линия чистая — не трогаем
+            if not g["bad"] or n in SKIP or n in MANUAL: continue                      # наша линия чистая — не трогаем
             first = next((t for para in sec.split("\n\n") if para.startswith("**")
                           for t in [toks(para)] if t), None)
             if not first: report.append(f"{n}: нет ходов"); continue

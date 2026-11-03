@@ -10,8 +10,8 @@ def boards():
         for k, v in fens.items(): B[int(k)] = v
     return B
 def fix_files():
-    """fix.json (ручные правки) + fix_a*.json (правки помощников) + FIX_EXTRA"""
-    out = ['fix.json'] + sorted(glob.glob('fix_a*.json')) + ([] if os.environ.get('NO_DB') else ['fix_db.json']) + ([] if os.environ.get('NO_EXT') else ['fix_ext.json']) + [os.environ.get('FIX_EXTRA', '')]
+    """fix.json (ручные правки) + fix_a*.json (правки помощников) + fix_db + fix_ext + fix_late.json (сверка по скану поверх правок базы) + FIX_EXTRA"""
+    out = ['fix.json'] + sorted(glob.glob('fix_a*.json')) + ([] if os.environ.get('NO_DB') else ['fix_db.json']) + ([] if os.environ.get('NO_EXT') else ['fix_ext.json']) + ['fix_late.json'] + [os.environ.get('FIX_EXTRA', '')]
     return [f for f in dict.fromkeys(out) if f and os.path.exists(f)]
 import json, os
 def patches():

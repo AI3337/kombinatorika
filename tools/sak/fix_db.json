@@ -1497,7 +1497,7 @@
   {
    "game": "233",
    "from": "\\[Доска 480\\]",
-   "to": "Начало партии (по базе): **1.c4 Nf6 2.d4 c6 3.Bf4 g6 4.Nc3 Bg7 5.Nf3 O-O 6.e3 d6 7.h3 a6 8.Be2 b5 9.O-O bxc4 10.Bxc4 Nbd7 11.e4 d5 12.exd5 Nb6 13.Bb3 cxd5 14.Rc1 Bb7 15.Na4 Nc4 16.Nc5 Bc6 17.Ne5 Nxe5 18.dxe5 Nd7 19.e6 Nxc5 20.Rxc5 fxe6 21.Rxc6 Rxf4 22.Rxe6 Rd4 23.Qe2 Kf8 24.Qf3+ Bf6 25.Qe3 Rh4 26.f4 Qd7 27.Kh2 Ra7 28.g3 Rh5 29.g4 d4 30.Qe4 Rc5 31.g5 Bh8 32.f5**\n\n\\[Доска 480\\]",
+   "to": "Начало партии (по базе): **1.c4 Nf6 2.d4 c6 3.Bf4 g6 4.Nc3 Bg7 5.Nf3 O-O 6.e3 d6 7.h3 a6 8.Be2 b5 9.O-O bxc4 10.Bxc4 Nbd7 11.e4 d5 12.exd5 Nb6 13.Bb3 cxd5 14.Rc1 Bb7 15.Na4 Nc4 16.Nc5 Bc6 17.Ne5 Nxe5 18.dxe5 Nd7 19.e6 Nxc5 20.Rxc5 fxe6 21.Rxc6 Rxf4 22.Rxe6 Rd4 23.Qe2 Kf8 24.Qf3+ Bf6 25.Qe3 Rh4 26.f4 Qd7 27.Kh2 Ra7**\n\n\\[Доска 480\\]",
    "pdf": "база gid 1643773"
   }
  ]
