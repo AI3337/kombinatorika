@@ -22,6 +22,13 @@ def patches():
         try: out += json.load(open(fn)).get('patches', [])
         except ValueError: pass          # файл помощника в процессе записи
     return out
+def game_fens():
+    """своя стартовая позиция партии по скану, когда её нет в файле досок: {"108": "FEN"}"""
+    out = {}
+    for fn in fix_files():
+        try: out.update(json.load(open(fn)).get('game_fens', {}))
+        except ValueError: pass
+    return out
 def read(f):
     """текст .md с правками: замена ищется внутри своей партии (### N.)"""
     fx = os.path.join('srcfix', os.path.basename(f))          # ходы, сверенные с PDF (ocr/moves.py)

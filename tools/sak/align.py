@@ -5,7 +5,7 @@
    Пишет work/align.json: {"md→file": {...}, "games": [...]} и короткий отчёт."""
 import re, json, os, chess
 from lib import *
-B = boards(); NB = max(B)
+B = boards(); NB = max(B); GF = game_fens()
 def mainline(body):
     """события партии: ('b', N) | ('m', num, side, tok) | ('cut',) — побочный кусок прерывает линию"""
     ev, exp = [], None
@@ -199,6 +199,12 @@ for f in files():
         cands_ = []                        # (очки, старт, результат simulate)
         if mvs and mvs[0][1] == 1 and mvs[0][2] == 'w' and (not bi or ev.index(mvs[0]) < bi[0]):
             r = simulate(chess.Board(), ev, 1); cands_.append((r[1] + 25 * len(r[0]), 0, r))
+        elif bi and title.split('.')[0] in GF:
+            # стартовой доски нет в файле: позиция из скана, метки досок партии не занимают доски файла
+            bd = chess.Board(GF[title.split('.')[0]])
+            r = simulate(bd, ev[bi[0] + 1:], NB + 1)
+            r = ({},) + tuple(r[1:])
+            cands_.append((r[1] + 25, -1, r))
         elif bi:
             n0 = ev[bi[0]][1]
             side = next((e[2] for e in ev[bi[0]:] if e[0] == 'm' and e[2]), 'w')

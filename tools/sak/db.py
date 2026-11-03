@@ -54,6 +54,7 @@ def main():
         pos = plies_from(mv)
         # проверка: позиция стартовой доски книги есть в партии базы
         start_ply = None
+        if g["start"] == -1: continue                # своя позиция из скана (game_fens)
         if g["start"]:
             want = B[g["start"]].split()[0]
             start_ply = next((p for p, pl in pos if pl == want), None)
