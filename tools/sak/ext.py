@@ -95,7 +95,7 @@ def main():
             n = sec.split(".")[0]
             g = G.get(n)
             if not n.isdigit() or not g or not g["line"]: report.append(f"{n}: нет нашей стартовой позиции"); continue
-            if not g["bad"] or n in SKIP or n in MANUAL: continue                      # наша линия чистая — не трогаем
+            if (not g["bad"] and g["start"] is not None) or n in SKIP or n in MANUAL: continue                      # наша линия чистая — не трогаем
             first = next((t for para in sec.split("\n\n") if para.startswith("**")
                           for t in [toks(para)] if t), None)
             if not first: report.append(f"{n}: нет ходов"); continue
