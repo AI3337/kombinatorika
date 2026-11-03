@@ -14,7 +14,7 @@ os.environ["NO_DB"] = "1"          # читаем текст без прошлы
 import chess
 from lib import read, boards, norm, TOK
 B = boards()
-A = json.load(open("work/align.json"))
+A = json.load(open("work/align_nodb.json"))   # проверка без правок базы: NO_DB=1 ALIGN_OUT=work/align_nodb.json python3 align.py
 G = {g["title"].split(".")[0]: g for g in A["games"]}
 
 def replay(sans):
@@ -32,13 +32,21 @@ def plies_from(line_moves):
         bd.push(mv); res.append((i + 1, bd.board_fen()))
     return res
 
+def diff(a, b):
+    x, y = chess.Board(a + " w - - 0 1"), chess.Board(b + " w - - 0 1")
+    return sum(1 for s in chess.SQUARES if x.piece_at(s) != y.piece_at(s))
+P0 = {q["n"]: q["s"][0][0] for q in json.load(open("work/queries.json")) if q["s"]}   # полуход первого хода книги
+
 core = lambda s: re.sub(r"[+#!?]", "", s).replace("0-0-0", "O-O-O").replace("0-0", "O-O")
 
 def main():
     patches, report = [], []
-    for l in open("work/found.txt", encoding="utf-8"):
+    import glob
+    lines = [l for fn in sorted(glob.glob("work/found*.txt")) for l in open(fn, encoding="utf-8")]
+    done = set()
+    for l in lines:
         f = l.rstrip("\n").split("|")
-        if len(f) < 6 or not f[5].strip(): continue
+        if len(f) < 6 or not f[5].strip() or f[0] in done: continue
         n, sans = f[0], f[5].split()
         g = G.get(n)
         if not g: continue
@@ -49,6 +57,11 @@ def main():
         if g["start"]:
             want = B[g["start"]].split()[0]
             start_ply = next((p for p, pl in pos if pl == want), None)
+            if start_ply is None:
+                # доска файла с ошибкой распознавания: позиция у номера первого хода книги, отличие до 3 клеток
+                p0 = P0.get(n)
+                near = [(diff(pl, want), p) for p, pl in pos if p0 is not None and abs(p - p0) <= 2]
+                if near and min(near)[0] <= 3: start_ply = min(near)[1]
             if start_ply is None:
                 report.append(f"{n}: не та партия (нет позиции доски {g['start']})"); continue
         else:
@@ -85,7 +98,7 @@ def main():
             exp = ply
             fixed = "".join(new)
             if fixed != seg:
-                patches.append({"game": n, "from": "**" + seg + "**", "to": "**" + fixed + "**", "pdf": "база 365chess gid " + f[1]})
+                patches.append({"game": n, "from": "**" + seg + "**", "to": "**" + fixed + "**", "pdf": "база gid " + f[1]})
         # начало партии для фрагмента
         if start_ply:
             bd = chess.Board(); parts = []
@@ -95,8 +108,9 @@ def main():
             if dm:
                 head = sec[:dm.start()].rstrip("\n")
                 patches.append({"game": n, "from": sec[dm.start():dm.end()],
-                                "to": "*Начало партии (по базе 365chess):* **" + " ".join(parts) + "**\n\n" + sec[dm.start():dm.end()],
-                                "pdf": "база 365chess gid " + f[1]})
+                                "to": "*Начало партии (по базе):* **" + " ".join(parts) + "**\n\n" + sec[dm.start():dm.end()],
+                                "pdf": "база gid " + f[1]})
+        done.add(n)
         report.append(f"{n}: принято, исправлено ходов {nfix}" + (f", начало с 1-го хода ({start_ply} полуходов)" if start_ply else ""))
     json.dump({"patches": patches}, open("fix_db.json", "w"), ensure_ascii=False, indent=1)
     print("\n".join(report)); print("правок:", len(patches))
