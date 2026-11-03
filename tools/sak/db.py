@@ -108,7 +108,7 @@ def main():
             if dm:
                 head = sec[:dm.start()].rstrip("\n")
                 patches.append({"game": n, "from": sec[dm.start():dm.end()],
-                                "to": "*Начало партии (по базе):* **" + " ".join(parts) + "**\n\n" + sec[dm.start():dm.end()],
+                                "to": "Начало партии (по базе): **" + " ".join(parts) + "**\n\n" + sec[dm.start():dm.end()],
                                 "pdf": "база gid " + f[1]})
         done.add(n)
         report.append(f"{n}: принято, исправлено ходов {nfix}" + (f", начало с 1-го хода ({start_ply} полуходов)" if start_ply else ""))
