@@ -1,0 +1,508 @@
+{
+ "patches": [
+  {
+   "game": "76",
+   "from": "**16...cxb4 17.Qxb4 Qxc6 18.Qb2 Qd6 19.Rac1 Be6 20.Rc3 dxc3 21.Qxc3 Rad8**",
+   "to": "**16...cxb4 17.Qxb4 N7c6 18.Qb2 Qd6 19.Rac1 Be6 20.c3 Rad8 21.Rfd1 Rf7**",
+   "pdf": "база 365chess gid 2593654"
+  },
+  {
+   "game": "76",
+   "from": "**22.Rfd1 d4 23.Nxd4 Qxd4 24.Rxd4 Qxd4 25.Qc2 Kf7 26.Bf1**",
+   "to": "**22.Rc2 dxc3 23.Qxc3 Nd4 24.Nxd4 Qxd4 25.Qxd4 Rxd4 26.Kf1**",
+   "pdf": "база 365chess gid 2593654"
+  },
+  {
+   "game": "76",
+   "from": "**27.exf5 Bd5 28.Ke2 Ng4 29.Rb2 Nxh2 30.Qe3 Qa1 31.Rb1 Qa2 32.Rb6 Nxf1 33.Kxf1 Qa1+ 34.Ke2 Bc4+ 35.Kf3 Qd4 36.Rb7+ Kg8 37.Qxd4 Rxd4 38.g4 Bd5+ 39.Ke3 Rxg4 40.Rb6 Rg3+ 41.Kd4 Rf3**",
+   "to": "**27.exf5 Bxf5 28.Ke2 Ng4 29.Rb2 Nxh2 30.Ke3 Ra4 31.Be4 Bxe4 32.Nxe4 Ng4 33.Kd2 Nf2 34.Nxf2 Rxf2 35.Kc3 Ra3 36.Rb3 Raxa2 37.Rb5 Kg6 38.Rd5 Rf5 39.Rd6 Rf6 40.Rd7 Rg2 41.d4 Rxg3**",
+   "pdf": "база 365chess gid 2593654"
+  },
+  {
+   "game": "76",
+   "from": "\\[Доска 165\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 c5 2.Nc3 Nc6 3.g3 g6 4.Bg2 Bg7 5.Nh3 e6 6.O-O Nge7 7.d3 O-O 8.Be3 b6 9.Qd2 d5 10.Bh6 d4 11.Bxg7 Kxg7 12.Ne2 e5 13.f4 f6 14.fxe5 Nxe5 15.Nf2**\n\n\\[Доска 165\\]",
+   "pdf": "база 365chess gid 2593654"
+  },
+  {
+   "game": "78",
+   "from": "**49...Nd6 50.Rc7+ Kf6 51.Nxd6!**",
+   "to": "**49...Nd6 50.Rc7+ Ke6 51.Nxd6!**",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "78",
+   "from": "**51...Rxd6 52.Rxh7 Rb8?**",
+   "to": "**51...Kxd6 52.Rxh7 Rb8?**",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "78",
+   "from": "**53.Rh6+**",
+   "to": "**53.Rg7**",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "78",
+   "from": "**53...Kg5 54.Rxg6+ Kf5 55.Rxa6 Rb2+ 56.Kf1 e4 57.Ra8 Kf4 58.a6 Ra2**",
+   "to": "**53...Rb2 54.Kf1 e4 55.Rxg6 Ke5 56.Rxa6 Ra2 57.Ra8 Kf4 58.a6 Ra1**",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "78",
+   "from": "**60...Rxa3 61.a7 Ke3 62.Kc2 Ra2+ 63.Kb3 Ra6 64.g4 Kd3 65.Rd8+ Ke2 66.a8Q Rxa8 67.Rxa8 Kd3 68.Rd8+**",
+   "to": "**60...Rxa3 61.a7 Ke3 62.h4 Rd3 63.Kc2 Rd7 64.g4 Rc7 65.Kb3 Rd7 66.Kc3 Rc7 67.Kb4 Rd7 68.Kc5**",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "78",
+   "from": "\\[Доска 169\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 g6 5.Nf3 Bg7 6.Bd3 O-O 7.O-O b6 8.b3 Bb7 9.Ba3 Re8 10.Rc1 e6 11.Qe2 Nbd7 12.Rfd1 Qb8 13.h3 a6 14.Bb2 c5 15.cxd5 exd5 16.Bb1 Qa7 17.dxc5 bxc5 18.Na4 d4 19.Nd2 Nd5 20.Nc4 Bc6 21.Qf3 Nb4 22.Qg3 Bxa4 23.bxa4 dxe3 24.Bxg7 Kxg7 25.fxe3 Nf6 26.a3 Nbd5 27.e4 Nb6 28.Nd6 Re6 29.e5 Ne8 30.a5 Na4 31.Nc4 Rb8 32.Qf2 Rxb1 33.Rxb1 Nc3 34.Rbc1 Nxd1 35.Rxd1 Qc7 36.Rd5 Rc6 37.Qd2 Qe7 38.Rd7 Qe6 39.Qd5 Qxd5 40.Rxd5 Kf8**\n\n\\[Доска 169\\]",
+   "pdf": "база 365chess gid 2663425"
+  },
+  {
+   "game": "79",
+   "from": "**21.Rfa1 Bc8**",
+   "to": "**21.Rfa1 Nc8**",
+   "pdf": "база 365chess gid 2626466"
+  },
+  {
+   "game": "79",
+   "from": "**24...Be6 25.Bd2 Nc4**",
+   "to": "**24...Re8 25.Bd2 Qc5**",
+   "pdf": "база 365chess gid 2626466"
+  },
+  {
+   "game": "79",
+   "from": "**26.Bxc4 Bxc4 27.Rxc4 Rxd2 28.Qxd2 Rd8 29.Nd5 Rxd5 30.Qxd5+ Kh7 31.Rc8 Nf8 32.Qxf5+ g6 33.Qf4 Kg7 34.Rc7**",
+   "to": "**26.Qxc5 bxc5 27.Rc4 Re5 28.Na4 a6 29.Nxc5 axb5 30.Nxb7 Rxa1 31.Rxc8 Kf7 32.Nd8 Ke7 33.Nc6 Kd7 34.Nxe5**",
+   "pdf": "база 365chess gid 2626466"
+  },
+  {
+   "game": "79",
+   "from": "\\[Доска 172\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 b6 6.Ne2 d5 7.O-O dxc4 8.Bxc4 Bb7**\n\n\\[Доска 172\\]",
+   "pdf": "база 365chess gid 2626466"
+  },
+  {
+   "game": "80",
+   "from": "**29...Na6 30.Bxa6! Rxa6 31.Rc6 Qa7+ 32.Be3 Rd7 33.Rfc1 Ra8 34.Rc7 Qe8 35.Qd4 Bd8 36.R7c6 Be7 37.Rc7**",
+   "to": "**29...Na6 30.Bxa6! Qxa6 31.Rc6 Qa7+ 32.Be3 Qd7 33.Rfc1 Ra8 34.Rc7 Qe8 35.Bd4 Bd8 36.R7c6 Be7 37.Rc7**",
+   "pdf": "база 365chess gid 1059763"
+  },
+  {
+   "game": "80",
+   "from": "**40.Rc7 Bd8 41.R7c6 Be7 42.Rc7 Bd8 43.Rxf7 Qxf7 44.Qf4 Be7**",
+   "to": "**40.Rc7 Bd8 41.R7c6 Be7 42.Rc7 Bd8 43.Rxf7 Qxf7 44.Qf4 Qd7**",
+   "pdf": "база 365chess gid 1059763"
+  },
+  {
+   "game": "80",
+   "from": "**45.Rc6 Bf8 46.Qxh6 Qxg4 47.Rc7**",
+   "to": "**45.Rc6 Be7 46.Qxh6 Qxg4 47.Rc7**",
+   "pdf": "база 365chess gid 1059763"
+  },
+  {
+   "game": "80",
+   "from": "\\[Доска 175\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Na5 10.Bc2 c5 11.d4 Qc7 12.Nbd2 Nc6 13.d5 Nd8 14.a4 Qb7 15.Nf1 Ne8 16.N3h2 f6 17.b3 Nf7 18.f4 exf4 19.Bxf4 Ne5 20.Ne3 g6 21.Neg4 Bxg4 22.Nxg4 Nxg4 23.hxg4 Nc7 24.Rf1 Rf7 25.Qf3 b4 26.Bd2 a5 27.cxb4 cxb4 28.Rac1 Raf8**\n\n\\[Доска 175\\]",
+   "pdf": "база 365chess gid 1059763"
+  },
+  {
+   "game": "81",
+   "from": "**17.Be3 Ng7 18.Nh2 Nb7 19.Rc1 Bd7 20.b4!**",
+   "to": "**17.Ne3 Ng7 18.Bd2 Nb7 19.Rc1 Bd7 20.b4!**",
+   "pdf": "база 365chess gid 2510942"
+  },
+  {
+   "game": "81",
+   "from": "**28.Qe4! Rxc2 29.Nxd7 Nf3+ 30.Qxf3 Qxd7 31.Rxc2 Bf6 32.Rc8! Qxc8 33.Re8**",
+   "to": "**28.Qe4! Nxc2 29.Nxd7 Nxe1 30.Nxf8 Bxf8 31.Rxc8 Qxc8 32.Qxe1! Bg7 33.Qe6**",
+   "pdf": "база 365chess gid 2510942"
+  },
+  {
+   "game": "81",
+   "from": "\\[Доска 177\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d6 9.h3 Na5 10.Bc2 c5 11.d4 Qc7 12.Nbd2 cxd4 13.cxd4 Bb7 14.d5 Bc8 15.Nf1 Ne8**\n\n\\[Доска 177\\]",
+   "pdf": "база 365chess gid 2510942"
+  },
+  {
+   "game": "102",
+   "from": "**29...Bxa4 30.Qxa4 Re8 31.Qd1 Ne4 32.Ng4 Kg7 33.Qc1 Rh8 34.Qf4 Qxf4 35.Nxh6 Rxh6 36.g3 Rh5 37.Kg2 Rf5 38.Re2 g5 39.f3 Nd6 40.b3 Rf7 41.Re5**",
+   "to": "**29...Bxa4 30.Qxa4 Re8 31.Qd1 Re4 32.Ng4 Nxg4 33.hxg4 Rf4 34.g3 Rf6 35.Qb3 Qd8 36.Qxb7 Rb6 37.Re8 Qxe8 38.Qxb6 Qe1 39.Kg2 Qe4 40.Kh2 Kg7 41.Qc7**",
+   "pdf": "база 365chess gid 1059807"
+  },
+  {
+   "game": "102",
+   "from": "\\[Доска 221\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Nc3 Be7 5.Bg5 O-O 6.cxd5 exd5 7.e3 c6 8.Bd3 Bg4 9.Qc2 h6 10.Bf4 Nbd7 11.Ne5 Nxe5 12.Bxe5 Nd7 13.Bg3 c5 14.O-O cxd4 15.exd4 Nb6 16.Qb3 a5 17.h3 a4 18.Qc2 Bd7 19.a3 Bc6 20.Rae1 Bd6 21.Qd2 Qc7 22.Bxd6 Qxd6 23.Re3 Rae8 24.Rfe1 Qb8**\n\n\\[Доска 221\\]",
+   "pdf": "база 365chess gid 1059807"
+  },
+  {
+   "game": "111",
+   "from": "**18.Rxc8 Rxc8 19.a3 Rc4 20.Rd1 Qb6 21.Rd2 Qc6 22.Qe3**",
+   "to": "**18.Rxc8 Rxc8 19.a3 Rc4 20.Rd1 Qb6 21.Rd2 Qc6 22.e3**",
+   "pdf": "база 365chess gid 2553337"
+  },
+  {
+   "game": "111",
+   "from": "**25.Bf2 Rc4 26.Qd3 a4**",
+   "to": "**25.Bf2 Qc4 26.Qd3 a4**",
+   "pdf": "база 365chess gid 2553337"
+  },
+  {
+   "game": "111",
+   "from": "\\[Доска 243\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.g3 d5 3.Bg2 Bf5 4.c4 c6 5.cxd5 cxd5 6.Nc3 Nc6 7.Nf3 e6 8.O-O Be7 9.Bf4 O-O 10.h3 Ne4 11.Rc1 Rc8 12.g4 Bg6 13.Nxe4 Bxe4 14.Ne5 Nxe5 15.Bxe5 Bxg2 16.Kxg2 Qa5 17.Qb3**\n\n\\[Доска 243\\]",
+   "pdf": "база 365chess gid 2553337"
+  },
+  {
+   "game": "112",
+   "from": "**24.Kxf2 Qc7 25.Rbe1**",
+   "to": "**24.Bxf2 Qc7 25.Re1**",
+   "pdf": "база 365chess gid 2528997"
+  },
+  {
+   "game": "112",
+   "from": "**30.Qxd6! Qxd6 31.Qxd6 Bxd6 32.Rd1 Be6 33.Rxd6 Bxc4 34.Bd4 Be6 35.Bxc6 Rc8 36.h4**",
+   "to": "**30.Nxd6! Qxd6 31.Qxd6 Bxd6 32.Rd1 Be6 33.Rxd6 Bxc4 34.Bd4 Be6 35.Bxc6 Rc8 36.h4**",
+   "pdf": "база 365chess gid 2528997"
+  },
+  {
+   "game": "112",
+   "from": "\\[Доска 244\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.c4 d6 3.Nc3 e5 4.Nf3 Nbd7 5.g3 c6 6.e4 g6 7.Bg2 Bg7 8.O-O O-O 9.h3 Re8 10.Be3 a5 11.Qc2 a4 12.Rfd1 Qa5 13.Rab1 exd4 14.Nxd4 Nc5 15.b4 axb3 16.axb3 Qb4 17.Bf4 Bf8 18.Bd2 Qb6 19.Be3 Qb4**\n\n\\[Доска 244\\]",
+   "pdf": "база 365chess gid 2528997"
+  },
+  {
+   "game": "120",
+   "from": "**21.gxh6 gxh6 22.Rc3 Bb7 23.Bxb7 Rxb7 24.Rh3 Rc7 25.Rxh6 Rc4 26.Rd3 Rxd4+**",
+   "to": "**21.gxh6 gxh6 22.Rc3 Bb7 23.Bxb7 Rxb7 24.Rh3 Rc7 25.Rxh6 Rc4 26.Rh3 Rxd4+**",
+   "pdf": "база 365chess gid 1547344"
+  },
+  {
+   "game": "120",
+   "from": "**27.Rxd4+ Kxd4 28.h4**",
+   "to": "**27.Rd3 Rxd3 28.Kxd3**",
+   "pdf": "база 365chess gid 1547344"
+  },
+  {
+   "game": "120",
+   "from": "**28...f6 29.h5 a6 30.f5**",
+   "to": "**28...f6 29.Kc4 a6 30.f5**",
+   "pdf": "база 365chess gid 1547344"
+  },
+  {
+   "game": "120",
+   "from": "**31.fxe6 Kxe6 32.Kd3 Kf7 33.Kd4 Kg7 34.Kd5 b5 35.Ke6 b4 36.e4 a5 37.Kf5 a4 38.e5 fxe5 39.Kxe5 Kh6 40.Kd4 b3 41.axb3 axb3 42.Kc3**",
+   "to": "**31.fxe6 Kxe6 32.Kd4 Kf5 33.Kd5 Kf4 34.Ke6 f5 35.e3 Kg4 36.h3 Kg5 37.h4 Kg6 38.h5 Kg5 39.h6 Kg6 40.h7 Kxh7 41.Kxf5 Kg7 42.Ke6**",
+   "pdf": "база 365chess gid 1547344"
+  },
+  {
+   "game": "120",
+   "from": "\\[Доска 260\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.Nf3 c5 2.c4 Nf6 3.Nc3 Nc6 4.g3 d5 5.d4 e6 6.cxd5 Nxd5 7.Bg2 cxd4 8.Nxd4 Nxc3 9.bxc3 Nxd4 10.Qxd4 Qxd4 11.cxd4 Bb4+ 12.Bd2 Bxd2+ 13.Kxd2 Ke7 14.Rhc1 Rd8 15.Rc7+ Rd7 16.Rac1 Kd8 17.Rxd7+ Kxd7**\n\n\\[Доска 260\\]",
+   "pdf": "база 365chess gid 1547344"
+  },
+  {
+   "game": "122",
+   "from": "**21...gxh5 22.Ra1 Nc5 23.Rab1 Bxc3! 24.Bxc3 Nxe4 25.Be1 Kf7**",
+   "to": "**21...gxh5 22.Ba1 Nc5 23.Rb1 Bxc3! 24.Bxc3 Nxe4 25.Ba1 Rc6**",
+   "pdf": "база 365chess gid 1392572"
+  },
+  {
+   "game": "122",
+   "from": "**26.Rd4 f5 27.Rbd1 Rc6 28.f3 Ng5 29.Rb1 Rec8 30.Kg2 b6 31.b4 Ne6 32.R1d5 Rxc4 33.Rxf5+ Kg6 34.Rdd5 Rc2+ 35.Kh1 Ng5 36.Rd3 R8c6 37.Rd4 Re2 38.h4 Nf7 39.Kg1 Rcc2 40.Kf1 Nh6 41.Re1 Nf5 42.Rxe2 Nxg3+ 43.Ke1 Rxe2+ 44.Kd1 Rh2 45.Bc3 Rxh4 46.Bf2 Rh1+ 47.Kd2 Nf5**",
+   "to": "**26.Rd4 f5 27.Rbd1 Kf7 28.f3 Nc5 29.Rb1 Rec8 30.Kg2 Rb6 31.b4 Ne6 32.Rd5 Rxc4 33.Rxf5+ Kg6 34.Rd5 Rc2+ 35.Kh1 Ng5 36.Rd3 Rbc6 37.Bd4 Re2 38.h4 Nf7 39.Kg1 Rcc2 40.Kf1 Nh6 41.Re1 Nf5 42.Rxe2 Nxg3+ 43.Ke1 Rxe2+ 44.Kd1 Rh2 45.Rc3 Rxh4 46.Bf2 Rh1+ 47.Kd2 Nf5**",
+   "pdf": "база 365chess gid 1392572"
+  },
+  {
+   "game": "122",
+   "from": "\\[Доска 265\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.Nf3 Nf6 2.c4 g6 3.b3 Bg7 4.Bb2 O-O 5.g3 c5 6.Bg2 Nc6 7.O-O d6 8.d4 cxd4 9.Nxd4 Bd7 10.e3 Rc8 11.Nc3 a6 12.Rc1 Nxd4 13.Qxd4 Bc6 14.Qd3 Nd7 15.Rfd1 Qa5 16.Qe2 Rfe8 17.Bh3 Ne5 18.e4 Bd7 19.Bxd7 Nxd7 20.a3**\n\n\\[Доска 265\\]",
+   "pdf": "база 365chess gid 1392572"
+  },
+  {
+   "game": "132",
+   "from": "**16...Qb8 17.e4 Nxc4 18.bxc4 Qc7**",
+   "to": "**16...Qb8 17.e4 Bxc4 18.Rxc4 Nc7**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**19...e6 20.Rc1 Qa8 21.Bg5 Ne8 22.Qd2 f5**",
+   "to": "**19...e6 20.Bc1 Qa8 21.Bg5 Re8 22.Qd2 f5**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**23...Bxh6! 24.Qxh6 Ng7 25.Rfe1 Rf8 26.Rc5 Rd8**",
+   "to": "**23...Bxh6! 24.Qxh6 Re7 25.Re1 Rf8 26.Rc5 Qd8**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**27.Re5 Rf7**",
+   "to": "**27.Re5 Ref7**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**28.Qd2 Rd6**",
+   "to": "**28.Qd2 Qd6**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**29.Bf1 Rfd7 30.exf5 Nxf5 31.R5e4 Rf6?**",
+   "to": "**29.Bf1 Rd7 30.exf5 Rxf5 31.R5e4 Rf6?**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**33...gxh5 34.Rh4 Rg8 35.Bd3 Rg7 36.Re5 Rff7 37.Qh6 Qe7 38.Rxh5 Bd5 39.Qd2 Rf6 40.Rh6 Rd6 41.Rf4 Rf8 42.Qe3**",
+   "to": "**33...gxh5 34.Rh4 Kg8 35.Bd3 Rg7 36.Re5 Rff7 37.Qh6 Qe7 38.Rexh5 Nd5 39.Qd2 Nf6 40.Rh6 Qd6 41.Rf4 Qf8 42.Qe3**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**42...Rd5 43.Rxf7 Qxf7 44.Qe5 Rc7 45.Qc5 Qf3**",
+   "to": "**42...Nd5 43.Rxf7 Qxf7 44.Qe5 Nc7 45.Qc5 Qf3**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "**46...Nxh7 47.Qg5+ Kh8 48.Qd8+ Kg7 49.Rxh7+ Kxh7 50.Qxc7+ Kg6 51.Qxb7 Be4 52.Qa6 Qe1+ 53.Kg2 Qe4+ 54.Kf1 Qb1+ 55.Ke2 Qc2+ 56.Kf3 Qf5+ 57.Ke3 Qg5+ 58.Ke2 Qh5+ 59.Kd2 Kf6 60.Qxc6 Qa5+ 61.Qc3 Qa2+ 62.Ke3 Kf7 63.d5 exd5 64.Qc7+ Kf6 65.Qc6+ Ke7 66.Qxd5 Qa1 67.Qe4+ Kf7 68.Kf4 Qc1+ 69.Kg4 Qa1 70.Qd5+ Kf8 71.Qf5+ Qb1+ 72.Kf6**",
+   "to": "**46...Rxh7 47.Qg5+ Kh8 48.Qd8+ Kg7 49.Rxh7+ Kxh7 50.Qxc7+ Kg6 51.Qxb7 Qe4 52.Qa6 Qe1+ 53.Kg2 Qe4+ 54.Kf1 Qb1+ 55.Ke2 Qc2+ 56.Kf3 Qf5+ 57.Ke3 Qg5+ 58.Ke2 Qh5+ 59.Kd2 Kf6 60.Qxc6 Qa5+ 61.Qc3 Qxa2 62.Ke3 Kf7 63.d5 exd5 64.Qc7+ Kf6 65.Qc6+ Ke7 66.Qxd5 Qa1 67.Qe4+ Kf7 68.Kf4 Qc1+ 69.Kg4 Qa1 70.Qd5+ Kf8 71.Kf5 Qb1+ 72.Kf6**",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "132",
+   "from": "\\[Доска 285\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.Nf3 Nf6 2.g3 g6 3.Bg2 Bg7 4.O-O O-O 5.c4 c6 6.b3 Ne4 7.d4 d5 8.Bb2 Be6 9.Nbd2 Nxd2 10.Qxd2 Na6 11.Rac1 Qd6 12.Ne5 Rfd8 13.Rfd1 Rac8 14.Qa5 dxc4 15.Nxc4 Qc7**\n\n\\[Доска 285\\]",
+   "pdf": "база 365chess gid 2552251"
+  },
+  {
+   "game": "134",
+   "from": "**27.b4 Bf8 28.g4**",
+   "to": "**27.b4 Kf8 28.g4**",
+   "pdf": "база 365chess gid 2552255"
+  },
+  {
+   "game": "134",
+   "from": "**34.g5 f6 35.gxf6 gxf6 36.Bb3?**",
+   "to": "**34.g5 f6 35.R5e4 c5 36.Bb3?**",
+   "pdf": "база 365chess gid 2552255"
+  },
+  {
+   "game": "134",
+   "from": "**36...Bf7 37.Rh3 c5 38.bxc5 bxc5**",
+   "to": "**36...cxb4 37.cxb4 hxg5 38.fxg5 fxg5**",
+   "pdf": "база 365chess gid 2552255"
+  },
+  {
+   "game": "134",
+   "from": "**39.dxc5 Rxc5 40.Rd7+ R8c7 41.Rxc7+**",
+   "to": "**39.Rg3 Rf7 40.Rxg5 Rf2 41.Ka3**",
+   "pdf": "база 365chess gid 2552255"
+  },
+  {
+   "game": "134",
+   "from": "\\[Доска 291\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 c6 2.d4 d5 3.Nc3 dxe4 4.Nxe4 Bf5 5.Ng3 Bg6 6.Bc4 e6 7.N1e2 Bd6 8.h4 h6 9.Nf4 Bxf4 10.Bxf4 Nf6 11.Qd2 Nbd7 12.O-O-O Nd5 13.Rde1 N7b6 14.Bb3 Nxf4 15.Qxf4 Nd5 16.Qe5 O-O 17.Ne4 Qb8 18.Nd6 Rd8 19.Nc4 Nb6 20.Qxb8 Raxb8 21.Ne5 Bh7 22.Rh3 Nd7 23.c3 Nxe5 24.Rxe5 b6**\n\n\\[Доска 291\\]",
+   "pdf": "база 365chess gid 2552255"
+  },
+  {
+   "game": "136",
+   "from": "**18.Bg5! Bf6 19.Be3 Bxc4 20.Bxc4+ Kh8 21.a5 Qc7 22.Rfd1 Rf8 23.Qa2**",
+   "to": "**18.Bg5! f6 19.Be3 Nxc4 20.Bxc4+ Kh8 21.a5 Bc7 22.Rfd1 Nf8 23.Qa2**",
+   "pdf": "база 365chess gid 2592055"
+  },
+  {
+   "game": "136",
+   "from": "**23...Rxd1+ 24.Rxd1 Rd8 25.Rxd8+ Qxd8 26.Qa6 Qb8**",
+   "to": "**23...Rxd1+ 24.Rxd1 Rd8 25.Rxd8+ Bxd8 26.a6 b6**",
+   "pdf": "база 365chess gid 2592055"
+  },
+  {
+   "game": "136",
+   "from": "**27.Kg2! Kg7 28.Qe2 Ng6 29.Qd3 Be7 30.Qc4 Nf6 31.Qf7+ Kh8 32.Bc4 Qd6 33.h4 Qd1 34.Qe6 Nf5 35.exf5 gxf5 36.Qg8+ Nxg8 37.Nf7+**",
+   "to": "**27.Kg2! Qd7 28.Qe2 Ng6 29.Bb3 Ne7 30.Qc4 h6 31.Qf7+ Kh7 32.Bc4 Qd6 33.h4 Qd1 34.Qe8 f5 35.exf5 Nxf5 36.Bg8 Kh8 37.Nf7+**",
+   "pdf": "база 365chess gid 2592055"
+  },
+  {
+   "game": "136",
+   "from": "\\[Доска 296\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.g3 d5 2.Nf3 c6 3.Bg2 Bg4 4.d3 Nd7 5.h3 Bxf3 6.Bxf3 e5 7.Nd2 Ngf6 8.e4 dxe4 9.dxe4 Bc5 10.O-O Qe7 11.c3 O-O 12.b4 Bb6 13.a4 Rfd8 14.Qc2 Rac8 15.Be2 c5 16.b5 Ne8 17.Nc4 Nd6**\n\n\\[Доска 296\\]",
+   "pdf": "база 365chess gid 2592055"
+  },
+  {
+   "game": "150",
+   "from": "**14...Bxf6 15.Nd5**",
+   "to": "**14...Nxf6 15.Nd5**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**21.a5 Rc8 22.Rd3 Rab8 23.g3 Qb7 24.Nf1 Rc4! 25.b3**",
+   "to": "**21.a5 Rc8 22.Qd3 Rab8 23.g3 Qb7 24.Nf1 Rc4! 25.b3**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**29.c4! Rc5**",
+   "to": "**29.Nc2! Rc5**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**30.b4 Rcc8 31.cxb5! Kh7**",
+   "to": "**30.Nb4 Rbc8 31.Rd3! Kh7**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**32.Nd5 Bh6 33.Qd1 Bf8 34.Nf6+ Kg7 35.Rf3**",
+   "to": "**32.Nd5 Bh6 33.Qd1 Rf8 34.Nf6+ Kg7 35.Qf3**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**35...Qxb5?**",
+   "to": "**35...b4?**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "**36.Nxh5+ gxh5 37.Rf5 f6 38.Qxh5 Qd7 39.Qg4+**",
+   "to": "**36.cxb4 Qxb4 37.Nd7 f5 38.Nxf8 Kxf8 39.Rxd6**",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "150",
+   "from": "\\[Доска 317\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be2 e5 7.Nb3 Be7 8.Bg5 Nbd7 9.a4 b6 10.Bc4 Bb7 11.Qe2 O-O 12.O-O Qc7 13.Rfd1 h6**\n\n\\[Доска 317\\]",
+   "pdf": "база 365chess gid 126070"
+  },
+  {
+   "game": "151",
+   "from": "**27...Ng6 28.Rha3 Qe7 29.Bf5 Nh4 30.Rba1 Nb6 31.Rxa8 Nxa8**",
+   "to": "**27...Ng6 28.Ra3 Qe7 29.Bf5 Nh4 30.Rba1 Nb6 31.Rxa8 Nxa8**",
+   "pdf": "база 365chess gid 676613"
+  },
+  {
+   "game": "151",
+   "from": "**32.Nc3 Qb7 33.b5 Nxf5 34.gxf5 Nb6 35.Qd3 Be7 36.Ra6 Nb6**",
+   "to": "**32.Nc3 Qb7 33.b5 Nxf5 34.gxf5 Nb6 35.Qd3 Be7 36.Ra6 Rf6**",
+   "pdf": "база 365chess gid 676613"
+  },
+  {
+   "game": "151",
+   "from": "**37.c5! dxc5 38.bxc6 Qxc6 39.Qb5**",
+   "to": "**37.c5! dxc5 38.bxc6 Rxc6 39.Qb5**",
+   "pdf": "база 365chess gid 676613"
+  },
+  {
+   "game": "151",
+   "from": "**39...Rd8 40.Rxb6 Qc8 41.Rb7 Bf8 42.Rxf7 Qa8 43.Ra7**",
+   "to": "**39...Bd8 40.Nd5 g4 41.Bb2 f3 42.Bxe5 Kg8 43.Ra7**",
+   "pdf": "база 365chess gid 676613"
+  },
+  {
+   "game": "151",
+   "from": "\\[Доска 318\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 O-O 5.Nc3 d6 6.Nf3 Bg4 7.h3 Bxf3 8.Bxf3 Nc6 9.e3 Nd7 10.Bg2 a5 11.Qe2 e5 12.d5 Nb4 13.a3 Na6 14.Rb1 f5 15.e4 Nac5 16.b4 axb4 17.axb4 Na4**\n\n\\[Доска 318\\]",
+   "pdf": "база 365chess gid 676613"
+  },
+  {
+   "game": "152",
+   "from": "**22...Qd7 23.Bb4 Rfe8**",
+   "to": "**22...Bd7 23.Bb4 Re8**",
+   "pdf": "база 365chess gid 1514579"
+  },
+  {
+   "game": "152",
+   "from": "**25.Rxe1 Rc8 26.Qe7 Re8**",
+   "to": "**25.Qxe1 Qc8 26.Qe7 Be8**",
+   "pdf": "база 365chess gid 1514579"
+  },
+  {
+   "game": "152",
+   "from": "**28...Qxe7 29.Rxe7 Na4**",
+   "to": "**28...Qd7 29.Qe2 Na8**",
+   "pdf": "база 365chess gid 1514579"
+  },
+  {
+   "game": "152",
+   "from": "**30.Bb4 Bf7 31.Rxb7 Nxb2 32.Bxf7+ Kxf7 33.Nh4 Nd3 34.Nf5 Rb8 35.Nd6+**",
+   "to": "**30.Bf5 Qc6 31.Be6 Bf7 32.Bxf7+ Kxf7 33.Qe7 Kg8 34.Nh4 Nb6 35.Qd8**",
+   "pdf": "база 365chess gid 1514579"
+  },
+  {
+   "game": "152",
+   "from": "\\[Доска 321\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.Nf3 g6 3.c4 Bg7 4.Nc3 d5 5.Qb3 dxc4 6.Qxc4 O-O 7.e4 a6 8.e5 Nfd7 9.Be3 b5 10.Qb3 Nb6 11.a4 Be6 12.Qd1 c6 13.Bd3 f6 14.O-O N8d7 15.Be4 Nd5 16.axb5 axb5 17.Nxd5 cxd5 18.Rxa8 Qxa8 19.exf6 exf6 20.Bd3 Qb7**\n\n\\[Доска 321\\]",
+   "pdf": "база 365chess gid 1514579"
+  },
+  {
+   "game": "154",
+   "from": "**16.g4! Nh6 17.h4 Nc4 18.Bc2 Kh7 19.Nf3**",
+   "to": "**16.g4! h6 17.h4 c4 18.Bc2 Nh7 19.Nf3**",
+   "pdf": "база 365chess gid 2587832"
+  },
+  {
+   "game": "154",
+   "from": "**22.gxh5 Nxd2 23.Bxd2 Nxf5 24.Bxf5+ Bxf5 25.Kh1**",
+   "to": "**22.gxh5 Nd5 23.Ne4 Nf4 24.Bxf4 exf4 25.Kh1**",
+   "pdf": "база 365chess gid 2587832"
+  },
+  {
+   "game": "154",
+   "from": "**25...Rh8 26.Rg1 Kg8 27.Rg6 Bd6 28.Rag1 Bf8 29.h6 Qe7 30.Qg3 Rh7 31.Qf3 Bd7 32.Ne4 Bf5 33.Rxf6+ Qxf6 34.Nxf6 Kxf6 35.Rg5 Bxh6 36.Rxf5+ Kxf5 37.Qe4+**",
+   "to": "**25...Kh8 26.Rg1 Rf7 27.Rg6 Bd6 28.Rag1 Bf8 29.h6 Qe5 30.Qg4 Rdd7 31.f3 Bc5 32.Nxc5 Qxc5 33.Rxg7 Rxg7 34.hxg7 Kg8 35.Qg6 Rd8 36.Be4 Qc8 37.Qe8**",
+   "pdf": "база 365chess gid 2587832"
+  },
+  {
+   "game": "154",
+   "from": "\\[Доска 324\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O 9.h3 Nb8 10.d4 Nbd7 11.Nh4 Nb6 12.Nd2 c5 13.dxc5 dxc5 14.Nf5 Bxf5 15.exf5 Qc7**\n\n\\[Доска 324\\]",
+   "pdf": "база 365chess gid 2587832"
+  },
+  {
+   "game": "155",
+   "from": "**19...Nc4! 20.g4**",
+   "to": "**19...Qc4! 20.g4**",
+   "pdf": "база 365chess gid 2572051"
+  },
+  {
+   "game": "155",
+   "from": "**21...Ncxe3! 22.fxg4 Nxc4 23.Qc1 b5!**",
+   "to": "**21...Nxe3! 22.Rxc4 Nxc4 23.Qc1 b5!**",
+   "pdf": "база 365chess gid 2572051"
+  },
+  {
+   "game": "155",
+   "from": "**24.Rf2 Rf7 25.Qg5 Rcf8 26.Nbd2 Nf6 27.Rg3 Qe7**",
+   "to": "**24.Rf2 Rf7 25.Qg5 Rcf8 26.Nbd2 Bf6 27.Qg3 Be7**",
+   "pdf": "база 365chess gid 2572051"
+  },
+  {
+   "game": "155",
+   "from": "**28.Re2 Nb6 29.Nc3 Bc8 30.Re3Nfxd5 31.Nxd5 Nxd5 32.Rd3 Nf4**",
+   "to": "**28.Re2 Nb6 29.Nc3 Bc8 30.Re3Rf5 31.Nde4 Nc4 32.Rd3 Bd8**",
+   "pdf": "база 365chess gid 2572051"
+  },
+  {
+   "game": "155",
+   "from": "**33.Rd1 Qe6 34.Qh4 Bb7 35.Kg1 Qd5 36.Qe1 g5 37.Nf3 g4 38.fxg4 Nh3+ 39.Kf1 Rxf3+ 40.gxf3 Qxf3+ 41.Rxf3 Rxf3+ 42.Kg2 Rf2+ 43.Kg3 Rf3+ 44.Kg2 Nf4+ 45.Kg1 Nh3+ 46.Kg2 Re3+**",
+   "to": "**33.Nd1 Rf4 34.a4 Bb6 35.Kg2 Bf5 36.Qe1 g5 37.Ndc3 g4 38.fxg4 Bxg4 39.axb5 axb5 40.Kg3 Bf5 41.Kg2 Kh8 42.Rg3 Bd4 43.h3 Bg6 44.Qe2 R8f7 45.Qe1 R7f5 46.Qc1 Bxc3**",
+   "pdf": "база 365chess gid 2572051"
+  },
+  {
+   "game": "155",
+   "from": "\\[Доска 325\\]",
+   "to": "*Начало партии (по базе 365chess):* **1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.f3 O-O 6.Be3 e5 7.d5 c6 8.Qd2 cxd5 9.cxd5 Nbd7 10.Nge2 a6 11.Nc1 Nh5 12.b4 f5 13.Nb3 Ndf6 14.Bd3 Nf4 15.exf5 Nxd3+ 16.Qxd3 Bxf5 17.Qd2 Qc7 18.Rc1 Rac8 19.O-O**\n\n\\[Доска 325\\]",
+   "pdf": "база 365chess gid 2572051"
+  }
+ ]
+}

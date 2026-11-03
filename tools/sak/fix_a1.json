@@ -245,6 +245,114 @@
    "from": "**46...Kg8 47.Rc5 Kf7 48.h5 Rb2+ 49.Kf3 b4 50.Rc7+ Kf8 51.Rb7 b3 52.g4 Rb1 53.g5**",
    "to": "**46...Kg6 47.Re5 Kf6 48.f4 Rb2+ 49.Kf3 b4 50.Rb5 b3 51.Kg4! Rb1 52.Kh5 b2 53.g4**",
    "pdf": "стр. 106"
+  },
+  {
+   "game": "57",
+   "from": "**47...f4! 48.gxf4 Nxf4**",
+   "to": "**47...f4! 48.gxf4 Bxf4**",
+   "pdf": "стр. 110"
+  },
+  {
+   "game": "57",
+   "from": "**49.Rd7 Bc4! 50.Nxf4 Bxe2 51.Nxg6+ Qxg6 52.Qh3 Qxh3+ 53.Kxh3 hxg6**",
+   "to": "**49.Rd7 Bc4! 50.Nxf4 Bxe2 51.Rxg6 Qxh4+ 52.Qh3 Qxh3+ 53.Nxh3 hxg6**",
+   "pdf": "стр. 110"
+  },
+  {
+   "game": "58",
+   "from": "**22.Nf4!**",
+   "to": "**22.Qf2!**",
+   "pdf": "стр. 111"
+  },
+  {
+   "game": "58",
+   "from": "**23.g3 Qe5 24.Bd4**",
+   "to": "**23.g3 Qe5 24.Nf4**",
+   "pdf": "стр. 112"
+  },
+  {
+   "game": "58",
+   "from": "**24...Rxc3 25.Bxh2 Nc6 26.Qd2 Qg7 27.Kg2 Ne5 28.Qc3 Ng4 29.Bxg7 Nxf2 30.R1xf2 Kxg7 31.Nd5 Rdd8 32.Nf6 Ba4 33.Bc2 Bb5 34.Qc3 Rd4 35.Bb3 Bd3 36.a4 Rd6 37.c6 Rd4 38.e5 Rcxc6 39.exd6 Rxc3 40.d7**",
+   "to": "**24...Qxc3 25.Kxh2 Nc6 26.Bd2 Qg7 27.Kg2 Ne5 28.Bc3 Ng4 29.Bxg7 Nxf2 30.R1xf2 Kxg7 31.Nd5 Rdd8 32.Nf6 Ba4 33.Bc2 Bb5 34.Rc3 Rd4 35.Bb3 b6 36.a4 Bd3 37.c6 Rd6 38.e5 Rcxc6 39.exd6 Rxc3 40.d7**",
+   "pdf": "стр. 112"
+  },
+  {
+   "game": "59",
+   "from": "**24...Bb4 25.Bxa6 Qxd4+ 26.Kxd4 Rxa6**",
+   "to": "**24...Rb4 25.Bxa6 Rxd4+ 26.Kxd4 Qxa6**",
+   "pdf": "стр. 113"
+  },
+  {
+   "game": "59",
+   "from": "**27.Nc3 Rb2 28.e5 Qa4+ 29.Ke3 Bxc3 30.exf6 g3 31.Rd5 Rb2 32.Kf4 a5 33.Kf3 Rb3+ 34.Kg4 a4 35.Rhe1 a3 36.Re7+ Kh7 37.Rf5 a2 38.Rxg3 Qa4 39.Rf5 a1Q 40.Rxa1 Qxa1 41.Re7 Kg6 42.Nh5+ Kxf6 43.Re1 Qa5**",
+   "to": "**27.Nc3 Bb2 28.e5 Qa4+ 29.Ke3 Bxc3 30.exf6 g3 31.Nd5 Bb2 32.f4 a5 33.Kf3 Qb3+ 34.Kg4 a4 35.Rhe1 a3 36.Ne7+ Kh7 37.Nf5 a2 38.Nxg3 Qa4 39.Nf5 a1Q 40.Rxa1 Bxa1 41.Re7 Kg6 42.h5+ Kxf6 43.Re1 Qa5**",
+   "pdf": "стр. 113"
+  },
+  {
+   "game": "59",
+   "from": "**16...Rab8! 17.Bxb6 Rxb6 18.0-0-0**",
+   "to": "**16...Rab8! 17.Bxb6 Qxb6 18.0-0-0**",
+   "pdf": "стр. 112"
+  },
+  {
+   "game": "60",
+   "from": "8.dxc5 Bxc5 9.Be2 0-0**",
+   "to": "8.dxc5 Nxc5 9.Be2 0-0**",
+   "pdf": "стр. 113"
+  },
+  {
+   "game": "60",
+   "from": "32.Rxd5 Kh7 33.Nxg6 Bxg6 34.Nf7**",
+   "to": "32.Rxd5 Rh7 33.Bxg6 Rxh6 34.Bf7**",
+   "pdf": "стр. 115"
+  },
+  {
+   "game": "62",
+   "from": "34.Rdxc7 Qc4 35.Nd5+ Kh7 36.Red3 Qh4+ 37.Rh3 Qg4 38.Rd2 Rf4 39.Rhd3 Qh4+ 40.Rh3 Qe1 41.Rhd3 Rh4+ 42.Rh3 Qe4 43.Rdd3 Rxh3+ 44.Kxh3 Qxb4 45.Nf5 Qe4**",
+   "to": "34.Nxc7 Qc4 35.Nd5 Kh7 36.Red3 Qh4+ 37.Rh3 Qg4 38.Rd2 Rf5 39.Rhd3 Qh4+ 40.Rh3 Qc4 41.Rhd3 Qh4+ 42.Rh3 Qe4 43.Re3 Rh5+ 44.Kg1 Qb1+ 45.Kf2 Rxd5**",
+   "pdf": "стр. 119"
+  },
+  {
+   "game": "66",
+   "from": "**19...Bc8 20.Ne3 Bb7 21.f4 Nb3 22.f5!**",
+   "to": "**19...Ba8 20.Ne3 Nb7 21.f4 Qb8 22.f5!**",
+   "pdf": "стр. 126"
+  },
+  {
+   "game": "66",
+   "from": "**22...Na5 23.Rf2**",
+   "to": "**22...a5 23.Rf2**",
+   "pdf": "стр. 126"
+  },
+  {
+   "game": "66",
+   "from": "**23...Rf7 24.Qc2 Re7 25.g4 Rf7 26.h4 h6 27.Raf1 Ref8 28.Bc1 Bc8 29.Qd1 Rdd8 30.Nc2 Kh7 31.Ne3 Rde8 32.Kf1**",
+   "to": "**23...Nd8 24.Qc2 Kf7 25.g4 Ke7 26.h4 h6 27.Raf1 Nf7 28.Bc1 Rh8 29.Nd1 Rdd8 30.Nc3 Rh7 31.Rf3 Rdh8 32.Kf2**",
+   "pdf": "стр. 126"
+  },
+  {
+   "game": "66",
+   "from": "**32...Bb7 33.Ke1 Rd8 34.Kd2 Kg8 35.Kc2 Bc6 36.Kb2 Be8 37.Ka2 Nb7 38.Rfg1 Na5 39.Nd5**",
+   "to": "**32...Qd8 33.Ke1 Bb7 34.Qg2 Kd7 35.Rg3 Kc7 36.Bd2 Kb8 37.Qf3 Ka7 38.Rfg1 Qf8 39.Kd1 Qe7 40.Kc2 Qf8 41.Kb3 Qe7 42.Be3 Qf8**",
+   "pdf": "стр. 126-127"
+  },
+  {
+   "game": "66",
+   "from": "**(Примечание к записи в книге: 32.Rf3 Rdh8 33.Kf2 Qd8 34.Ke1 Bb7 35.Kd2 Rd7 36.Kc2 Qc7 37.Kb2 Kb8 38.Qf1 Ka7 39.Nd1 Qe7 40.Kc2 Qf8 41.Kb3 Qe7 42.Be3 Qf8)**",
+   "to": "",
+   "pdf": "стр. 126-127"
+  },
+  {
+   "game": "66",
+   "from": "**45...Nd8 46.R3g2 R2h3 47.Rg3 R3h2 48.R1g2 R8h5 49.Rxh2 Rxh2 50.Rg2 Qh8 51.Bg1 Rh1 52.Qe2 Qh6 53.Rh2 Rxh2 54.Qxh2 Qc1 55.Be3 Qa1**",
+   "to": "**45...Nd8 46.R3g2 R2h3 47.Rg3 Rh2 48.Bf2 R8h5 49.R3g2 Rxg2 50.Rxg2 Qh8 51.Bg1 Rh1 52.Qe2 Qh6 53.Rh2 Rxh2 54.Bxh2 Qc1 55.Bg3 a4+**",
+   "pdf": "стр. 127"
+  },
+  {
+   "game": "66",
+   "from": "**56.Bxc5 bxc5 57.Qe2 a4+ 58.Kxa4 Qa2 59.Nc3 Qb3+ 60.Kxb3 Nc6 61.Ka4 Nd4 62.Qh5**",
+   "to": "**56.Nxa4 Bc8 57.Qe1 Qg5 58.Bh4 Qh6 59.Nc3 Nb7 60.Kc2 Na5 61.Qg3 Qh8 62.Bxf6**",
+   "pdf": "стр. 127"
   }
  ],
  "fens": {}

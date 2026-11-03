@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "site-tmp",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-I",
+        "-c",
+        "import os,http.server,functools;os.chdir('/private/tmp/claude-501/-Users-vadimsamalo-Documents-kombinatorika/946e0db1-2110-4f3f-940d-66258e432e2a/scratchpad/site');http.server.test(HandlerClass=functools.partial(http.server.SimpleHTTPRequestHandler,directory='/private/tmp/claude-501/-Users-vadimsamalo-Documents-kombinatorika/946e0db1-2110-4f3f-940d-66258e432e2a/scratchpad/site'),port=8766)"
+      ],
+      "port": 8766
+    },
+    {
+      "name": "sak-bridge",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "tools/sak/bridge.py"
+      ],
+      "port": 8799
+    }
+  ]
+}
