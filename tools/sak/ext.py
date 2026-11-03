@@ -37,7 +37,7 @@ def parse(bd, s, nxt=()):
             if best is None or k > best[0]: best = (k, mv)
         return best and best[1]
     except ValueError: return None
-SKIP = {"241"}      # внешний файл выдал вариант 33...g5 за ход партии — правка вручную в fix.json
+SKIP = {"241", "148"}   # 241: вариант выдан за ход партии (правка в fix.json); 148: их ходы хуже наших
 
 def their_line(sec, bd):
     """[(ply, san)] главной линии внешнего файла от позиции bd"""

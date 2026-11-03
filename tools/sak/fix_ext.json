@@ -1,6 +1,24 @@
 {
  "patches": [
   {
+   "game": "138",
+   "from": "**20...Nf3+! 21.Bxf3**",
+   "to": "**20...f3! 21.Nxf3**",
+   "pdf": "внешняя расшифровка ch17_18.md"
+  },
+  {
+   "game": "138",
+   "from": "**21...Bxf3 22.Nxf3 Nxb4 23.Bxb7**",
+   "to": "**21...Rxf3 22.Bxf3 Nxb4 23.Bxb7**",
+   "pdf": "внешняя расшифровка ch17_18.md"
+  },
+  {
+   "game": "138",
+   "from": "**23...Rxc2 24.Be4 Bxa3 25.Qb3 Qa5**",
+   "to": "**23...Nxc2 24.Be4 Nxa3 25.Rb3 Qa4**",
+   "pdf": "внешняя расшифровка ch17_18.md"
+  },
+  {
    "game": "229",
    "from": "**27.Qxd6 Rxd6 28.Rxe8+ Kg7 29.Rc8 Rd2 30.Rc4 Rxa2 31.Rxc6 a5 32.Rc7+ Kg8 33.Bc4**",
    "to": "**27.Qxd6 Rxd6 28.Rxe1 Rd2 29.Rc1 Rxf2 30.Be4 Rxa2 31.Rxc4 a5 32.Rc8 Kg7 33.Rc7**",
