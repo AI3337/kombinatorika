@@ -23,11 +23,12 @@
      kombi-rv-*    — НЕ синхронизируем: это локальный кэш работы движка */
   /* kombi-stats    — сколько решено и заработано звёзд по дням
      kombi-ext      — ники на lichess/chess.com и ежедневные снимки рейтинга
-     kombi-read     — книги для чтения: прочитанные разборы, заметки, где остановился */
-  var KEYS = ["kombi", "kombi-op", "kombi-opf", "kombi-theme", "kombi-autoan", "kombi-stats", "kombi-ext", "kombi-notes", "kombi-read", "kombi-real"];
+     kombi-read     — книги для чтения: прочитанные разборы, заметки, где остановился
+     kombi-edits    — пользовательские правки книг (FEN, ходы, текст) */
+  var KEYS = ["kombi", "kombi-op", "kombi-opf", "kombi-theme", "kombi-autoan", "kombi-stats", "kombi-ext", "kombi-notes", "kombi-read", "kombi-real", "kombi-edits"];
   var JSON_KEYS = { "kombi": true, "kombi-op": true, "kombi-opf": true, "kombi-stats": true,
                     "kombi-ext": true, "kombi-notes": true, "kombi-read": true,
-                    "kombi-real": true };
+                    "kombi-real": true, "kombi-edits": true };
   var SYNCED = {}; KEYS.forEach(function (k) { SYNCED[k] = true; });
 
   var SB_CDN = "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js";
@@ -274,6 +275,19 @@
 
     var read = mergeRead(local["kombi-read"], cloud["kombi-read"]);
     if (Object.keys(read).length) out["kombi-read"] = read;
+
+    var edits = {};
+    var le = local["kombi-edits"] || {}, ce = cloud["kombi-edits"] || {};
+    Object.keys(ce).concat(Object.keys(le)).forEach(function (bid) {
+      if (edits[bid]) return;
+      var lb = le[bid] || {}, cb = ce[bid] || {}, mb = {};
+      Object.keys(cb).concat(Object.keys(lb)).forEach(function (sid) {
+        if (mb[sid]) return;
+        mb[sid] = Object.assign({}, cb[sid] || {}, lb[sid] || {});
+      });
+      if (Object.keys(mb).length) edits[bid] = mb;
+    });
+    if (Object.keys(edits).length) out["kombi-edits"] = edits;
 
     var real = mergeReal(local["kombi-real"], cloud["kombi-real"]);
     if (real) out["kombi-real"] = real;

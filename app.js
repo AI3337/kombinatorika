@@ -1617,9 +1617,11 @@ let quizOn = true;
 try { quizOn = localStorage.getItem("kombi-quiz") !== "0"; } catch(e){}
 
 function rdOpenRead(b, s, go){
+  rdApplyEdits(b, s);
   rdOpen({ b, pt:s.pt, here:s.t, rs:s }, `<h3 class="rdh">${esc(s.t)}</h3>` + rdHtml(s.intro, s.pt) +
     (unitsOf(s)[0].startsWith("гл.") ? `<div class="rdsech end">${rdMarkBtn(b, unitsOf(s)[0])}</div>` : ""));
   rdDecorate();
+  rdUpdateEditBadge(b, s);
   $("rdQuizT").classList.remove("gone");
   $("rdQuizT").setAttribute("aria-pressed", String(quizOn));
   const u = go || (readOf(b.id).last && readOf(b.id).last.ch === s.id ? readOf(b.id).last.sec : null);
@@ -1732,26 +1734,310 @@ try { rdLines = +localStorage.getItem("kombi-rdlines") || 3; } catch(e) {}
 const FIGS = { K:"♔", Q:"♕", R:"♖", B:"♗", N:"♘" };
 const bookMv = t => esc(t).replace(/(^|[^A-Za-z])([KQRBN])(?=[a-h1-8:x])/g, (m0, a, p) => a + '<span class="fg">' + FIGS[p] + "</span>");
 function rdSegs(segs){
-  return (segs || []).map(x => typeof x === "string" ? esc(x)
-    : `<button class="bm${x.b ? " main" : ""}${x.w ? " word" : ""}" data-n="${x.m}">${x.w ? esc(x.s) : bookMv(x.s)}</button>`).join("");
+  return (segs || []).map((x, i) => typeof x === "string" ? esc(x)
+    : `<button class="bm${x.b ? " main" : ""}${x.w ? " word" : ""}" data-n="${x.m}" data-si="${i}">${x.w ? esc(x.s) : bookMv(x.s)}</button>`).join("");
 }
 function rdHtml(blocks, pt){
   let h = "", ans = false;
-  for (const b of blocks){
+  for (let i = 0; i < blocks.length; i++){
+    const b = blocks[i], bi = b._bi != null ? b._bi : i;
     /* ответ к позиции «?» (эндшпиль): подряд идущие блоки h:1 — в одну обёртку */
     if (!!b.h !== ans){ h += ans ? "</div>" : '<div class="rdans">'; ans = !ans; }
-    if (b.t === "u") h += `<h5 class="rdsub">${esc(b.x)}</h5>`;
-    else if (b.t === "h") h += `<h3 class="rdh">${esc(niceTitle(b.x))}</h3>`;
-    else if (b.t === "s") h += `<h4 class="rdsec" data-sec="${esc(b.key || String(b.n))}">${b.n ? "№" + esc(b.n) + ". " : ""}${esc(b.x)}</h4>`;
-    else if (b.t === "g"){ const [a, c] = b.x.split(" | "); h += `<div class="rdgame">${esc(a)}${c ? "<span>" + esc(c) + "</span>" : ""}</div>`; }
-    else if (b.t === "c") h += `<p class="rdcap">${rdSegs(b.s)}</p>`;
-    else if (b.t === "p") h += `<p${b.r ? ' class="rdrule"' : ""}${b.a != null ? ` data-a="${b.a}"` : ""}>${b.s ? rdSegs(b.s) : esc(b.x || "")}</p>`;
+    if (b.t === "u") h += `<h5 class="rdsub" data-bi="${bi}">${esc(b.x)}</h5>`;
+    else if (b.t === "h") h += `<h3 class="rdh" data-bi="${bi}">${esc(niceTitle(b.x))}</h3>`;
+    else if (b.t === "s") h += `<h4 class="rdsec" data-bi="${bi}" data-sec="${esc(b.key || String(b.n))}">${b.n ? "№" + esc(b.n) + ". " : ""}${esc(b.x)}</h4>`;
+    else if (b.t === "g"){ const [a, c] = b.x.split(" | "); h += `<div class="rdgame" data-bi="${bi}">${esc(a)}${c ? "<span>" + esc(c) + "</span>" : ""}</div>`; }
+    else if (b.t === "c") h += `<p class="rdcap" data-bi="${bi}">${b.s ? rdSegs(b.s) : esc(b.x || "")}</p>`;
+    else if (b.t === "p") h += `<p data-bi="${bi}"${b.r ? ' class="rdrule"' : ""}${b.a != null ? ` data-a="${b.a}"` : ""}>${b.s ? rdSegs(b.s) : esc(b.x || "")}</p>`;
     else if (b.t === "d" && b.n != null && pt){
       const f = pt.fenOf(b.n);
-      if (f) h += `<button class="rddiag${b.small ? " small" : ""}" data-n="${b.n}" title="Поставить на доску">${mini(f, false)}</button>`;
+      if (f) h += `<button class="rddiag${b.small ? " small" : ""}" data-bi="${bi}" data-n="${b.n}" title="ЛКМ — поставить на доску · ПКМ — изменить FEN">${mini(f, false)}</button>`;
     }
   }
   return h + (ans ? "</div>" : "");
+}
+/* ===== Пользовательские правки книг по ПКМ (kombi-edits, синхронизируются) ===== */
+const editsAll = () => { try { return JSON.parse(localStorage.getItem("kombi-edits") || "{}"); } catch(e){ return {}; } };
+const editsOf = (bid, sid) => (editsAll()[bid] && editsAll()[bid][sid]) || {};
+function editSet(bid, sid, fn){
+  const all = editsAll();
+  all[bid] = all[bid] || {};
+  all[bid][sid] = all[bid][sid] || {};
+  fn(all[bid][sid]);
+  if (!Object.keys(all[bid][sid]).length) delete all[bid][sid];
+  if (!Object.keys(all[bid]).length) delete all[bid];
+  try { localStorage.setItem("kombi-edits", JSON.stringify(all)); } catch(e){}
+}
+function rdValidateFen(fen){
+  if (!fen || typeof fen !== "string") return false;
+  const p = fen.trim().split(/\s+/);
+  if (p.length < 2) return false;
+  const rows = p[0].split("/");
+  if (rows.length !== 8) return false;
+  for (const row of rows){
+    let c = 0;
+    for (const ch of row){
+      if (ch >= "1" && ch <= "8") c += +ch;
+      else if ("PNBRQKpnbrqk".includes(ch)) c++;
+      else return false;
+    }
+    if (c !== 8) return false;
+  }
+  return p[1] === "w" || p[1] === "b";
+}
+function rdAllLegal(fen){
+  const sf = fenState(fen), out = [];
+  if (!kingSq(sf.pos, "w") || !kingSq(sf.pos, "b")) return out;
+  const w = sf.turn === "w";
+  for (const from in sf.pos){
+    const pc = sf.pos[from];
+    if (isW(pc) !== w) continue;
+    const isP = pc.toLowerCase() === "p";
+    for (const to of legalTargets(fen, from)){
+      if (isP && (to[1] === "8" || to[1] === "1")){
+        for (const pr of ["q","r","b","n"]){ const mv = makeMove(fen, from, to, pr); if (mv) out.push(mv); }
+      } else { const mv = makeMove(fen, from, to); if (mv) out.push(mv); }
+    }
+  }
+  return out;
+}
+const rdNormSan = s => s.replace(/0-0-0/g,"O-O-O").replace(/0-0/g,"O-O").replace(/О-О-О/g,"O-O-O").replace(/О-О/g,"O-O").replace(/:/g,"x").replace(/[+#!?]+/g,"").trim();
+function rdFindMove(fen, rawSan, cache){
+  const target = rdNormSan(rawSan);
+  if (!target) return null;
+  let moves = cache.get(fen);
+  if (!moves){ moves = rdAllLegal(fen); cache.set(fen, moves); }
+  for (const mv of moves) if (rdNormSan(mv.san) === target) return mv;
+  const noX = target.replace(/x/g, "");
+  const cands = moves.filter(mv => rdNormSan(mv.san).replace(/x/g, "") === noX);
+  return cands.length === 1 ? cands[0] : null;
+}
+const RD_MV_RE = /(?:(\d+)\s*(\.{1,3}|…)\s*)?(O-O-O|O-O|0-0-0|0-0|[KQRBN][a-h]?[1-8]?x?[a-h][1-8]|[a-h]x[a-h][1-8](?:=[QRBN])?|[a-h][1-8](?:=[QRBN])?)([+#]?[!?]{0,2})/g;
+const RD_START_FEN = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1";
+function rdApplyEdits(b, s){
+  if (!s.orig){
+    s.orig = {
+      intro: s.intro.map(x => Object.assign({}, x, x.s ? { s: x.s.map(g => typeof g === "string" ? g : Object.assign({}, g)) } : {})),
+      roots: s.pt.roots.slice(),
+      nodes: s.pt.nodes.map(n => n.slice())
+    };
+  }
+  const ed = editsOf(b.id, s.id);
+  const keys = Object.keys(ed);
+  if (!keys.length){
+    s.intro = s.orig.intro.map((x, i) => Object.assign({ _bi:i }, x));
+    s.pt = mkTree({ roots: s.orig.roots.slice(), nodes: s.orig.nodes.map(n => n.slice()) });
+    return;
+  }
+  const roots = s.orig.roots.slice();
+  const nodes = s.orig.nodes.map(n => n.slice());
+  const pt = mkTree({ roots, nodes });
+  const childMap = new Map();
+  nodes.forEach((n, i) => childMap.set(n[0] + "|" + n[1], i));
+  const addRoot = f => { const c = f.trim(), idx = roots.indexOf(c); if (idx >= 0) return -(idx + 1); roots.push(c); return -roots.length; };
+  const addNode = (par, mv, main) => {
+    const k = par + "|" + mv.uci;
+    if (childMap.has(k)){ const id = childMap.get(k); if (main) nodes[id][3] = 1; return id; }
+    const id = nodes.length;
+    nodes.push([par, mv.uci, mv.san, main ? 1 : 0]);
+    pt.fen[id] = mv.fen;
+    (pt.kids[par] = pt.kids[par] || []).push(id);
+    childMap.set(k, id);
+    return id;
+  };
+  /* определяем диапазоны разделов (между блоками t === "s"), где есть правки */
+  const orig = s.orig.intro, secRanges = [];
+  let st = 0;
+  for (let i = 0; i < orig.length; i++){
+    if (i > st && orig[i].t === "s"){ secRanges.push([st, i]); st = i; }
+  }
+  secRanges.push([st, orig.length]);
+  const dirtySec = new Set();
+  for (const k of keys){
+    const bi = +k;
+    for (let r = 0; r < secRanges.length; r++){
+      if (bi >= secRanges[r][0] && bi < secRanges[r][1]) dirtySec.add(r);
+    }
+  }
+  const cache = new Map(), out = [];
+  for (let r = 0; r < secRanges.length; r++){
+    const [a, z] = secRanges[r];
+    if (!dirtySec.has(r)){
+      for (let i = a; i < z; i++) out.push(Object.assign({ _bi:i }, orig[i]));
+      continue;
+    }
+    /* пересобираем ходы в изменённом разделе от актуальных диаграмм */
+    let mainNode = null, hist = [], recent = [];
+    const rem = (id, isM) => {
+      if (id == null) return;
+      if (isM){ mainNode = id; if (!hist.includes(id)) hist.push(id); }
+      const ix = recent.indexOf(id); if (ix >= 0) recent.splice(ix, 1); recent.push(id);
+      if (recent.length > 80) recent.shift();
+    };
+    const resolve = (rawSan, num, dots, cur) => {
+      const wantT = dots ? (dots.length >= 2 || dots === "…" ? "b" : "w") : null;
+      /* 1. Если ход легален прямо из текущей позиции cur (или mainNode) — берём сразу,
+            чтобы номер хода на диаграмме (часто 1 в FEN) не уводил назад в корень */
+      const primary = cur != null ? cur : mainNode;
+      if (primary != null){
+        const pf = pt.fenOf(primary);
+        if (pf){
+          const fp = pf.split(" ");
+          if (!wantT || fp[1] === wantT){
+            const mv = rdFindMove(pf, rawSan, cache);
+            if (mv) return { par:primary, mv };
+          }
+        }
+      }
+      /* 2. Иначе ищем подходящую позицию в истории (варианты, возвраты назад, начальная позиция) */
+      const cands = [];
+      if (mainNode != null && mainNode !== primary) cands.push(mainNode);
+      if (mainNode != null && mainNode >= 0) cands.push(nodes[mainNode][0]);
+      for (let k = hist.length - 1; k >= 0; k--) cands.push(hist[k]);
+      for (let k = recent.length - 1; k >= 0; k--) cands.push(recent[k]);
+      if (num === 1 && wantT === "w") cands.push(addRoot(RD_START_FEN));
+      const seen = new Set(); let fb = null;
+      for (const cid of cands){
+        if (cid == null || seen.has(cid)) continue; seen.add(cid);
+        const pf = pt.fenOf(cid); if (!pf) continue;
+        const fp = pf.split(" ");
+        if (wantT && fp[1] !== wantT) continue;
+        const mv = rdFindMove(pf, rawSan, cache); if (!mv) continue;
+        if (!num || +(fp[5] || 1) === num) return { par:cid, mv };
+        if (!fb) fb = { par:cid, mv };
+      }
+      return fb;
+    };
+    const linkText = (text, hadBold) => {
+      const segs = []; let last = 0, cur = mainNode; RD_MV_RE.lastIndex = 0; let m;
+      while ((m = RD_MV_RE.exec(text)) !== null){
+        const full = m[0], idx = m.index;
+        const bef = idx > 0 ? text[idx - 1] : " ", aft = text[idx + full.length] || " ";
+        if (/[A-Za-zА-Яа-яЁё0-9_]/.test(bef) || /[A-Za-zА-Яа-яЁё]/.test(aft)) continue;
+        const num = m[1] ? +m[1] : null, dots = m[2] || null, rawSan = m[3];
+        /* одиночное поле без номера хода и без фигуры (вроде «e4» в обычном предложении) не трогаем, если рядом нет ходов */
+        if (!num && /^[a-h][1-8]$/.test(rawSan) && !hadBold && cur === mainNode && idx > last + 12) continue;
+        const res = resolve(rawSan, num, dots, cur);
+        if (res){
+          if (idx > last) segs.push(text.slice(last, idx));
+          const isMain = hadBold || res.par === mainNode;
+          const nid = addNode(res.par, res.mv, isMain);
+          rem(nid, isMain); cur = nid;
+          const seg = { m:nid, s:full }; if (isMain) seg.b = 1;
+          segs.push(seg); last = idx + full.length;
+        }
+      }
+      if (last < text.length) segs.push(text.slice(last));
+      return segs;
+    };
+    for (let i = a; i < z; i++){
+      const ob = orig[i], ov = ed[i];
+      if (ov && ov.del) continue;
+      if (ob.t === "d"){
+        let nid = ob.n;
+        if (ov && ov.fen && rdValidateFen(ov.fen)){
+          nid = addRoot(ov.fen);
+        } else {
+          const f = pt.fenOf(ob.n);
+          if (f){
+            const bt = f.split(" ").slice(0, 2).join(" ");
+            const hit = hist.slice().reverse().find(id => pt.fenOf(id) && pt.fenOf(id).split(" ").slice(0, 2).join(" ") === bt);
+            if (hit != null) nid = hit;
+          }
+        }
+        const fNow = pt.fenOf(nid);
+        if (fNow && kingSq(parseFen(fNow), "w") && kingSq(parseFen(fNow), "b")) rem(nid, true);
+        out.push(Object.assign({ _bi:i }, ob, { n:nid }));
+        continue;
+      }
+      if (ob.t === "p" || ob.t === "c"){
+        const txt = ov && ov.text != null ? ov.text : (ob.s ? segText(ob.s) : (ob.x || ""));
+        const hadBold = !!(ob.s && ob.s.some(x => typeof x === "object" && x.b));
+        const segs = linkText(txt, hadBold);
+        const hasM = segs.some(x => typeof x === "object");
+        const nb = Object.assign({ _bi:i }, ob);
+        if (hasM){ nb.s = segs; delete nb.x; } else { nb.x = txt; delete nb.s; }
+        out.push(nb);
+        continue;
+      }
+      if (ov && ov.text != null){
+        out.push(Object.assign({ _bi:i }, ob, { x:ov.text }));
+      } else {
+        out.push(Object.assign({ _bi:i }, ob));
+      }
+    }
+  }
+  s.intro = out;
+  s.pt = pt;
+}
+function rdUpdateEditBadge(b, s){
+  const btn = $("rdEditsReset");
+  if (!btn) return;
+  const n = s ? Object.keys(editsOf(b.id, s.id)).length : 0;
+  btn.classList.toggle("gone", !n);
+  if (n) btn.textContent = "Правки (" + n + ") · сбросить";
+}
+function rdRefreshEdited(focusBi){
+  if (!rd || !rd.rs) return;
+  const at = $("rdText").scrollTop;
+  rdApplyEdits(rd.b, rd.rs);
+  rd.pt = rd.rs.pt;
+  $("rdText").innerHTML = `<h3 class="rdh">${esc(rd.rs.t)}</h3>` + rdHtml(rd.rs.intro, rd.pt) +
+    (unitsOf(rd.rs)[0].startsWith("гл.") ? `<div class="rdsech end">${rdMarkBtn(rd.b, unitsOf(rd.rs)[0])}</div>` : "");
+  rdDecorate();
+  rdUpdateEditBadge(rd.b, rd.rs);
+  if (rdTab === "tree") $("rdTree").innerHTML = rdTreeHtml();
+  const target = focusBi != null ? $("rdText").querySelector(`[data-bi="${focusBi}"]`) : null;
+  const jump = (target && (target.matches(".rddiag, .bm") ? target : target.querySelector(".bm, .rddiag"))) || $("rdText").querySelector(".rddiag, .bm");
+  if (jump) rdGo(+jump.dataset.n, jump, true);
+  else rdPaint();
+  $("rdText").scrollTop = at;
+}
+let rdEdCtx = null;
+function rdCloseEditModal(){ $("rdEditBack").hidden = true; rdEdCtx = null; }
+function rdOpenEditModal(ctx){
+  rdEdCtx = ctx;
+  const ov = editsOf(rd.b.id, rd.rs.id)[ctx.bi];
+  $("rdEditErr").classList.add("gone");
+  $("rdEditPrev").classList.add("gone");
+  $("rdEditSingleWrap").classList.add("gone");
+  $("rdEditTextWrap").classList.add("gone");
+  $("rdEditDel").classList.toggle("gone", ctx.mode === "move");
+  $("rdEditReset").classList.toggle("gone", !ov);
+  if (ctx.mode === "fen"){
+    $("rdEditTitle").textContent = "Редактировать диаграмму (FEN)";
+    $("rdEditSingleLab").textContent = "FEN позиции";
+    $("rdEditSingle").value = ctx.fen;
+    $("rdEditSingleWrap").classList.remove("gone");
+    $("rdEditPrev").innerHTML = mini(ctx.fen, rd.flip);
+    $("rdEditPrev").classList.remove("gone");
+    $("rdEditDel").textContent = "Удалить диаграмму";
+    $("rdEditSave").textContent = "Сохранить и пересчитать ходы";
+    $("rdEditHint").textContent = "После сохранения все ходы ниже автоматически перепривяжутся к новой позиции.";
+  } else if (ctx.mode === "move"){
+    $("rdEditTitle").textContent = "Редактировать ход";
+    $("rdEditSingleLab").textContent = "Выбранный ход (например: 23...Bxd7)";
+    $("rdEditSingle").value = ctx.moveText;
+    $("rdEditSingleWrap").classList.remove("gone");
+    $("rdEditTextLab").textContent = "Весь абзац (можно править целиком)";
+    $("rdEditText").value = ctx.fullText;
+    $("rdEditTextWrap").classList.remove("gone");
+    $("rdEditSave").textContent = "Сохранить и пересчитать ходы";
+    $("rdEditHint").textContent = "Измени один ход сверху или поправь абзац целиком — кликабельные ходы и дерево обновятся сами.";
+  } else {
+    $("rdEditTitle").textContent = "Редактировать текст";
+    $("rdEditTextLab").textContent = "Текст блока";
+    $("rdEditText").value = ctx.fullText;
+    $("rdEditTextWrap").classList.remove("gone");
+    $("rdEditDel").textContent = "Удалить блок";
+    $("rdEditSave").textContent = "Сохранить";
+    $("rdEditHint").textContent = "Можно исправить текст, вписать ходы или полностью удалить блок.";
+  }
+  $("rdEditBack").hidden = false;
+  setTimeout(() => {
+    const f = ctx.mode === "text" ? $("rdEditText") : $("rdEditSingle");
+    f.focus(); if (ctx.mode !== "text") f.select();
+  }, 10);
 }
 /* ===== Дерево вариантов: все ходы открытого текста деревом —
    главная линия сверху, ответвления с отступом, угрозы пунктиром ===== */
@@ -2047,6 +2333,100 @@ function rdPlay(from, to){
     const b = e.target.closest(".bm, .rddiag");
     if (b && rd){ rd.back = []; rdGo(+b.dataset.n, b, true); }
   });
+  /* ПКМ по диаграмме, ходу или тексту в книге — встроенный редактор */
+  $("rdText").addEventListener("contextmenu", e => {
+    if (!rd || !rd.rs) return;
+    const diag = e.target.closest(".rddiag[data-bi]");
+    if (diag){
+      e.preventDefault();
+      const bi = +diag.dataset.bi, fen = rd.pt.fenOf(+diag.dataset.n) || "";
+      rdOpenEditModal({ mode:"fen", bi, fen });
+      return;
+    }
+    const mv = e.target.closest(".bm[data-si]");
+    if (mv){
+      const p = mv.closest("[data-bi]");
+      if (p){
+        e.preventDefault();
+        const bi = +p.dataset.bi, si = +mv.dataset.si;
+        const blk = rd.rs.intro.find(x => x._bi === bi);
+        if (blk && blk.s && blk.s[si]){
+          const moveText = blk.s[si].s;
+          const prefix = blk.s.slice(0, si).map(x => typeof x === "string" ? x : x.s).join("");
+          const suffix = blk.s.slice(si + 1).map(x => typeof x === "string" ? x : x.s).join("");
+          rdOpenEditModal({ mode:"move", bi, moveText, prefix, suffix, fullText: prefix + moveText + suffix });
+        }
+        return;
+      }
+    }
+    const blkEl = e.target.closest("[data-bi]");
+    if (blkEl && !e.target.closest("textarea, .rdmark, .rdnotebtn")){
+      e.preventDefault();
+      const bi = +blkEl.dataset.bi;
+      const blk = rd.rs.intro.find(x => x._bi === bi);
+      if (blk){
+        const fullText = blk.s ? segText(blk.s) : (blk.x || "");
+        rdOpenEditModal({ mode:"text", bi, fullText });
+      }
+    }
+  });
+  $("rdEditSingle").addEventListener("input", () => {
+    if (!rdEdCtx) return;
+    const val = $("rdEditSingle").value.trim();
+    if (rdEdCtx.mode === "fen"){
+      if (rdValidateFen(val)){
+        $("rdEditPrev").innerHTML = mini(val, rd && rd.flip);
+        $("rdEditErr").classList.add("gone");
+      } else {
+        $("rdEditErr").textContent = "Некорректный FEN (нужно 8 рядов и сторона хода w или b).";
+        $("rdEditErr").classList.remove("gone");
+      }
+    } else if (rdEdCtx.mode === "move"){
+      $("rdEditText").value = rdEdCtx.prefix + $("rdEditSingle").value + rdEdCtx.suffix;
+    }
+  });
+  $("rdEditSave").onclick = () => {
+    if (!rdEdCtx || !rd || !rd.rs) return;
+    const { mode, bi } = rdEdCtx;
+    if (mode === "fen"){
+      const fen = $("rdEditSingle").value.trim();
+      if (!rdValidateFen(fen)){
+        $("rdEditErr").textContent = "Некорректный FEN — проверь строку.";
+        $("rdEditErr").classList.remove("gone");
+        return;
+      }
+      editSet(rd.b.id, rd.rs.id, m => { m[bi] = { fen }; });
+    } else {
+      const text = $("rdEditText").value;
+      editSet(rd.b.id, rd.rs.id, m => { m[bi] = { text }; });
+    }
+    rdCloseEditModal();
+    rdRefreshEdited(bi);
+  };
+  $("rdEditDel").onclick = () => {
+    if (!rdEdCtx || !rd || !rd.rs) return;
+    const { bi } = rdEdCtx;
+    editSet(rd.b.id, rd.rs.id, m => { m[bi] = { del:1 }; });
+    rdCloseEditModal();
+    rdRefreshEdited(null);
+  };
+  $("rdEditReset").onclick = () => {
+    if (!rdEdCtx || !rd || !rd.rs) return;
+    const { bi } = rdEdCtx;
+    editSet(rd.b.id, rd.rs.id, m => { delete m[bi]; });
+    rdCloseEditModal();
+    rdRefreshEdited(bi);
+  };
+  $("rdEditClose").onclick = rdCloseEditModal;
+  $("rdEditCancel").onclick = rdCloseEditModal;
+  $("rdEditBack").addEventListener("click", e => { if (e.target === $("rdEditBack")) rdCloseEditModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && !$("rdEditBack").hidden) rdCloseEditModal(); });
+  $("rdEditsReset").onclick = () => {
+    if (!rd || !rd.rs) return;
+    if (!confirm("Сбросить все правки в этой главе и вернуть оригинал?")) return;
+    editSet(rd.b.id, rd.rs.id, m => { for (const k in m) delete m[k]; });
+    rdRefreshEdited(null);
+  };
   $("rdTree").addEventListener("click", e => {
     const b = e.target.closest(".bm");
     if (b && rd){ rd.back = []; rdGo(+b.dataset.n, null, true); }
