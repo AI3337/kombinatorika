@@ -109,7 +109,7 @@
     if (a === "real" && window.kombiRealNav) return window.kombiRealNav.go(b2, c);
     if (a === "open" && window.kombiOp) return window.kombiOp.go(b2);
     if (a === "g") {
-      const g = GROUPS.find(x => x.id === b2);
+      const g = GROUPS.find(x => x.id === b2) || (/^(prophy|yusupov|middle|endgame|sakaev)$/.test(b2) && GROUPS.find(x => x.id === "books"));
       if (g) { grp = g; renderGroup(); show("group"); return; }
     }
     if (a === "b") {

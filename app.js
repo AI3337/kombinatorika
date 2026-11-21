@@ -823,16 +823,21 @@ function renderBooks(){
     const pct = all.length ? Math.round(100 * done / maxStars(all)) : 0;
     const st_ = loadState(g.id);
     const reads = list.filter(b => b.read), chs = reads.reduce((a, b) => a + b.secs.length, 0);
+    const readDone = reads.reduce((a, b) => a + readIn(b.id, b.secs), 0);
+    const readTot = unitsIn(reads.flatMap(b => b.secs));
+    const cparts = [list.length + " " + wordBook(list.length)];
+    if (all.length) cparts.push(all.length + " задач");
+    if (reads.length) cparts.push(chs + " " + wordCh(chs) + " для чтения");
     const count = st_ !== "ok" && !list.length
       ? (st_ === "fail" ? "не загрузилось — обнови страницу" : "загружается…")
-      : list.length + " " + wordBook(list.length) + " · " + (all.length || !reads.length ? all.length + " задач" : chs + " " + wordCh(chs) + " для чтения");
+      : cparts.join(" · ");
     el.innerHTML =
       `<div class="thumb gthumb"><div class="gring"><svg viewBox="0 0 100 100"><use href="#pc-${g.pc}"/></svg></div></div>` +
       `<div class="body"><h3>${g.title}</h3><p class="meta">${g.meta}</p><p class="meta">${count}</p>` +
       (all.length || !list.length ? `<div class="prog"><div class="bar"><i style="width:${pct}%"></i></div>` +
-      `<b>${starOne()} ${done} / ${maxStars(all)}</b></div>` :
-      `<div class="prog"><div class="bar"><i style="width:${Math.round(100 * reads.reduce((a, b) => a + readIn(b.id, b.secs), 0) / unitsIn(reads.flatMap(b => b.secs)))}%"></i></div>` +
-      `<b>прочитано ${reads.reduce((a, b) => a + readIn(b.id, b.secs), 0)} / ${unitsIn(reads.flatMap(b => b.secs))}</b></div>`) + `</div>`;
+      `<b>${starOne()} ${done} / ${maxStars(all)}${readTot ? " · прочитано " + readDone + " / " + readTot : ""}</b></div>` :
+      `<div class="prog"><div class="bar"><i style="width:${readTot ? Math.round(100 * readDone / readTot) : 0}%"></i></div>` +
+      `<b>прочитано ${readDone} / ${readTot}</b></div>`) + `</div>`;
     el.onclick = () => { grp = g; renderGroup(); show("group"); };
     host.appendChild(el);
   }
@@ -842,7 +847,10 @@ function renderGroup(){
   const host = $("gbooks"); host.innerHTML = "";
   $("gTitle").textContent = grp.title;
   $("gSub").textContent = grp.meta;
-  const list = BOOKS.filter(b => groupOf(b) === grp.id);
+  const list = BOOKS.filter(b => groupOf(b) === grp.id).sort((a, b) => {
+    const ia = BOOK_ORDER.indexOf(a.id), ib = BOOK_ORDER.indexOf(b.id);
+    return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+  });
   const st_ = loadState(grp.id);
   if (!list.length) host.innerHTML = '<p style="color:var(--ink-3)">' +
     (st_ === "fail" ? "Книги не загрузились — проверь интернет и обнови страницу." : "Книги загружаются…") + "</p>";
@@ -1375,16 +1383,13 @@ $("themeBtn").onclick = () => {
   try { localStorage.setItem("kombi-theme", next); } catch(e) {}
 };
 
-/* ===== Блоки на главной: тактика, стратегия, профилактика ===== */
+/* ===== Блоки на главной: тактика, стратегия, книги ===== */
 const GROUPS = [
-  { id:"tactics",  title:"Тактика",      meta:"Комбинации, тесты по тактике, ходы в уме",      pc:"N" },
-  { id:"strategy", title:"Стратегия",    meta:"Позиционная игра · шесть уровней",              pc:"R" },
-  { id:"prophy",   title:"Профилактика", meta:"Книги / Профилактика · введение и упражнения", pc:"K" },
-  { id:"yusupov",  title:"Артур Юсупов", meta:"Книги · главы: введение и упражнения", pc:"Q" },
-  { id:"middle",   title:"Миттельшпиль", meta:"Книги · план игры, главы для чтения", pc:"B" },
-  { id:"endgame",  title:"Эндшпиль",     meta:"Книги · теория окончаний, главы для чтения", pc:"P" },
-  { id:"sakaev",   title:"Константин Сакаев", meta:"Книги · партии с разбором, главы для чтения", pc:"Q" },
+  { id:"tactics",  title:"Тактика",   meta:"Комбинации, тесты по тактике, ходы в уме", pc:"N" },
+  { id:"strategy", title:"Стратегия", meta:"Позиционная игра · шесть уровней",         pc:"R" },
+  { id:"books",    title:"Книги",     meta:"Юсупов, Гельфанд, Дворецкий, Шерешевский, Яковлев, Сакаев", pc:"Q" },
 ];
+const BOOK_ORDER = ["gelfand", "yus1", "yus2", "yus3", "dvor1", "dvor2", "yak", "end", "shere1", "shere2", "sak1"];
 const groupOf = b => b.group || (/^pos\d/.test(b.id) ? "strategy" : "tactics");
 let grp = GROUPS[0];
 
@@ -1445,7 +1450,7 @@ function dvorBuild(){
           s:title, f:p => set.has(p), items:chunk });
       }
     });
-    BOOKS.push({ id:vol.id, kind:"dvor", group:"prophy", title:vol.title,
+    BOOKS.push({ id:vol.id, kind:"dvor", group:"books", title:vol.title,
       meta:"Профилактика · " + vol.parts.map(p => niceTitle(p.title)).join(", ") + " · " + puzzles.length + " упражнений",
       puzzles, secs, intros, vol });
   }
@@ -1500,7 +1505,7 @@ function yusBuild(){
         s:ch.final ? "Задания из всех глав книги" : (ch.en || ""), f:p => set.has(p), items,
         intro:ch.intro, pt, contents:ch.contents });
     }
-    BOOKS.push({ id:yb.id, kind:"dvor", group:"yusupov", title:yb.title,
+    BOOKS.push({ id:yb.id, kind:"dvor", group:"books", title:yb.title,
       meta:"Артур Юсупов · " + yb.sub + " · " + puzzles.length + " упражнений", puzzles, secs, intros });
   }
 }
@@ -1530,7 +1535,7 @@ function readBuild(list, group){
       ch.intro.forEach(b => { if (b.t === "s" && !b.key){ const n = String(b.n); seen[n] = (seen[n] || 0) + 1; b.key = seen[n] > 1 ? n + "-" + seen[n] : n; } });
       const pt = mkTree({ roots:ch.roots, nodes:ch.nodes });
       const d = ch.intro.find(b => b.t === "d" && b.n != null && pt.fenOf(b.n));
-      const title = ch.n ? "Глава " + ch.n + ". " + ch.title : ch.title;
+      const title = ch.rawTitle ? ch.title : (ch.n ? "Глава " + ch.n + ". " + ch.title : ch.title);
       nsec += ch.secs;
       secs.push({ id:yb.id + "c" + ch.n, t:title, read:true, pt, intro:ch.intro, items:[], part:ch.part || "",
         face:d ? pt.fenOf(d.n) : "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
@@ -1553,7 +1558,7 @@ const wordDiags = n => (n % 10 === 1 && n % 100 !== 11) ? "диаграмма"
 (function yakLoad(){
   yakState = "loading";
   loadScript("yak.js", () => {
-    yakState = "ok"; if (window.YAK) readBuild(window.YAK, "middle");
+    yakState = "ok"; if (window.YAK) readBuild(window.YAK, "books");
     if (view === "books") renderBooks();
     if (view === "group") renderGroup();
   }, () => { yakState = "fail"; if (view === "books") renderBooks(); if (view === "group") renderGroup(); });
@@ -1563,27 +1568,37 @@ let sakState = "idle";
 (function sakLoad(){
   sakState = "loading";
   loadScript("sak.js", () => {
-    sakState = "ok"; if (window.SAK) readBuild(window.SAK, "sakaev");
+    sakState = "ok"; if (window.SAK) readBuild(window.SAK, "books");
     if (view === "books") renderBooks();
     if (view === "group") renderGroup();
   }, () => { sakState = "fail"; if (view === "books") renderBooks(); if (view === "group") renderGroup(); });
 })();
-/* блок «Эндшпиль»: Дворецкий (end.js) и Шерешевский, книги 1 и 2 (shere.js, shere2.js) — три файла, один блок */
+/* Дворецкий (end.js) и Шерешевский, книги 1 и 2 (shere.js, shere2.js) */
 (function endLoad(){
   endState = "loading";
   let left = 3, bad = 0;
   const done = () => {
     if (--left) return;
     endState = bad === 3 ? "fail" : "ok";
-    if (window.END) readBuild(window.END, "endgame");
-    if (window.SHERE) readBuild(window.SHERE, "endgame");
-    if (window.SHERE2) readBuild(window.SHERE2, "endgame");
+    if (window.END) readBuild(window.END, "books");
+    if (window.SHERE) readBuild(window.SHERE, "books");
+    if (window.SHERE2) readBuild(window.SHERE2, "books");
     if (view === "books") renderBooks();
     if (view === "group") renderGroup();
   };
   loadScript("end.js", done, () => { bad++; done(); });
   loadScript("shere.js", done, () => { bad++; done(); });
   loadScript("shere2.js", done, () => { bad++; done(); });
+})();
+/* Борис Гельфанд «Принятие позиционных решений в шахматах» (gelfand.js) */
+let gelfandState = "idle";
+(function gelfandLoad(){
+  gelfandState = "loading";
+  loadScript("gelfand.js", () => {
+    gelfandState = "ok"; if (window.GELFAND) readBuild(window.GELFAND, "books");
+    if (view === "books") renderBooks();
+    if (view === "group") renderGroup();
+  }, () => { gelfandState = "fail"; if (view === "books") renderBooks(); if (view === "group") renderGroup(); });
 })();
 /* Прогресс чтения (kombi-read, синхронизируется): по книге — прочитанные
    разборы done{№: время}, заметки notes{№: текст}, last — где остановился.
@@ -1698,8 +1713,11 @@ function rdDecorate(){
 }
 /* клетка позиции задания, ответ на которое ещё закрыт: движок молчит */
 const rdQuizHold = () => rd && rd.quiz && rd.quiz.some(q => !q.open && q.node != null && q.node === rd.cur);
-const loadState = id => id === "prophy" ? dvorState : id === "yusupov" ? yusState : id === "middle" ? yakState : id === "endgame" ? endState
-  : id === "sakaev" ? sakState : "ok";
+const loadState = id => {
+  if (id !== "books") return "ok";
+  const st = [dvorState, yusState, yakState, endState, sakState, gelfandState];
+  return st.some(x => x === "ok") ? "ok" : st.every(x => x === "fail") ? "fail" : "loading";
+};
 function rdOpenChapter(b, s){
   const head = `<h3 class="rdh">${esc(s.t)}</h3>` + (s.contents ? `<p class="rdcap">${esc(s.contents)}</p>` : "");
   rdOpen({ b, pt:s.pt, here:"Введение · " + s.t }, head + rdHtml(s.intro, s.pt));
@@ -2056,8 +2074,9 @@ function rdPlay(from, to){
 })();
 function rdEngGo(){
   if (!rd || view !== "read") return;
-  const f = rdFen();
-  anOver = anyLegal(f) ? "" : (inCheckNow(f) ? "мат" : "пат");
+  const f = rdFen(), pos = parseFen(f);
+  const noKings = !kingSq(pos, "w") || !kingSq(pos, "b");
+  anOver = noKings ? "схема" : anyLegal(f) ? "" : (inCheckNow(f) ? "мат" : "пат");
   anInfo = { depth: 0, pvs: [] };
   anStage = { depth: 0, pvs: [] };
   if (!eng || anOver){ if (eng && searching){ pendingFen = ""; send("stop"); } rdRenderEval(); return; }
@@ -2069,10 +2088,10 @@ function rdRenderEval(){
   if (!rd) return;
   const f = rdFen(), hold = rdQuizHold(), top = hold ? null : anInfo.pvs[0];
   $("rdEngBtn").textContent = engState === "on" ? "Выключить движок" : engState === "loading" ? "Загрузка…" : "Включить движок";
-  $("rdScore").textContent = hold ? "?" : anOver ? (anOver === "мат" ? "#" : "=") : engState === "on" ? evalTxt(top) : "—";
+  $("rdScore").textContent = hold ? "?" : anOver ? (anOver === "мат" ? "#" : anOver === "схема" ? "—" : "=") : engState === "on" ? evalTxt(top) : "—";
   $("rdDepth").textContent =
     hold ? "оценка скрыта, пока думаешь над заданием" :
-    anOver ? (anOver === "мат" ? "мат" : "пат — ничья") :
+    anOver ? (anOver === "мат" ? "мат" : anOver === "схема" ? "схематическая позиция" : "пат — ничья") :
     engState === "loading" ? "Stockfish 19 загружается…" :
     engState === "fail" ? "движок не загрузился — нужен интернет" :
     engState === "off" ? "движок выключен" :
